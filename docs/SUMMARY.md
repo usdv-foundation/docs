@@ -36,8 +36,8 @@
 
 ## Testnet
 
-- [General](contracts/testnet/general.md)
-- [Minter](contracts/testnet/minter.md)
+- [General](testnet/general.md)
+- [Minter](testnet/minter.md)
 
 ## Legal
 
