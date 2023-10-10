@@ -17,9 +17,11 @@
 
 ### Mumbai
 
-| Contract Name | Address                                    |
-| ------------- | ------------------------------------------ |
-| USDV          | 0x3aA478954fcfC045E1445865144ab2F5E0BA16AA |
-| Operator      | 0xd70Eb0006A7742ed1Ac0f61a644c0D0eD16E4DE4 |
-| RecolorHelper | 0xd4cc1c6b5314f61385a322720bfd193410383186 |
-| LP            | -                                          |
+| Contract Name        | Address                                    |
+| -------------------- | ------------------------------------------ |
+| USDV                 | 0x3aA478954fcfC045E1445865144ab2F5E0BA16AA |
+| Operator             | 0xd70Eb0006A7742ed1Ac0f61a644c0D0eD16E4DE4 |
+| RecolorHelper        | 0xd4cc1c6b5314f61385a322720bfd193410383186 |
+| USDC(mock)           | 0xD7295b975b51aB7438EF8C8f330Cd70DB52C313C |
+| SidechainLP          | 0xa9721aa8C5780b313547584a39847a5393450Abb |
+| SidechainSwapRecolor | 0xCE339F71E3164c73365C6e9499DDFa3Aa08D05F3 |
