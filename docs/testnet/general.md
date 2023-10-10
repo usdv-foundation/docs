@@ -12,10 +12,12 @@ please refer to [How to display tokens in MetaMask](https://support.metamask.io/
 
 ## ABI
 
-| ABI                                               |
-| ------------------------------------------------- |
-| [VaultManager](../.gitbook/abis/VaultManager.abi) |
-| [USDV(Main)](../.gitbook/abis/USDVMain.abi)       |
-| [USDV(Side)](../.gitbook/abis/USDVSide.abi)       |
-| [Operator](../.gitbook/abis/Operator.abi)         |
-| [Minter](../.gitbook/abis/Minter.abi)             |
+| ABI                                                                               |
+| --------------------------------------------------------------------------------- |
+| [VaultManager](../.gitbook/abis/VaultManager.abi)                                 |
+| [USDV(Main)](../.gitbook/abis/USDVMain.abi)                                       |
+| [USDV(Side)](../.gitbook/abis/USDVSide.abi)                                       |
+| [Operator](../.gitbook/abis/Operator.abi)                                         |
+| [Minter](../.gitbook/abis/Minter.abi)                                             |
+| [SidechainLP](../.gitbook/abis/SidechainLP.abi)                                   |
+| [SidechainSwapRecolor](../.gitbook/SidechainSwapRecolor/SidechainSwapRecolor.abi) |
