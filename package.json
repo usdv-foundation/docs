@@ -8,6 +8,7 @@
   "author": "foundation@usdv.money",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "smart:format": "git diff HEAD --diff-filter=AM --name-only | xargs -I:: $npm_execpath prettier --no-error-on-unmatched-pattern --ignore-unknown -w ::"
   },
   "devDependencies": {
