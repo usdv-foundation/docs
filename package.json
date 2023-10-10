@@ -8,7 +8,7 @@
   "author": "foundation@usdv.money",
   "main": "index.js",
   "scripts": {
-    "smart:format": "git diff --diff-filter=AM --name-only | xargs -I:: $npm_execpath prettier -w ::"
+    "smart:format": "git diff HEAD --diff-filter=AM --name-only | xargs -I:: $npm_execpath prettier --no-error-on-unmatched-pattern --ignore-unknown -w ::"
   },
   "devDependencies": {
     "@stedi/prettier-plugin-jsonata": "^2.0.1",
