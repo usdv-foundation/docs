@@ -1,6 +1,6 @@
 # What is Verified USD (USDV)
 
-Verified USD (USDV) is an omnichain stable coin fully backed by quality assets.&#x20;
+Verified USD (USDV) is an omni-chain stable coin fully backed by quality assets.&#x20;
 
 ### Security and Transparency
 
