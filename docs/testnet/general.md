@@ -19,5 +19,6 @@ please refer to [How to display tokens in MetaMask](https://support.metamask.io/
 | [USDV(Side)](../.gitbook/assets/abis/USDVSide.abi)                       |
 | [Operator](../.gitbook/assets/abis/Operator.abi)                         |
 | [Minter](../.gitbook/assets/abis/Minter.abi)                             |
+| [EthereumLP](../.gitbook/assets/abis/EthereumLP.abi)                     |
 | [SidechainLP](../.gitbook/assets/abis/SidechainLP.abi)                   |
 | [SidechainSwapRecolor](../.gitbook/assets/abis/SidechainSwapRecolor.abi) |
