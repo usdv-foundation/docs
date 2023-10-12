@@ -12,8 +12,8 @@ Minter Widget is a frontend tool to facilitate minting USDV with alternative sta
 
 A minter must complete KYC to be assigned a unique color. The operator will deploy a **Minter Contract** for each new minter and register into the Minter Proxy Contract. The ownership of the Minter Contract will be transferred to an address provided by the minter in the KYC process. Owner can configure&#x20;
 
-* supported tokens (e.g. USDC)&#x20;
-* blacklist certain callers
+- supported tokens (e.g. USDC)&#x20;
+- blacklist certain callers
 
 ### Deploy Minter Widget
 
@@ -34,34 +34,35 @@ or
 2. In your page file
 
 ```
-import '@usdv/usdv-widget'
+import {bootstrapWidget} from '@usdv/usdv-widget';
 
-customElements.whenDefined('usdv-bridge').then((Bridge) => {
-    Bridge.mintStore.setColor(5);  // FIXME: Change the color number to the one that the operator assigned to you.
-    Bridge.bootstrap({});
-}).catch((err) => console.error);
-
+bootstrapWidget({color: 5});
 ```
 
-3. declare elements in the DOM. `usdv-tracker` and `usdv-bridge` are custom HTML elements. `usdv-tracker` is used for displaying transaction status, and `usdv-bridget` is used for minting and transferring.
+3. declare elements in html or jsx file. `usdv-tracker`、`usdv-bridge`、`usdv-mint` and `usdv-widget` are custom HTML elements. `usdv-tracker` is used for displaying transaction status, `usdv-bridge` is used for transferring across chains, and `usdv-mint` is used for minting. `usdv-widget` is a combination of the above three elements.
 
 ```
-function App() {
-return (
-    <div className="center">
-        <div className="container">
-            <usdv-tracker></usdv-tracker>
-            <usdv-bridge></usdv-bridge>
-        </div>
-    </div>
-    );
-}
+<!-- DO NOT USE SELF CLOSING TAGS -->
+<div className="center">
+    <usdv-widget style="padding: 20px"></usdv-widget>
+</div>
+```
+
+or if you only want mint feature with transaction tracker, you can use it like this:
+
+```
+<!-- DO NOT USE SELF CLOSING TAGS -->
+<div className="center">
+    <usdv-tracker style="width:468px;margin-bottom: 10px"></usdv-tracker>
+    <usdv-mint style="padding: 20px"></usdv-mint>
+</div>
 ```
 
 4. Also, you can customize the theme of the widget.
 
 ```
-Bridge.uiStore.theme.setTheme(themeConfig.dark)
+import {bootstrapWidget, themes} from '@usdv/usdv-widget';
+bootstrapWidget({color: 5, theme: themes.dark});
 ```
 
 ### Request Mint
@@ -78,4 +79,4 @@ This is the interface to mint USDV :
     ) public {}
 ```
 
-Widget can also provide a minting memo for this minting action for extensibility,  such as keeping record or external attributions.&#x20;
+Widget can also provide a minting memo for this minting action for extensibility, such as keeping record or external attributions.&#x20;
