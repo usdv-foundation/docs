@@ -21,3 +21,5 @@ To limit the exposure USDV has on any single chain, especially relatively new ch
 * Outbound from the chain will consume the rate limiter
 * Inbound will refill the rate limiter
 
+Rate limiter parameters can be found [here](../contracts/parameters.md).
+
