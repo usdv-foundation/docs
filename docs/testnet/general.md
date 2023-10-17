@@ -8,7 +8,7 @@ The testnet website is `https://test.usdv.money/`, the contracts are deployed on
 
 [Deplopyments](../contracts/deployments.md)
 
-please refer to [How to display tokens in MetaMask](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) if you want to import `STBT` and `USDV`` to MetaMask.
+please refer to [How to display tokens in MetaMask](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) if you want to import `STBT` and `USDV` to MetaMask.
 
 ## ABI
 
