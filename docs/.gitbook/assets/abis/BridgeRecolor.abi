@@ -7,6 +7,11 @@
           "type": "address"
         },
         {
+          "internalType": "uint32",
+          "name": "_color",
+          "type": "uint32"
+        },
+        {
           "internalType": "address",
           "name": "_recolorHelper",
           "type": "address"
@@ -38,6 +43,32 @@
       ],
       "name": "OwnershipTransferred",
       "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "color",
+      "outputs": [
+        {
+          "internalType": "uint32",
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "feeBps",
+      "outputs": [
+        {
+          "internalType": "uint16",
+          "name": "",
+          "type": "uint16"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
     },
     {
       "inputs": [],
@@ -125,6 +156,32 @@
     {
       "inputs": [
         {
+          "internalType": "uint32",
+          "name": "_color",
+          "type": "uint32"
+        }
+      ],
+      "name": "setColor",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint16",
+          "name": "_feeBps",
+          "type": "uint16"
+        }
+      ],
+      "name": "setFeeBps",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
           "internalType": "address",
           "name": "_lp",
           "type": "address"
@@ -161,7 +218,7 @@
         },
         {
           "internalType": "uint32",
-          "name": "_toColor",
+          "name": "",
           "type": "uint32"
         },
         {
@@ -300,7 +357,7 @@
         },
         {
           "internalType": "uint32",
-          "name": "_toColor",
+          "name": "",
           "type": "uint32"
         }
       ],
@@ -339,6 +396,19 @@
         }
       ],
       "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_to",
+          "type": "address"
+        }
+      ],
+      "name": "withdrawFee",
+      "outputs": [],
+      "stateMutability": "nonpayable",
       "type": "function"
     }
   ]

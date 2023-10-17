@@ -882,6 +882,29 @@
       "type": "function"
     },
     {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_receiver",
+          "type": "address"
+        },
+        {
+          "internalType": "uint64",
+          "name": "_amount",
+          "type": "uint64"
+        },
+        {
+          "internalType": "uint32",
+          "name": "_color",
+          "type": "uint32"
+        }
+      ],
+      "name": "mint",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
       "inputs": [],
       "name": "name",
       "outputs": [

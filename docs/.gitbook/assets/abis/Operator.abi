@@ -151,6 +151,11 @@
           "type": "address"
         },
         {
+          "internalType": "uint32",
+          "name": "",
+          "type": "uint32"
+        },
+        {
           "components": [
             {
               "internalType": "uint32",
