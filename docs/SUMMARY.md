@@ -6,6 +6,8 @@
 
 * [Problem Statement](design/problem-statement.md)
 * [Architecture](design/architecture.md)
+* [Coloring](design/coloring.md)
+* [Reminting](design/reminting.md)
 * [Principles](design/principles.md)
 * [Global Invariants](design/global-invariants.md)
 * [Governance](design/governance/README.md)
@@ -17,8 +19,6 @@
 
 * [USDV Issuance](guide/usdv-issuance.md)
 * [Yield Distribution](guide/yield-distribution.md)
-* [Coloring](guide/coloring.md)
-* [Reminting](guide/reminting.md)
 
 ## Integrations
 
