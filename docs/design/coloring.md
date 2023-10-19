@@ -11,6 +11,8 @@ Every address has only one color and all outbound tokens from a wallet will keep
 * **Fungible**: all the tokens in an address are fully fungible, which allows DEFI to uniformly incentivize all the inbound tokens
 * **Long-lived**: tokens withdrawn from Defi Pools into user accounts will keep the color until they are recolored, which allows minters to capture more attribution than the TVL in their pools.&#x20;
 
+Lets say there is a pool with a preset color, say Green: any USDV put into the pool will be recolored to Green and any USDV withdrawn from the pool will stay Green until they are recolored.
+
 ## Recoloring
 
 As users transfer their tokens, the tokens may be recolored and the ∆ of the associated colors will change. If k tokens of color B were recolored to G, then ∆B is increased by K and ∆G is decreased by K, respectively.&#x20;
