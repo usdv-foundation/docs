@@ -1,8 +1,6 @@
 # Coloring
 
-Eligible minters can go through the KYC procedures to be granted with a color, which is represented as a positive integer value in the token contracts.&#x20;
-
-In the minting operation, users can specify a color and any freshly minted USDV is in the designated minting color.&#x20;
+Eligible minters can go through the KYC procedures to be granted with a color, which is represented as a positive integer value in the token contracts. In the minting operation, users can specify a color and any freshly minted USDV is in the designated minting color.&#x20;
 
 ## Coloring Properties
 
@@ -28,6 +26,23 @@ If the receiver account sets an Enforced Color, then the inbound tokens will alw
 
 If the receiver account does not set an Enforced Color, the color with a larger balance is implicitly chosen as the enforced color in each transaction. If the inbound token amount is smaller than the receiver balance, the inbound tokens will be reColored and vice versa. For example, a pool has 100B, and receives an inbound transfer of 120G.  The 100B is reColored to 100G, because 120 > 100, and the pool’s final balance becomes 220G.&#x20;
 
-## Colorer and Enforced Color
+## Setting Your Color
 
-The Enforced Color can only be set by the Colorer of the account, which defaults to the account itself. The default setting can be overwritten by setting the Colorer in the USDV contract. The operator of the USDV contract can also set a Colorer for any address given a KYC procedure to be compatible with address that are not supposed to interact with the custom interface of USDV contract directly. \
+The Enforced Color can only be set by the Colorer of the account, which defaults to the account itself. The default setting can be overwritten by setting the Colorer in the USDV contract. The operator of the USDV contract can also set a Colorer for any address given a KYC procedure to be compatible with address that are not supposed to interact with the custom interface of USDV contract directly.&#x20;
+
+## Reminting
+
+* The remint\_to color and its surplus
+* A list of remint\_from colors for constructing the Delta-Zero payload&#x20;
+
+The reminting operation must be Delta-Zero, which requires that sum of delta in the reminting payload to be zero. Specifically, the reminting operation should provide&#x20;
+
+A reminting operation can happen on any chain and a reminting message will be sent to the Vault contract on Ethereum for the action to take effect.&#x20;
+
+### Mechanism
+
+For example, a color Blue (B) may accumulate a lot of delta surplus (positive ∆B), which are the yield potential of color B. To realize the potential, users can pay to remint more of color B from other colors that have delta deficit (negative ∆). This reminting operation is [fee](../contracts/parameters.md) applicable and permissionless.&#x20;
+
+As the minted USDV move on all the connected Blockchains, tokens will be recolored and the system would accumulate divergence of the attributions (e.g. who mints how much), as described in the [Architecture](architecture.md) section.
+
+\
