@@ -6,12 +6,15 @@ In the minting operation, users can specify a color and any freshly minted USDV 
 
 ## Coloring Properties
 
-Every address has only one color and all outbound tokens from a wallet will keep the color of the wallet until they are recolored. This design enables 2 major properties:
+**Coloring TLDR**: Lets say there is a pool with a **Enforced Color**, e.g. Green:&#x20;
+
+* any USDV put into the pool will be recolored to Green
+* any USDV withdrawn from the pool will stay Green until they are recolored.
+
+Every address has only one color. This design enables 2 major properties:
 
 * **Fungible**: all the tokens in an address are fully fungible, which allows DEFI to uniformly incentivize all the inbound tokens
 * **Long-lived**: tokens withdrawn from Defi Pools into user accounts will keep the color until they are recolored, which allows minters to capture more attribution than the TVL in their pools.&#x20;
-
-Lets say there is a pool with a preset color, say Green: any USDV put into the pool will be recolored to Green and any USDV withdrawn from the pool will stay Green until they are recolored.
 
 ## Recoloring
 
