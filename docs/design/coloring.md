@@ -14,7 +14,7 @@ In the minting operation, users can specify a color and any freshly minted USDV 
 Every address has only one color. This design enables 2 major properties:
 
 * **Fungible**: all the tokens in an address are fully fungible, which allows DEFI to uniformly incentivize all the inbound tokens
-* **Long-lived**: tokens withdrawn from Defi Pools into user accounts will keep the color until they are recolored, which allows minters to capture more attribution than the TVL in their pools.&#x20;
+* **Long-lived**: Tokens withdrawn from DeFi Pools will maintain their designated color until they undergo a recoloring process. This characteristic is **crucial** for protocols experiencing high transaction volumes, such as decentralized exchanges (DeX). Here, users often deposit and withdraw tokens rapidly through liquidity provisions or swaps. The significance is that the colored USDV will persist in users' wallets until a recoloring action takes place, enabling minters to gain more attribution than the Total Value Locked (TVL) in their respective pools.
 
 ## Recoloring
 
