@@ -390,7 +390,7 @@
       "name": "usdv",
       "outputs": [
         {
-          "internalType": "address",
+          "internalType": "contract IERC20",
           "name": "",
           "type": "address"
         }

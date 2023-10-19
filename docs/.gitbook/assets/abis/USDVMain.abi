@@ -592,6 +592,47 @@
     {
       "inputs": [
         {
+          "internalType": "address",
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "internalType": "uint64",
+          "name": "_amount",
+          "type": "uint64"
+        },
+        {
+          "internalType": "uint32[]",
+          "name": "_deficits",
+          "type": "uint32[]"
+        }
+      ],
+      "name": "burn",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint32",
+              "name": "color",
+              "type": "uint32"
+            },
+            {
+              "internalType": "int64",
+              "name": "amount",
+              "type": "int64"
+            }
+          ],
+          "internalType": "struct Delta[]",
+          "name": "",
+          "type": "tuple[]"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
           "internalType": "uint32",
           "name": "_color",
           "type": "uint32"
@@ -1084,47 +1125,6 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "_from",
-          "type": "address"
-        },
-        {
-          "internalType": "uint64",
-          "name": "_amount",
-          "type": "uint64"
-        },
-        {
-          "internalType": "uint32[]",
-          "name": "_deficits",
-          "type": "uint32[]"
-        }
-      ],
-      "name": "redeem",
-      "outputs": [
-        {
-          "components": [
-            {
-              "internalType": "uint32",
-              "name": "color",
-              "type": "uint32"
-            },
-            {
-              "internalType": "int64",
-              "name": "amount",
-              "type": "int64"
-            }
-          ],
-          "internalType": "struct Delta[]",
-          "name": "",
-          "type": "tuple[]"
-        }
-      ],
-      "stateMutability": "nonpayable",
       "type": "function"
     },
     {

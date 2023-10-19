@@ -16,6 +16,26 @@
       "type": "constructor"
     },
     {
+      "inputs": [],
+      "name": "HashExists",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "HashNotExists",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InvalidMinter",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "MinterAlreadyRegistered",
+      "type": "error"
+    },
+    {
       "inputs": [
         {
           "internalType": "uint32",
@@ -25,6 +45,19 @@
       ],
       "name": "MinterNotRegistered",
       "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "hash",
+          "type": "uint256"
+        }
+      ],
+      "name": "AddedMinterCodeHash",
+      "type": "event"
     },
     {
       "anonymous": false,
@@ -44,6 +77,115 @@
       ],
       "name": "OwnershipTransferred",
       "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "minter",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint32",
+          "name": "color",
+          "type": "uint32"
+        }
+      ],
+      "name": "RegisteredMinter",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "hash",
+          "type": "uint256"
+        }
+      ],
+      "name": "RemovedMinterCodeHash",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "toSTBTLp",
+          "type": "address"
+        }
+      ],
+      "name": "SetToSTBTLp",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "minter",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint32",
+          "name": "color",
+          "type": "uint32"
+        }
+      ],
+      "name": "UnregisteredMinter",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_hash",
+          "type": "uint256"
+        }
+      ],
+      "name": "addMinterCodeHash",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint32",
+          "name": "color",
+          "type": "uint32"
+        }
+      ],
+      "name": "colorToMinter",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "minter",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getMinterCodeHashes",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
     },
     {
       "inputs": [
@@ -97,7 +239,7 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "addr",
+          "name": "_addr",
           "type": "address"
         }
       ],
@@ -115,17 +257,17 @@
     {
       "inputs": [
         {
-          "internalType": "uint32",
-          "name": "color",
-          "type": "uint32"
-        }
-      ],
-      "name": "minters",
-      "outputs": [
-        {
           "internalType": "address",
           "name": "minter",
           "type": "address"
+        }
+      ],
+      "name": "minterToColor",
+      "outputs": [
+        {
+          "internalType": "uint32",
+          "name": "color",
+          "type": "uint32"
         }
       ],
       "stateMutability": "view",
@@ -158,6 +300,19 @@
       "type": "function"
     },
     {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_hash",
+          "type": "uint256"
+        }
+      ],
+      "name": "removeMinterCodeHash",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
       "inputs": [],
       "name": "renounceOwnership",
       "outputs": [],
@@ -172,7 +327,7 @@
           "type": "address"
         }
       ],
-      "name": "setLpToSTBT",
+      "name": "setToSTBTLp",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"

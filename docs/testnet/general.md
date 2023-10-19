@@ -1,6 +1,6 @@
 # General
 
-The testnet website is `https://test.usdv.money/`, the contracts are deployed on the `Goerli` (Ethereum testnet), `Mumbai` (Polygon testnet), `Arbitrum-Goerli`, `Optimism-Goerli`, `Bsc-testnet` and `Fuji` (Avlanche-testnet) at the moment.
+The testnet website is `https://test.usdv.money/`, the contracts are deployed on the `Goerli` (Ethereum testnet), `Arbitrum-Goerli`, `Optimism-Goerli`, `Bsc-testnet` and `Fuji` (Avlanche-testnet) at the moment.
 
 `STBT` and `USDC` are mocked contracts, and `USDV` is the same version of the mainnet.
 

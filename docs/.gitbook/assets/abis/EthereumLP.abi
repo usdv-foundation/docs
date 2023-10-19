@@ -113,6 +113,31 @@
       "anonymous": false,
       "inputs": [
         {
+          "indexed": true,
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint64",
+          "name": "endOfService",
+          "type": "uint64"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint96",
+          "name": "balanceCap",
+          "type": "uint96"
+        }
+      ],
+      "name": "AddNoFeeCoin",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
           "indexed": false,
           "internalType": "uint256",
           "name": "amount",
@@ -183,6 +208,25 @@
       "anonymous": false,
       "inputs": [
         {
+          "indexed": true,
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "flag",
+          "type": "bool"
+        }
+      ],
+      "name": "Paused",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
           "indexed": false,
           "internalType": "address",
           "name": "account",
@@ -190,6 +234,51 @@
         }
       ],
       "name": "Paused",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "RemoveNoFeeCoin",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "lp",
+          "type": "address"
+        }
+      ],
+      "name": "SetLp",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint16",
+          "name": "rewardBps",
+          "type": "uint16"
+        }
+      ],
+      "name": "SetRewardBps",
       "type": "event"
     },
     {
@@ -264,44 +353,19 @@
     {
       "inputs": [
         {
-          "internalType": "uint256",
-          "name": "_hash",
-          "type": "uint256"
-        }
-      ],
-      "name": "addMinterCodeHash",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
           "internalType": "address",
           "name": "_token",
           "type": "address"
         },
         {
-          "components": [
-            {
-              "internalType": "uint64",
-              "name": "mul",
-              "type": "uint64"
-            },
-            {
-              "internalType": "uint64",
-              "name": "endOfService",
-              "type": "uint64"
-            },
-            {
-              "internalType": "uint96",
-              "name": "balanceCap",
-              "type": "uint96"
-            }
-          ],
-          "internalType": "struct EthereumLP.CoinConfig",
-          "name": "_cfg",
-          "type": "tuple"
+          "internalType": "uint64",
+          "name": "_endOfService",
+          "type": "uint64"
+        },
+        {
+          "internalType": "uint96",
+          "name": "_balanceCap",
+          "type": "uint96"
         }
       ],
       "name": "addNoFeeCoin",
@@ -363,19 +427,6 @@
     },
     {
       "inputs": [],
-      "name": "getMinterCodeHashes",
-      "outputs": [
-        {
-          "internalType": "uint256[]",
-          "name": "",
-          "type": "uint256[]"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
       "name": "getSupportedTokens",
       "outputs": [
         {
@@ -404,7 +455,12 @@
       "outputs": [
         {
           "internalType": "uint256",
-          "name": "stbtOut",
+          "name": "requestedOut",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "rewardOut",
           "type": "uint256"
         }
       ],
@@ -597,19 +653,6 @@
     {
       "inputs": [
         {
-          "internalType": "uint256",
-          "name": "_hash",
-          "type": "uint256"
-        }
-      ],
-      "name": "removeMinterCodeHash",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
           "internalType": "address",
           "name": "_token",
           "type": "address"
@@ -623,6 +666,64 @@
     {
       "inputs": [],
       "name": "renounceOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "rewardBpsMap",
+      "outputs": [
+        {
+          "internalType": "uint16",
+          "name": "rewardBps",
+          "type": "uint16"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_curve3pool",
+          "type": "address"
+        }
+      ],
+      "name": "setCurve3Pool",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_dai",
+          "type": "address"
+        }
+      ],
+      "name": "setDAI",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_dssPsm",
+          "type": "address"
+        }
+      ],
+      "name": "setDssPsm",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
@@ -649,6 +750,24 @@
         }
       ],
       "name": "setPaused",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_token",
+          "type": "address"
+        },
+        {
+          "internalType": "uint16",
+          "name": "_rewardBps",
+          "type": "uint16"
+        }
+      ],
+      "name": "setRewardBps",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
@@ -701,7 +820,12 @@
       "outputs": [
         {
           "internalType": "uint256",
-          "name": "stbtOut",
+          "name": "requestedOut",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "rewardOut",
           "type": "uint256"
         }
       ],

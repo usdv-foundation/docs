@@ -275,7 +275,7 @@
       "name": "usdv",
       "outputs": [
         {
-          "internalType": "contract IUSDV",
+          "internalType": "address",
           "name": "",
           "type": "address"
         }
