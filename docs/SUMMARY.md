@@ -18,6 +18,7 @@
 
 ## Integrations
 
+* [Getting Started](integrations/getting-started.md)
 * [Minter Widget](integrations/minter-widget.md)
 * [Recolor Helper](integrations/recolor-helper.md)
 * [Liquidity Provision](integrations/liquidity-provision.md)
