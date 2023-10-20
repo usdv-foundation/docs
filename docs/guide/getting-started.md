@@ -18,5 +18,5 @@ Here is a curated list of important informations to get started:&#x20;
 
 [Minter Widget (Frontend)](../testnet/minter.md)
 
-[Liquidity Provisions](liquidity-provision.md) (on all chains)
+[Liquidity Provisions](../integrations/liquidity-provision.md) (on all chains)
 

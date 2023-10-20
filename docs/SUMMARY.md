@@ -16,9 +16,12 @@
   * [USDV](design/governance/usdv.md)
 * [Risk Control](design/risk-control.md)
 
+## Guide
+
+* [Getting Started](guide/getting-started.md)
+
 ## Integrations
 
-* [Getting Started](integrations/getting-started.md)
 * [Minter Widget](integrations/minter-widget.md)
 * [Recolor Helper](integrations/recolor-helper.md)
 * [Liquidity Provision](integrations/liquidity-provision.md)
