@@ -1,10 +1,6 @@
 # Parameters
 
-### Fees
-
-USDV Minting Fee: 0 bps\
-\
-USDV Redemption Fee: 10 bps
+### Fees  USDV Redemption Fee: 10 bps
 
 Reminting Fee: 5 bps (1 bps for the operator and 4 bps for the colors that got reminted out)&#x20;
 
