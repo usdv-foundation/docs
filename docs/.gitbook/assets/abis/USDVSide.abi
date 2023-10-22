@@ -356,9 +356,15 @@
       "anonymous": false,
       "inputs": [
         {
-          "indexed": false,
+          "indexed": true,
           "internalType": "address",
           "name": "caller",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "user",
           "type": "address"
         },
         {
@@ -389,11 +395,11 @@
         {
           "indexed": false,
           "internalType": "uint32",
-          "name": "enforceColor",
+          "name": "defaultColor",
           "type": "uint32"
         }
       ],
-      "name": "SetEnforceColor",
+      "name": "SetDefaultColor",
       "type": "event"
     },
     {
@@ -1419,11 +1425,11 @@
         },
         {
           "internalType": "uint32",
-          "name": "_enforceColor",
+          "name": "_defaultColor",
           "type": "uint32"
         }
       ],
-      "name": "setEnforceColor",
+      "name": "setDefaultColor",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
@@ -1693,7 +1699,7 @@
         },
         {
           "internalType": "uint32",
-          "name": "enforceColor",
+          "name": "defaultColor",
           "type": "uint32"
         }
       ],

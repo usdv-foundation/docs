@@ -28,11 +28,6 @@
     },
     {
       "inputs": [],
-      "name": "FailedTransfer",
-      "type": "error"
-    },
-    {
-      "inputs": [],
       "name": "InvalidBps",
       "type": "error"
     },
@@ -57,7 +52,7 @@
           "type": "uint64"
         }
       ],
-      "name": "MinterRemintFeeChanged",
+      "name": "ChangedMinterRemintFee",
       "type": "event"
     },
     {
@@ -76,7 +71,26 @@
           "type": "uint64"
         }
       ],
-      "name": "OperatorRemintFeeChanged",
+      "name": "ChangedOperatorRemintFee",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint16",
+          "name": "bps",
+          "type": "uint16"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint64",
+          "name": "min",
+          "type": "uint64"
+        }
+      ],
+      "name": "ChangedSyncFee",
       "type": "event"
     },
     {
@@ -122,25 +136,6 @@
         }
       ],
       "name": "SetRate",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": false,
-          "internalType": "uint16",
-          "name": "bps",
-          "type": "uint16"
-        },
-        {
-          "indexed": false,
-          "internalType": "uint64",
-          "name": "min",
-          "type": "uint64"
-        }
-      ],
-      "name": "SyncFeeChanged",
       "type": "event"
     },
     {
@@ -400,6 +395,24 @@
     {
       "inputs": [
         {
+          "internalType": "address",
+          "name": "_user",
+          "type": "address"
+        },
+        {
+          "internalType": "uint32",
+          "name": "_color",
+          "type": "uint32"
+        }
+      ],
+      "name": "setDefaultColor",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
           "internalType": "uint16",
           "name": "_bps",
           "type": "uint16"
@@ -561,7 +574,7 @@
           "type": "address"
         },
         {
-          "internalType": "address payable",
+          "internalType": "address",
           "name": "_to",
           "type": "address"
         },

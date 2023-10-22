@@ -1,17 +1,55 @@
 # Deployments
 
+## Mainnet
+
+### Ethereum
+
+| Contract Name | Address                                    |
+| ------------- | ------------------------------------------ |
+| USDV          | 0x0E573Ce2736Dd9637A0b21058352e1667925C7a8 |
+| VaultManager  | 0x2A30E3C5c9DaF417663Dd3903144B394a82C999b |
+| Operator      | 0xE5feD5b0f777F3244D8523F7FC41EF61147cDf4c |
+
+### Arbitrum
+
+| Contract Name | Address                                    |
+| ------------- | ------------------------------------------ |
+| USDV          | 0x323665443CEf804A3b5206103304BD4872EA4253 |
+| Operator      | 0xE5feD5b0f777F3244D8523F7FC41EF61147cDf4c |
+
+### Avalanche
+
+| Contract Name | Address                                    |
+| ------------- | ------------------------------------------ |
+| USDV          | 0x323665443CEf804A3b5206103304BD4872EA4253 |
+| Operator      | 0xE5feD5b0f777F3244D8523F7FC41EF61147cDf4c |
+
+### Bsc
+
+| Contract Name | Address                                    |
+| ------------- | ------------------------------------------ |
+| USDV          | 0x323665443CEf804A3b5206103304BD4872EA4253 |
+| Operator      | 0xE5feD5b0f777F3244D8523F7FC41EF61147cDf4c |
+
+### Optimism
+
+| Contract Name | Address                                    |
+| ------------- | ------------------------------------------ |
+| USDV          | 0x323665443CEf804A3b5206103304BD4872EA4253 |
+| Operator      | 0x0fC841AbDa2AcF9c4c531D22A0cF1cF08aF1155e |
+
 ## Testnet
 
 ### Goerli
 
 | Contract Name | Address                                    |
 | ------------- | ------------------------------------------ |
-| VaultManager  | 0x1239bD980fAa9CF687458A630514301c36e27E36 |
 | USDV          | 0x0516ABcF93c00aAf9120Cf5d18535506d54BCcbA |
-| Operator      | 0x2EC53d8c096fFf1e9552581007087695363d2B3c |
+| VaultManager  | 0x1239bD980fAa9CF687458A630514301c36e27E36 |
+| Operator      | 0xdc4772Be7C76ce0E20F5236D0EAd187335ef5052 |
 | EthereumLP    | 0xE5EBEfD9EE3F231380e7182A78C77121a4e2149e |
-| MinterProxy   | 0x4Bf943eDb0177B7a6f822a420f9531543961e9fd |
-| RecolorHelper | 0x8fa01cB0cdf265015aDAcC0B846f77e96872055f |
+| MinterProxy   | 0xEfBCdE3Db0C63B06e349E9069d4761BDE45120D1 |
+| RecolorHelper | 0x3353Bf83bd823531467e436aFBd443fdd75b6faA |
 | STBT(mock)    | 0x33683A382495De6763FCD7505d0E07d7d2A879ca |
 | USDC(mock)    | 0xDf0360Ad8C5ccf25095Aa97ee5F2785c8d848620 |
 | DAI(mock)     | 0x4BB6B835cf7FbAf984F4872F9f53329F4642ae52 |
@@ -23,22 +61,11 @@
 | ---------------------- | ------------------------------------------ |
 | USDV                   | 0xf10be20E035c00e9f9448d1Edb7770E3e1187965 |
 | SidechainLP            | 0xc09025ddfC64d00E764eb1B4E035ce0392991E9D |
-| BridgeRecolor(color 2) | 0x02281c823d6e126b9Ee12FF600BB0F927E2d098b |
-| Operator               | 0x74dCa7984f3410Fc708907Ee3745bCa19B48c6F2 |
-| RecolorHelper          | 0x12322934c4ADe4e90fbC537b70AcE681c799E114 |
+| BridgeRecolor(color 2) | 0xedD99Ca0C56c9761bFc4119Fd17954Cbf4786b90 |
+| Operator               | 0xbD3107e8CD015fE6C8dd7039F79e97543c121542 |
+| RecolorHelper          | 0x5b084d95f9D258C5A7a4C19616fc46155179c9fa |
 | USDC(mock)             | 0x6aAd876244E7A1Ad44Ec4824Ce813729E5B6C291 |
 | USDT(mock)             | 0x533046F316590C19d99c74eE661c6d541b64471C |
-
-### Optimism-Goerli
-
-| Contract Name          | Address                                    |
-| ---------------------- | ------------------------------------------ |
-| USDV                   | 0xf10be20E035c00e9f9448d1Edb7770E3e1187965 |
-| SidechainLP            | 0x0C31e2B00897F9Eb08909c4358f343774069641E |
-| BridgeRecolor(color 2) | 0x525a91afCcB8128705B3f12bb80baF0e9875e21b |
-| Operator               | 0xf91Add49a5003A0b8B96cf148369E1F20E60CFF9 |
-| RecolorHelper          | 0x1d7cc652c734EfE1e039be0eB11Af4b54D0A19cf |
-| USDC(mock)             | 0x0CEDBAF2D0bFF895C861c5422544090EEdC653Bf |
 
 ### Bsc-testnet
 
@@ -46,9 +73,9 @@
 | ---------------------- | ------------------------------------------ |
 | USDV                   | 0xf10be20E035c00e9f9448d1Edb7770E3e1187965 |
 | SidechainLP            | 0x1d7cc652c734EfE1e039be0eB11Af4b54D0A19cf |
-| BridgeRecolor(color 1) | 0x6F879AB1c5E70F926084B2A5A6AD4698e3041146 |
-| Operator               | 0xE43C47d021E129FFDC3B2fDc50Fa1173B9DA0C6e |
-| RecolorHelper          | 0x525a91afCcB8128705B3f12bb80baF0e9875e21b |
+| BridgeRecolor(color 2) | 0x0053668620FE95a6073556C14388664c19E8BF92 |
+| Operator               | 0x1a26A582D2F79bF0aff680405867E59bbD2ab810 |
+| RecolorHelper          | 0xF07a1561c8F3237adc921CBB6872c59B93e5c6de |
 | BUSD(mock)             | 0x1010Bb1b9Dff29e6233E7947e045e0ba58f6E92e |
 | USDT(mock)             | 0xF49E250aEB5abDf660d643583AdFd0be41464EfD |
 
@@ -58,8 +85,19 @@
 | ---------------------- | ------------------------------------------ |
 | USDV                   | 0xf10be20E035c00e9f9448d1Edb7770E3e1187965 |
 | SidechainLP            | 0x4128E76282Eec8b6ea24C083715e82DBECA891fc |
-| BridgeRecolor(color 2) | 0x0C31e2B00897F9Eb08909c4358f343774069641E |
-| Operator               | 0xE43C47d021E129FFDC3B2fDc50Fa1173B9DA0C6e |
-| RecolorHelper          | 0x0C31e2B00897F9Eb08909c4358f343774069641E |
+| BridgeRecolor(color 2) | 0x3E5Ef5Dc37a4670Cfb8d6aFAcFDc60689Ed62926 |
+| Operator               | 0xb5d91BD47c0e9E09837702Fb591923687Fd7Ef37 |
+| RecolorHelper          | 0x1a26A582D2F79bF0aff680405867E59bbD2ab810 |
 | USDC(mock)             | 0x4A0D1092E9df255cf95D72834Ea9255132782318 |
 | USDT(mock)             | 0x134Dc38AE8C853D1aa2103d5047591acDAA16682 |
+
+### Optimism-Goerli
+
+| Contract Name          | Address                                    |
+| ---------------------- | ------------------------------------------ |
+| USDV                   | 0xf10be20E035c00e9f9448d1Edb7770E3e1187965 |
+| SidechainLP            | 0x0C31e2B00897F9Eb08909c4358f343774069641E |
+| BridgeRecolor(color 2) | 0xDE3adad9623EEb3fc4DC47D508Be69E1d5c4CD27 |
+| Operator               | 0x7190Cb5d6DedaA3231e75762195df7e1510A468C |
+| RecolorHelper          | 0x2c70388c2a136437384826ef222C7Bb347CEA65B |
+| USDC(mock)             | 0x0CEDBAF2D0bFF895C861c5422544090EEdC653Bf |

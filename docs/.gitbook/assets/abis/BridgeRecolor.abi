@@ -108,6 +108,40 @@
       "type": "function"
     },
     {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_fromToken",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_fromTokenAmount",
+          "type": "uint256"
+        }
+      ],
+      "name": "getUSDVOutVerbose",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "usdvOut",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "fee",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "reward",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
       "inputs": [],
       "name": "lp",
       "outputs": [

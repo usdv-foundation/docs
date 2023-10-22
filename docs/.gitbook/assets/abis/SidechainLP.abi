@@ -448,6 +448,35 @@
       "inputs": [
         {
           "internalType": "address",
+          "name": "_fromToken",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_fromTokenAmount",
+          "type": "uint256"
+        }
+      ],
+      "name": "getUSDVOutVerbose",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "requestedOut",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "rewardOut",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
           "name": "_usdv",
           "type": "address"
         }
