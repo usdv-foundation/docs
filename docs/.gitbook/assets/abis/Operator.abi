@@ -33,11 +33,6 @@
   },
   {
     "inputs": [],
-    "name": "InvalidDeltaSize",
-    "type": "error"
-  },
-  {
-    "inputs": [],
     "name": "NotUSDV",
     "type": "error"
   },
@@ -144,32 +139,6 @@
     "type": "event"
   },
   {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": false,
-        "internalType": "uint64",
-        "name": "_limit",
-        "type": "uint64"
-      }
-    ],
-    "name": "SetRemintDeltaSizeLimit",
-    "type": "event"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": false,
-        "internalType": "uint64",
-        "name": "_limit",
-        "type": "uint64"
-      }
-    ],
-    "name": "SetSyncDeltaSizeLimit",
-    "type": "event"
-  },
-  {
     "inputs": [
       {
         "internalType": "address",
@@ -195,7 +164,7 @@
           }
         ],
         "internalType": "struct Delta[]",
-        "name": "deltas",
+        "name": "",
         "type": "tuple[]"
       },
       {
@@ -241,7 +210,7 @@
           }
         ],
         "internalType": "struct Delta[]",
-        "name": "deltas",
+        "name": "",
         "type": "tuple[]"
       },
       {
@@ -370,19 +339,6 @@
     "name": "refill",
     "outputs": [],
     "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "remintDeltaSizeLimit",
-    "outputs": [
-      {
-        "internalType": "uint64",
-        "name": "",
-        "type": "uint64"
-      }
-    ],
-    "stateMutability": "view",
     "type": "function"
   },
   {
@@ -519,32 +475,6 @@
   {
     "inputs": [
       {
-        "internalType": "uint64",
-        "name": "_limit",
-        "type": "uint64"
-      }
-    ],
-    "name": "setRemintDeltaSizeLimit",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "uint64",
-        "name": "_limit",
-        "type": "uint64"
-      }
-    ],
-    "name": "setSyncDeltaSizeLimit",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
         "internalType": "uint16",
         "name": "_bps",
         "type": "uint16"
@@ -558,19 +488,6 @@
     "name": "setSyncFee",
     "outputs": [],
     "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "syncDeltaSizeLimit",
-    "outputs": [
-      {
-        "internalType": "uint64",
-        "name": "",
-        "type": "uint64"
-      }
-    ],
-    "stateMutability": "view",
     "type": "function"
   },
   {
