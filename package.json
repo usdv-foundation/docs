@@ -8,6 +8,7 @@
   "author": "foundation@usdv.money",
   "main": "index.js",
   "scripts": {
+    "build": "./scripts/generate-abis.mts",
     "prepare": "husky install",
     "smart:format": "git diff HEAD --diff-filter=AM --name-only | xargs -I:: $npm_execpath prettier --no-error-on-unmatched-pattern --ignore-unknown -w ::",
     "smart:lint": "git diff HEAD --diff-filter=AM --name-only | grep -E '.(ts|mts)$' | xargs -I:: $npm_execpath eslint  --no-error-on-unmatched-pattern --fix ::"
