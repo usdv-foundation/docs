@@ -47,20 +47,20 @@ const ROOT = getRootPathSync(process.cwd())
 const DEFAULT_OUTPUT_DIR = path.join(ROOT, 'docs/.gitbook/assets/abis')
 
 const CONTRACTs = [
-    '@layerzerolabs/usdv-evm-sdk/artifacts/contracts/usdv/USDVMain.sol/USDVMain.json',
-    '@layerzerolabs/usdv-evm-sdk/artifacts/contracts/usdv/USDVSide.sol/USDVSide.json',
-    '@layerzerolabs/usdv-evm-sdk/artifacts/contracts/usdv/Operator.sol/Operator.json',
+    '@layerzerolabs/usdv-evm-sdk/deployments/ethereum-mainnet/USDVMain_Implementation.json',
+    '@layerzerolabs/usdv-evm-sdk/deployments/bsc-mainnet/USDVSide_Implementation.json',
+    '@layerzerolabs/usdv-evm-sdk/deployments/ethereum-mainnet/Operator.json',
 
-    '@layerzerolabs/usdv-evm-sdk/artifacts/contracts/vault/VaultManager.sol/VaultManager.json',
-    '@layerzerolabs/usdv-evm-sdk/artifacts/contracts/vault/VaultRateLimiter.sol/VaultRateLimiter.json',
+    '@layerzerolabs/usdv-evm-sdk/deployments/ethereum-mainnet/VaultManager_Implementation.json',
+    '@layerzerolabs/usdv-evm-sdk/deployments/ethereum-mainnet/VaultRateLimiter.json',
 
-    '@layerzerolabs/usdv-evm-sdk/artifacts/contracts/integration/mm/Minter.sol/Minter.json',
-    '@layerzerolabs/usdv-evm-sdk/artifacts/contracts/integration/mm/MinterProxy.sol/MinterProxy.json',
-    '@layerzerolabs/usdv-evm-sdk/artifacts/contracts/integration/mm/EthereumLP.sol/EthereumLP.json',
-    '@layerzerolabs/usdv-evm-sdk/artifacts/contracts/integration/mm/SidechainLP.sol/SidechainLP.json',
+    '@layerzerolabs/usdv-evm-sdk/deployments/ethereum-mainnet/Minter1.json',
+    '@layerzerolabs/usdv-evm-sdk/deployments/ethereum-mainnet/MinterProxy.json',
+    '@layerzerolabs/usdv-evm-sdk/deployments/ethereum-mainnet/EthereumLP_Implementation.json',
+    '@layerzerolabs/usdv-evm-sdk/deployments/bsc-mainnet/SidechainLP_Implementation.json',
 
-    '@layerzerolabs/usdv-evm-sdk/artifacts/contracts/integration/recolor/RecolorHelper.sol/RecolorHelper.json',
-    '@layerzerolabs/usdv-evm-sdk/artifacts/contracts/integration/recolor/BridgeRecolor.sol/BridgeRecolor.json',
+    '@layerzerolabs/usdv-evm-sdk/deployments/ethereum-testnet/RecolorHelper.json',
+    '@layerzerolabs/usdv-evm-sdk/deployments/bsc-testnet/BridgeRecolor.json',
 ]
 
 const program = new Command('generate-abis')
