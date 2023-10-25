@@ -35,7 +35,7 @@ async function generate(root: string, contracts: string[], flat: boolean) {
     for (const fullpath of contracts) {
         const module = await import(fullpath, { assert: { type: 'json' } })
         const filepath = (flat ? path.basename : (x: any) => x)(getPathInPackage(changeFileExt(fullpath, '.abi')))
-        const filename = path.join(root, filepath)
+        const filename = path.join(root, filepath.replace('_Implementation', ''))
         await mkdir(path.dirname(filename), { recursive: true })
         const abi = module['default']['abi']
         const content = JSON.stringify(abi, null, 2)
@@ -54,8 +54,9 @@ const CONTRACTs = [
     '@layerzerolabs/usdv-evm-sdk/deployments/ethereum-mainnet/VaultManager_Implementation.json',
     '@layerzerolabs/usdv-evm-sdk/deployments/ethereum-mainnet/VaultRateLimiter.json',
 
-    '@layerzerolabs/usdv-evm-sdk/deployments/ethereum-mainnet/Minter1.json',
-    '@layerzerolabs/usdv-evm-sdk/deployments/ethereum-mainnet/MinterProxy.json',
+    '@layerzerolabs/usdv-evm-sdk/artifacts/contracts/integration/mm/Minter.sol/Minter.json',
+    '@layerzerolabs/usdv-evm-sdk/artifacts/contracts/integration/mm/MinterProxy.sol/MinterProxy.json',
+
     '@layerzerolabs/usdv-evm-sdk/deployments/ethereum-mainnet/EthereumLP_Implementation.json',
     '@layerzerolabs/usdv-evm-sdk/deployments/bsc-mainnet/SidechainLP_Implementation.json',
 
