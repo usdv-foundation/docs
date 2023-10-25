@@ -13,6 +13,17 @@ const config = {
             },
         },
         {
+            files: ['*.ts', '*.mts'],
+            options: {
+                printWidth: 120,
+                semi: false,
+                singleQuote: true,
+                tabWidth: 4,
+                useTabs: false,
+                trailingComma: 'es5',
+            },
+        },
+        {
             files: '*.sh',
             options: {
                 keepComments: true,
