@@ -23,6 +23,7 @@
 ## Integrations
 
 * [Minter Widget](integrations/minter-widget.md)
+* [App Guide](integrations/minter.md)
 * [Recolor Helper](integrations/recolor-helper.md)
 * [Liquidity Provision](integrations/liquidity-provision.md)
 * [Gas Profile](integrations/gas-profile.md)
@@ -33,11 +34,6 @@
 * [Deployments](contracts/deployments.md)
 * [Vault Assets](contracts/vault-assets.md)
 * [Parameters](contracts/parameters.md)
-
-## Testnet
-
-* [General](testnet/general.md)
-* [Minter](testnet/minter.md)
 
 ## Legal
 
