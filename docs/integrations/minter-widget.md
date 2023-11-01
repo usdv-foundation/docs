@@ -4,16 +4,16 @@ Minter Widget is a frontend tool to facilitate minting USDV with alternative sta
 
 ## Architecture
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Onboarding Guide
 
 ### Deploy Minter Contract
 
-A minter must complete KYC to be assigned a unique color. The operator will deploy a **Minter Contract** for each new minter and register into the Minter Proxy Contract. The ownership of the Minter Contract will be transferred to an address provided by the minter in the KYC process. Owner can configure&#x20;
+A minter must complete KYC to be assigned a unique color. The operator will deploy a **Minter Contract** for each new minter and register into the Minter Proxy Contract. The ownership of the Minter Contract will be transferred to an address provided by the minter in the KYC process. Owner can configure
 
-- supported tokens (e.g. USDC)&#x20;
-- blacklist certain callers
+* supported tokens (e.g. USDC)
+* blacklist certain callers
 
 ### Deploy Minter Widget
 
@@ -79,4 +79,4 @@ This is the interface to mint USDV :
     ) public {}
 ```
 
-Widget can also provide a minting memo for this minting action for extensibility, such as keeping record or external attributions.&#x20;
+Widget can also provide a minting memo for this minting action for extensibility, such as keeping record or external attributions.

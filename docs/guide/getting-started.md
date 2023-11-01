@@ -16,7 +16,7 @@ Here is a curated list of important informations to get started:&#x20;
 
 ### Intergration
 
-[Minter Widget (Frontend)](../integrations/minter.md)
+[Minter Widget (Frontend)](../integrations/minter/)
 
 [Liquidity Provisions](../integrations/liquidity-provision.md) (on all chains)
 

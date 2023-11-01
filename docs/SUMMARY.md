@@ -22,8 +22,15 @@
 
 ## Integrations
 
+* [USDV Web App Guide](integrations/minter/README.md)
+  * [Launch App](integrations/minter/launch-app.md)
+  * [Mint](integrations/minter/mint.md)
+  * [Colouring](integrations/minter/colouring.md)
+  * [Claim Rewards](integrations/minter/claim-rewards.md)
+  * [(Cross-Chain) Transfer](integrations/minter/cross-chain-transfer.md)
+  * [Redeem](integrations/minter/redeem.md)
+  * [My Account](integrations/minter/my-account.md)
 * [Minter Widget](integrations/minter-widget.md)
-* [App Guide](integrations/minter.md)
 * [Recolor Helper](integrations/recolor-helper.md)
 * [Liquidity Provision](integrations/liquidity-provision.md)
 * [Gas Profile](integrations/gas-profile.md)

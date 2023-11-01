@@ -14,5 +14,5 @@ Without a solution to the omnichain fungible token coloring problem, it is impos
 
 
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption><p>It is impossible to attribute fairly without a coloring algorithm</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt="" width="563"><figcaption><p>It is impossible to attribute fairly without a coloring algorithm</p></figcaption></figure>
 
