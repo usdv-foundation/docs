@@ -58,7 +58,7 @@ To add networks to MetaMask, visit chainlist.wtf. There, you can easily connect 
 
 [Deplopyments](deployments.md)
 
-please refer to [How to display tokens in MetaMask](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h\_01FWH492CHY60HWPC28RW0872H) if you want to import `STBT` and `USDV` to MetaMask.
+please refer to [How to display tokens in MetaMask](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) if you want to import `STBT` and `USDV` to MetaMask.
 
 ### Goerli
 
@@ -80,8 +80,8 @@ please refer to [How to display tokens in MetaMask](https://support.metamask.io/
 | Contract Name          | Address                                    |
 | ---------------------- | ------------------------------------------ |
 | USDV                   | 0xf10be20E035c00e9f9448d1Edb7770E3e1187965 |
-| SidechainLP            | 0xc09025ddfC64d00E764eb1B4E035ce0392991E9D |
-| BridgeRecolor(color 2) | 0xedD99Ca0C56c9761bFc4119Fd17954Cbf4786b90 |
+| SidechainLP            | 0x3c1d2ace5f37719DB4071aD7a9C2b1bfbb6A5569 |
+| BridgeRecolor(color 2) | 0x4b0Bf4bD481E1fC68F9d4AC713EB5361322aFBfD |
 | Operator               | 0xbD3107e8CD015fE6C8dd7039F79e97543c121542 |
 | RecolorHelper          | 0x5b084d95f9D258C5A7a4C19616fc46155179c9fa |
 | USDC(mock)             | 0x6aAd876244E7A1Ad44Ec4824Ce813729E5B6C291 |
@@ -92,8 +92,8 @@ please refer to [How to display tokens in MetaMask](https://support.metamask.io/
 | Contract Name          | Address                                    |
 | ---------------------- | ------------------------------------------ |
 | USDV                   | 0xf10be20E035c00e9f9448d1Edb7770E3e1187965 |
-| SidechainLP            | 0x1d7cc652c734EfE1e039be0eB11Af4b54D0A19cf |
-| BridgeRecolor(color 2) | 0x0053668620FE95a6073556C14388664c19E8BF92 |
+| SidechainLP            | 0xeD18bd3D30EDfdc15D655AA1eD776651d1E88C7D |
+| BridgeRecolor(color 2) | 0x34Cf53353BA3d24ADBc17083ccC1CB6B5bFaa2D7 |
 | Operator               | 0x1a26A582D2F79bF0aff680405867E59bbD2ab810 |
 | RecolorHelper          | 0xF07a1561c8F3237adc921CBB6872c59B93e5c6de |
 | BUSD(mock)             | 0x1010Bb1b9Dff29e6233E7947e045e0ba58f6E92e |
@@ -104,8 +104,8 @@ please refer to [How to display tokens in MetaMask](https://support.metamask.io/
 | Contract Name          | Address                                    |
 | ---------------------- | ------------------------------------------ |
 | USDV                   | 0xf10be20E035c00e9f9448d1Edb7770E3e1187965 |
-| SidechainLP            | 0x4128E76282Eec8b6ea24C083715e82DBECA891fc |
-| BridgeRecolor(color 2) | 0x3E5Ef5Dc37a4670Cfb8d6aFAcFDc60689Ed62926 |
+| SidechainLP            | 0xE8C2789D44AFa22749Db9373C71DD8f742780CbB |
+| BridgeRecolor(color 2) | 0x81b0b43180F569ecb28Ccc9FCd3Bede7122D9E09 |
 | Operator               | 0xb5d91BD47c0e9E09837702Fb591923687Fd7Ef37 |
 | RecolorHelper          | 0x1a26A582D2F79bF0aff680405867E59bbD2ab810 |
 | USDC(mock)             | 0x4A0D1092E9df255cf95D72834Ea9255132782318 |
@@ -116,8 +116,8 @@ please refer to [How to display tokens in MetaMask](https://support.metamask.io/
 | Contract Name          | Address                                    |
 | ---------------------- | ------------------------------------------ |
 | USDV                   | 0xf10be20E035c00e9f9448d1Edb7770E3e1187965 |
-| SidechainLP            | 0x0C31e2B00897F9Eb08909c4358f343774069641E |
-| BridgeRecolor(color 2) | 0xDE3adad9623EEb3fc4DC47D508Be69E1d5c4CD27 |
+| SidechainLP            | 0xD641e5809Be6AFea904224543Bf49f616411E3D9 |
+| BridgeRecolor(color 2) | 0xEF12AF53d72840951Cdc2F579e30bA3250E82ef4 |
 | Operator               | 0x7190Cb5d6DedaA3231e75762195df7e1510A468C |
 | RecolorHelper          | 0x2c70388c2a136437384826ef222C7Bb347CEA65B |
 | USDC(mock)             | 0x0CEDBAF2D0bFF895C861c5422544090EEdC653Bf |
