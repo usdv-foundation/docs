@@ -1,14 +1,40 @@
-# What is Verified USD (USDV)
+---
+description: Omnichain stablecoin backed by tokenized real world assets
+---
 
-Verified USD (USDV) is an omni-chain stable coin fully backed by quality assets.&#x20;
+# Getting started
 
-### Security and Transparency
+## Website
 
-1. All back assets are required to present frequent PoR (Proof of Reserve) updates.&#x20;
-2. USDV's circulation and issuances are fully transparent on-chain.
-3. The yields generated from the interest of the backing assets are fairly and provably distributed to ecosystem partners on-chain. Minters of USDV earn yield pro-rata from the Vault based on their token circulation for their contributions to the USDV adoption.
+[https://usdv.money/](https://usdv.money/)
 
-### Omni-chain Utility
+## White Paper
 
-1. Design with full omni-chain compatability in mind.
-2. Seamlessly compatible with existing on-chain protocols like DEFI and NFT.
+[https://usdv.money/docs/whitepaper.pdf](https://usdv.money/docs/whitepaper.pdf)
+
+##
+
+## Section Overview
+
+### [USD Verified at a glance](readme/)
+
+A layman's introduction to USDV and its core features
+
+### [Design](broken-reference)
+
+Dive into USDV architecture, design ideology and operating principles.
+
+### [Integrations](broken-reference)
+
+Everything you need for navigating USDV web app, deploying contracts and integrating widgets.
+
+### [Contracts](./#contracts)
+
+All information related to smart contract addresses, ABI and fees.
+
+### [**Legal**](broken-reference)
+
+General T\&Cs and privacy policy.
+
+### [**FAQ**](others/faq.md)
+

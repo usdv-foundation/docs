@@ -7,7 +7,7 @@ The Recolor Helper is a generic helper contract we deploy on each USDV-supported
   * Direct transfer USDV into the helper and send out **atomically.**&#x20;
   * ERC20 approved transfer. &#x20;
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```
 interface IRecolorHelper {

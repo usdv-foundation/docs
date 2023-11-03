@@ -1,10 +1,12 @@
 # Minter Widget
 
-Minter Widget is a frontend tool to facilitate minting USDV with alternative stable coins (e.g. USDC/USDT/DAI) should the minter choose to support it. The minter can configure the Minter Widget with its own registered color and all newly minted USDV through this widget will be colored accordingly.
+Minter Widget is a frontend tool to facilitate minting USDV with alternative stablecoins (e.g. USDC/USDT/DAI) should the minter choose to support it.&#x20;
+
+The minter can configure the Minter Widget with its own registered color and all newly minted USDV through this widget will be colored accordingly.
 
 ## Architecture
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Onboarding Guide
 

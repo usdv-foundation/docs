@@ -6,19 +6,19 @@ You can move USDV between chains on the Transfer page. Currently we only support
 
 Begin by selecting source and destination chains. Enter the amount of USDV for transfer. Please ensure you have native gas tokens to facilitate the transfer.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Custom Destination
 
 By default, the destination address will be your current wallet address. To send USDV to a custom destination address, click **‘Destination Address’** (pen icon on right) and provide Custom Address.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Airdropping Gas Tokens
 
 In the scenario that you do not have gas tokens in a particular chain, you can use our gas airdrop feature by clicking **‘Gas on Destination’** (pen icon on the right) and allocating gas token allowance. This button shows only after a destination chain has been selected.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click **‘Transfer’** to initiate the transaction and complete by signing off in your wallet.
 

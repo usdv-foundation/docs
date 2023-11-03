@@ -16,7 +16,7 @@ An important feature of USDV is ColourTrace. Minters can mint their USDV in any 
 
 Click on the pen icon to change your choice of colour. Colours are recorded as unique positive integers. The number of colours is capped by the number of ‘Verified Minters’ in the USDV ecosystem.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click the **‘Mint’** button to initiate the transaction. You will be asked to confirm the transaction in your wallet. Click **‘Confirm’** to proceed.
 
@@ -34,4 +34,4 @@ After minting USDV, remember to import them to your wallet by clicking ‘Add US
 
 Click which chain you want USDV to be imported. Confirm **‘Add Token’** on your wallet to complete USDV import.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="563"><figcaption></figcaption></figure>

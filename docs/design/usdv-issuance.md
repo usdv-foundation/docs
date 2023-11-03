@@ -1,6 +1,8 @@
 # USDV Issuance
 
-The Vault contract has a list of whitelisted assets for backing USDV. Normally, these are assets are yield bearing for generating the income for the minters. The first whitelisted assets is STBT, a T-bill token.
+The Vault contract has a list of whitelisted assets for backing USDV.&#x20;
+
+Normally, these are assets are yield bearing for generating the income for the minters. The first whitelisted assets is STBT.
 
 ### Minting
 
@@ -21,3 +23,5 @@ Redemption Flow:
 * STBT users can deposit K USDV of any color (using USDV\_X as an example) to redeem.
 * K STBT will be unlocked. Redemption Fee will go to the Operator. The rest go to the receiver.
 * K Vault Shares will be removed from the redemption.
+
+See [Fees](../contracts/parameters.md) for more details.

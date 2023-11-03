@@ -1,6 +1,17 @@
 # Table of contents
 
-* [What is Verified USD (USDV)](README.md)
+## Guide
+
+***
+
+* [Getting started](README.md)
+* [USD Verified at a glance](readme/README.md)
+  * [Why USDV?](readme/why-usdv.md)
+  * [Novel feature 1: ColorTrace](readme/novel-feature-1-colortrace.md)
+  * [Novel feature 2: OFT](readme/novel-feature-2-oft.md)
+  * [Tokenized Real World Assets](readme/vault-assets.md)
+* [Maximum Transparency](maximum-transparency.md)
+* [Audits](audits.md)
 
 ## Design
 
@@ -11,14 +22,8 @@
 * [Yield Distribution](design/yield-distribution.md)
 * [Principles](design/principles.md)
 * [Global Invariants](design/global-invariants.md)
-* [Governance](design/governance/README.md)
-  * [Vault](design/governance/vault.md)
-  * [USDV](design/governance/usdv.md)
-* [Risk Control](design/risk-control.md)
-
-## Guide
-
-* [Getting Started](guide/getting-started.md)
+* [Contract Governance](design/contract-governance.md)
+* [Risk Management](design/risk-control.md)
 
 ## Integrations
 
@@ -37,10 +42,10 @@
 
 ## Contracts
 
-* [Audit](contracts/audit.md)
-* [Deployments](contracts/deployments.md)
-* [Vault Assets](contracts/vault-assets.md)
-* [Parameters](contracts/parameters.md)
+* [Mainnet](contracts/mainnet.md)
+* [Testnet](contracts/testnet.md)
+* [ABI](contracts/deployments.md)
+* [Fees](contracts/parameters.md)
 
 ## Legal
 
