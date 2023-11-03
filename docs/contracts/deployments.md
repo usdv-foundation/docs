@@ -20,7 +20,7 @@
 | ------------- | ------------------------------------------ |
 | USDV          | 0x323665443CEf804A3b5206103304BD4872EA4253 |
 | Operator      | 0xE5feD5b0f777F3244D8523F7FC41EF61147cDf4c |
-| SidechainLP   | 0xfBE0E23E1E46285486C38e3d5b5e74eef056728c |
+| SidechainLP   | 0x4607432711D0A26Bdb9DfF61A6Ab1d32780690d2 |
 
 ### Avalanche
 
@@ -28,7 +28,7 @@
 | ------------- | ------------------------------------------ |
 | USDV          | 0x323665443CEf804A3b5206103304BD4872EA4253 |
 | Operator      | 0xE5feD5b0f777F3244D8523F7FC41EF61147cDf4c |
-| SidechainLP   | 0x3352E0a4f40bA5BC86cD00D95F27Ae4eF10A170a |
+| SidechainLP   | 0x728A036fBBF66FD7b09807a8d605c929B44bDF9E |
 
 ### Bsc
 
@@ -36,7 +36,7 @@
 | ------------- | ------------------------------------------ |
 | USDV          | 0x323665443CEf804A3b5206103304BD4872EA4253 |
 | Operator      | 0xE5feD5b0f777F3244D8523F7FC41EF61147cDf4c |
-| SidechainLP   | 0x5221b2499aA9aD020F5f8Db9312291397acc0A06 |
+| SidechainLP   | 0x7F9A873cB57AF892e229b8EE445dde9372539fce |
 
 ### Optimism
 
@@ -44,7 +44,7 @@
 | ------------- | ------------------------------------------ |
 | USDV          | 0x323665443CEf804A3b5206103304BD4872EA4253 |
 | Operator      | 0x0fC841AbDa2AcF9c4c531D22A0cF1cF08aF1155e |
-| SidechainLP   | 0x3352E0a4f40bA5BC86cD00D95F27Ae4eF10A170a |
+| SidechainLP   | 0x5cCFd72da5bd694CB6CD2919987Ced474F8E3Fb3 |
 
 ## Testnet
 
