@@ -1,6 +1,6 @@
 # USD Verified at a glance
 
-**USDV, also known as USD Verified**, is the market’s first omnichain stablecoin backed by tokenized real world assets. The novel stablecoin combines the best of DeFi and CeFi, building upon LayerZero’s omni chain messaging technology and tapping into Matrixdock’s access to best-in-class Real World Assets.
+**USDV, also known as USD Verified**, is the omnichain stablecoin backed by tokenized real world assets. The novel stablecoin combines the best of DeFi and CeFi, building upon LayerZero’s omni chain messaging technology and tapping into Matrixdock’s access to best-in-class Real World Assets.
 
 USDV is owned and managed by the [USDV Foundation](https://usdv.money/foundation), a non-profit organisation committed to nurturing USDV’s ecosystem of contributors, developers and users globally.
 
@@ -34,7 +34,7 @@ Within the USDV community, there are three primary contributors in addition to t
 
 All primary contributors are eligible for yield sharing.
 
-<table><thead><tr><th width="138.33333333333331">Role</th><th width="428">Responsibilities</th><th>% Yield share</th></tr></thead><tbody><tr><td><strong>Verified Minter</strong></td><td><ul><li>Foster USDV adoption</li><li>Generate traffic and utility in USDV ecosystem</li></ul></td><td>49.50%</td></tr><tr><td><strong>Operator</strong></td><td><ul><li>Provide technology and security</li><li>Manage daily operations and support</li></ul></td><td>24.75%</td></tr><tr><td><strong>Liquidity Provider</strong></td><td><ul><li>Bring price stability</li><li>Enable USDV distribution on-demand</li></ul></td><td>24.75%</td></tr><tr><td><strong>USDV</strong> <strong>Foundation</strong></td><td><ul><li>Develop CeFi and DeFi partners globally</li><li>Oversee USDV promotion and branding</li></ul></td><td><p>1.00% </p><p>(to Reserve Wallet)</p></td></tr></tbody></table>
+<table><thead><tr><th width="138.33333333333331">Role</th><th data-hidden>Responsibilities</th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Verified Minter</strong></td><td><ul><li>Foster USDV adoption</li><li>Generate traffic and utility in USDV ecosystem</li></ul></td><td></td></tr><tr><td><strong>Operator</strong></td><td><ul><li>Provide technology and security</li><li>Manage daily operations and support</li></ul></td><td></td></tr><tr><td><strong>Liquidity Provider</strong></td><td><ul><li>Bring price stability</li><li>Enable USDV distribution on-demand</li></ul></td><td></td></tr><tr><td><strong>USDV</strong> <strong>Foundation</strong></td><td><ul><li>Develop CeFi and DeFi partners globally</li><li>Oversee USDV promotion and branding</li></ul></td><td></td></tr></tbody></table>
 
 To minimize the risk of introducing Bad Actors, USDV Foundation takes a careful vetted approach to partner selection. All ‘Verified Minter’s must complete extensive real world KYC before USDV whitelisting and color registration.
 

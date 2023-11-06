@@ -2,8 +2,6 @@
 
 ## Guide
 
-***
-
 * [Getting started](README.md)
 * [USD Verified at a glance](readme/README.md)
   * [Why USDV?](readme/why-usdv.md)
