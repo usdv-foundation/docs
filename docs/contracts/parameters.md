@@ -1,8 +1,8 @@
 # Fees
 
-### USDV Redemption Fee: 10 bps
+### USDV Redemption Fee: 10 bps charged by the operator
 
-### Reminting Fee: 3 bps for the operator
+### Reminting Fee: 3 bps charged by the operator
 
 
 
