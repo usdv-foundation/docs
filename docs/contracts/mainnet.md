@@ -10,16 +10,16 @@ USDV Mainnet is currently available on five chains: Ethereum, BSC, Avalanche, Ar
 
 ### BSC
 
-<table><thead><tr><th width="208">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0xBed0fCb924Af5A7cf79016B8b66B87c64bD4dedB</td></tr><tr><td>SidechainLP</td><td>0x5221b2499aA9aD020F5f8Db9312291397acc0A06</td></tr></tbody></table>
+<table><thead><tr><th width="208">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0xBed0fCb924Af5A7cf79016B8b66B87c64bD4dedB</td></tr><tr><td>SidechainLP</td><td>0x7F9A873cB57AF892e229b8EE445dde9372539fce</td></tr></tbody></table>
 
 ### Avalanche
 
-<table><thead><tr><th width="206">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0xE7Af697C5A1cF059C98B50866f74B1d43C422258</td></tr><tr><td>SidechainLP</td><td>0x3352E0a4f40bA5BC86cD00D95F27Ae4eF10A170a</td></tr></tbody></table>
+<table><thead><tr><th width="206">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0xE7Af697C5A1cF059C98B50866f74B1d43C422258</td></tr><tr><td>SidechainLP</td><td>0x728A036fBBF66FD7b09807a8d605c929B44bDF9E</td></tr></tbody></table>
 
 ### Arbitrum
 
-<table><thead><tr><th width="214">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0x292dD933180412923ee47fA73bBF407B6d776B4C</td></tr><tr><td>SidechainLP</td><td>0xfBE0E23E1E46285486C38e3d5b5e74eef056728c</td></tr></tbody></table>
+<table><thead><tr><th width="214">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0x292dD933180412923ee47fA73bBF407B6d776B4C</td></tr><tr><td>SidechainLP</td><td>0x4607432711D0A26Bdb9DfF61A6Ab1d32780690d2</td></tr></tbody></table>
 
 ### Optimism
 
-<table><thead><tr><th width="213">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0xbbE4Dc52Fc43e7EEED6ED439BF6219E3407Cf605</td></tr><tr><td>SidechainLP</td><td>0x3352E0a4f40bA5BC86cD00D95F27Ae4eF10A170a</td></tr></tbody></table>
+<table><thead><tr><th width="213">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0xbbE4Dc52Fc43e7EEED6ED439BF6219E3407Cf605</td></tr><tr><td>SidechainLP</td><td>0x5cCFd72da5bd694CB6CD2919987Ced474F8E3Fb3</td></tr></tbody></table>
