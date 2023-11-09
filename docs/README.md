@@ -1,40 +1,41 @@
----
-description: Omnichain stablecoin backed by tokenized real world assets
----
+# Verified USD Overview
 
-# Getting started
+**Verified USD, as known as USDV,** is a real world asset backed stablecoin built for modern finance.
 
-## Website
+Bridging the best of CeFi and DeFi, USDV transcends borders, blockchains and operating hours. USDV is easy to use and can always be redeemed 1:1 for US Dollar.
 
-[https://usdv.money/](https://usdv.money/)
+**For every 1 USDV in circulation there is $1 USD held in reserve.**
 
-## White Paper
+## USDV Ecosystem
 
-[https://usdv.money/docs/whitepaper.pdf](https://usdv.money/docs/whitepaper.pdf)
+There are **four** main roles with the USDV Ecosystem
 
-##
+* **Verified Minter:** Partners committed to actively grow USDV utility and liquidity.
+* **Operator:** Partners responsible for technological development and security of USDV, as well as real world operations.
+* **Liquidity Provider:** Partners pledging on and off-chain liquidity to facilitate USDV price stability.
+* **Users:** Businesses and Individuals trusting USDV for payments, capital markets and trade.
 
-## Section Overview
+USDV is supported by **The Verified USD Foundation,** a non-profit organisation committed to nurturing USDV’s ecosystem of contributors, developers and users globally.
 
-### [USD Verified at a glance](readme/)
+Why Verified? USDV takes a revolutionary approach to transparency.&#x20;
 
-A layman's introduction to USDV and its core features
+Read more on [https://usdv.money/transparency](https://usdv.money/transparency)
 
-### [Design](broken-reference)
+## Which blockchains support USDV?
 
-Dive into USDV architecture, design ideology and operating principles.
+USDV is always native and is currently available on the following chains
 
-### [Integrations](broken-reference)
+1. Ethereum
+2. BSC
+3. Avalanche
+4. Arbitrum
+5. Optimism
 
-Everything you need for navigating USDV web app, deploying contracts and integrating widgets.
+## What makes USDV different vs other stablecoins?
 
-### [Contracts](./#contracts)
+USDV is the first stablecoin designed to empower CeFi, DeFi and other modern businesses.
 
-All information related to smart contract addresses, ABI and fees.
-
-### [**Legal**](broken-reference)
-
-General T\&Cs and privacy policy.
-
-### [**FAQ**](others/faq.md)
-
+* **Become a Minter:** With successful KYC, Partners become a 'Verified Minter', unlocking the right to mint USDV and access to Real World Yield.
+* **Real World Yield Share:** Novel token marking technology **'ColorTrace'** to enable transparent & fair yield sharing based on USDV circulation contributed by each 'Verified Minter'.
+* **Always native:** ERC-20 compatible, USDV is built on Omnichain Fungible Tokens (OFT) Standard, eliminating unofficial wrapped/bridged versions and liquidity fragmentation. Next level capital efficiency.
+* **Next Level Transparency:** Full transparency from real time on-chain transaction tracking, reserve proofing to daily real world asset monitoring.

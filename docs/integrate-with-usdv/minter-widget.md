@@ -6,13 +6,15 @@ The minter can configure the Minter Widget with its own registered color and all
 
 ## Architecture
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Onboarding Guide
 
 ### Deploy Minter Contract
 
-A minter must complete KYC to be assigned a unique color. The operator will deploy a **Minter Contract** for each new minter and register into the Minter Proxy Contract. The ownership of the Minter Contract will be transferred to an address provided by the minter in the KYC process. Owner can configure
+A minter must complete KYC to be assigned a unique color. The operator will deploy a **Minter Contract** for each new minter and register into the Minter Proxy Contract. The ownership of the Minter Contract will be transferred to an address provided by the minter in the KYC process.&#x20;
+
+Owner can configure
 
 * supported tokens (e.g. USDC)
 * blacklist certain callers

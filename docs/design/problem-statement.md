@@ -22,5 +22,5 @@ Alice and Bob mint 10 tokens and 30 tokens respectively, resulting in a proporti
 
 
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption><p>It is impossible to attribute fairly without a coloring algorithm</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt="" width="563"><figcaption><p>It is impossible to attribute fairly without a coloring algorithm</p></figcaption></figure>
 

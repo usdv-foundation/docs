@@ -32,7 +32,7 @@ The Default Color can only be set by the Colorer of the account, which defaults 
 
 ## Remint
 
-Recoloring will create ∆ of colors. Overtime some colors will have positive ∆ and some negative. For example, a color Blue (B) may accumulate a lot of delta surplus (positive ∆B), which are the yield potential of color B. To realize the potential, anyone can remint more of color B against other colors that have delta deficit (negative ∆). This reminting operation is [fee](../contracts/parameters.md) applicable and permissionless.&#x20;
+Recoloring will create ∆ of colors. Over time some colors will have positive ∆ and some negative. For example, a color Blue (B) may accumulate a lot of delta surplus (positive ∆B), which is the yield potential of color B. To realize the potential, anyone can remint more of color B against other colors that have a delta deficit (negative ∆). This reminting operation is [fee](../what-is-usdv/parameters.md) applicable and permissionless.&#x20;
 
 The Remint operation must be Delta-Zero, which requires that sum of delta in the reminting payload to be zero. Specifically, the reminting operation should provide&#x20;
 

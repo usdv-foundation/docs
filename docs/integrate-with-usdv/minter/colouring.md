@@ -1,4 +1,4 @@
-# Colouring
+# Colour
 
 Navigate to the **‘Coloring’** page. This page is structured into two main parts.
 
@@ -29,7 +29,7 @@ Take an example,
 * We mint $50 USDV in colour 16 on Goerli
 * Owner of Colour 16 +$50 and we (Owner of colour 14) are -$50 on Goerli
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now, there is the possibility to remint ‘Verified Minter 16’s $50 back to colour ‘14’ on Goerli.
 

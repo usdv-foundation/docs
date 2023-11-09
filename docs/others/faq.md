@@ -72,7 +72,7 @@ Information on the current USDV total supply and reserved asset amounts can be a
 
 USDV is minted and redeemed through smart contracts at a 1:1 ratio with STBT.&#x20;
 
-The entire process is an on-chain process, allowing anyone to access and view all historical transaction records related to minting, redemption, and circulation at [https://etherscan.io](https://etherscan.io/) at any time.
+The entire process is on-chain, allowing anyone to access and view all historical transaction records related to minting, redemption, and circulation at [https://etherscan.io](https://etherscan.io/) at any time.
 
 For STBT, please refer to [STBT transparency](faq.md#transparency).
 

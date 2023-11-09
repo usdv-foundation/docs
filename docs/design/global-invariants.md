@@ -8,7 +8,7 @@ Global USDV circulation == sum of collateral of all backing assets, where global
 
 Delta-Zero: sum of delta of all colors (including Theta) on any chain == 0.
 
-Hence it is also globally Delta-Zero of all connected chains.
+Hence it is also globally Delta-Zero for all connected chains.
 
 ### Theta-Zero Invariant
 

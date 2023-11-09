@@ -2,8 +2,8 @@
 
 Below shows the gas profile of functions for composability.&#x20;
 
-* USDV behaviours like a normal ERC-20 tokens with slightly more gas in transfer for recording the coloring metadata.&#x20;
-* The gas cost of the remint function of USDV on Ethereum is a function of the number of colors involved in the reminting operations. It grows linearly to the colors involved. The avg 151k is a good estimate of use cases.&#x20;
+* USDV behaves like a normal ERC-20 tokens with slightly more gas in transfer for recording the coloring metadata.&#x20;
+* The gas cost of USDV remint function on Ethereum is a function of the number of colors involved in the reminting operations. It grows linearly in proportion to the colors involved. The avg 151k is a good estimate of use cases.&#x20;
 * VaultManager is the vault responsible for USDV issuance.&#x20;
 
 ```

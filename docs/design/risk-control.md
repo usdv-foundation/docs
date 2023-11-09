@@ -1,4 +1,4 @@
-# Risk Control
+# Rate Limiter
 
 ### Mint/Redeem Rate Limiter
 
@@ -8,7 +8,7 @@ To limit the worst case exposure of USDV to the technical issues of underlying a
 limiter_budget = min(capacity, remaining + refill_rate * time_lapsed)
 ```
 
-Rate limiter parameters can be found [here](../contracts/parameters.md).
+Rate limiter parameters can be found [here](../what-is-usdv/parameters.md).
 
 For example, if the underlying asset (e.g. X token) contract has a bug that create Y X tokens on chain for once, and the minting rate limiter's capacity is Z, then its maximum impact to USDV is Z plus the time-based refilling before we noticed the problem and pause the asset.&#x20;
 
@@ -21,5 +21,5 @@ To limit the exposure USDV has on any single chain, especially relatively new ch
 * Outbound from the chain will consume the rate limiter
 * Inbound will refill the rate limiter
 
-Rate limiter parameters can be found [here](../contracts/parameters.md).
+Rate limiter parameters can be found [here](../what-is-usdv/parameters.md).
 
