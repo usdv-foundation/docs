@@ -12,7 +12,7 @@ Only whitelisted tokenized assets are allowed to supply to USDV. All tokenized a
 
 ## STBT (Short-term Treasury Bill Token)
 
-Exclusively designed for accredited investors, STBT follows ERC-1400 standards, allowing holders to tap into risk-free US T-bill yields. Interest is rebased to holders' STBT balances on each business day.
+Exclusively designed for accredited investors, STBT follows ERC-1400 standards, allowing holders to tap into risk-free US T-bill yields. Interest is rebased to holders' STBT balances on a daily basis.
 
 STBT pegged 1:1 USD (in NAV net-asset value), fully backed by the US dollar and US Treasury securities with maturities within 6 months and reverse repurchase agreements.
 
