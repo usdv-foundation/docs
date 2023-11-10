@@ -2,7 +2,7 @@
 
 **Verified USD, as known as USDV,** is a real world asset backed stablecoin built for modern finance.
 
-Bridging the best of CeFi and DeFi, USDV transcends borders, blockchains and operating hours. USDV is easy to use and can always be redeemed 1:1 for US Dollar.
+Bridging the best of CeFi and DeFi, USDV transcends borders, blockchains and operating hours.
 
 **For every 1 USDV in circulation there is $1 USD held in reserve.**
 
