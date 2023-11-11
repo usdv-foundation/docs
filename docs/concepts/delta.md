@@ -1,27 +1,11 @@
 # Delta
 
-Delta is defined as the **difference between the # of colored USDV and the # of minted USDV.**&#x20;
+Delta is the difference, for each color, between the current supply of USDV and the quantity of USDV originally minted. For example, if USDV\_BLUE started with $100 tokens minted, but $50 were _recolored_ to USDV\_RED, Delta(USDV\_BLUE) = -50 (deficit) and Delta(USDV\_RED) = +50 (surplus).
 
-It is also a measure of how many USDV can potentially be re-minted, indicative of **potential yield** that the Verified Minter is **not realizing (+) / at risk of losing (-)**. Delta is calculated separately for each blockchain.
+Delta can also be thought of as _yield potential_, or how much the current vault shares of a given color may change in the near future. A **positive delta** (surplus) means there is potential yield that is not being collected. A **negative delta** (deficit) means there is the potential for yield reduction.
 
-**Why potential?** This is because USDV is colored in Verified Minter's color but not minted by Verified Minter, and rights to yield share is attributable only to minted USDV.
+Delta is calculated separately for every color on every blockchain. Verified Minters choose when to remint based on their color's delta value on each blockchain.
 
-Yield share is based on the number of minted USDV as part of total circulation (and **not** based on number of colored USDV). Any yield share gains or losses are unrealized until existing USDV is reminted to be Verified Minter's.
+## Volume vs TVL
 
-Recap: There are two ways to obtain minted USDV either by 1) [Mint](../verified-minters/mint.md) OR 2) by [Remint](remint.md).
-
-### When Delta is Positive (# Colored > # Minted)
-
-Verified Minter colors more USDV than it has minted (i.e large volumes of USDV pass through Verified Minter's pools, and is responsible for a larger share of USDV circulation than it has minted).
-
-Result: Verified Minter has the potential of **increasing its yield share** by reminting the USDV that it has colored.
-
-### When Delta is Negative (# Colored < # Minted)
-
-Verified Minter minted tokens are being colored by others. Net flow of USDV to its ecosystem is negative and/or the minted USDV is not contributing to global circulation.
-
-Result: Verified Minter is at risk of **reduced yield share** when other Color Owners opt to re-mint.
-
-
-
-This design largely benefits protocols capable of attracting net positive USDV volumes and improving circulation with little capital, presenting the possibility to capture greater-than-minted yield share.
+A Verified Minter's delta can _**never**_ fall below its TVL (See [ColorTrace Safety](coloring.md) mint-holding guarantee). However, a Verified Minter can gain vault shares beyond its TVL by recoloring USDV that flows through its contracts (See [Remint](remint.md))
