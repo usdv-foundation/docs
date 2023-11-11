@@ -31,10 +31,8 @@
 ## Concepts
 
 * [Architecture](concepts/architecture.md)
-* [Principles](concepts/principles.md)
 * [ColorTrace Algorithm](concepts/coloring.md)
 * [ColorTrace Safety](concepts/global-invariants.md)
-* [Vault](concepts/vault.md)
 * [Mint](concepts/mint.md)
 * [Delta](concepts/delta.md)
 * [Remint](concepts/remint.md)
