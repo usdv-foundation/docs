@@ -8,4 +8,4 @@ Delta is calculated separately for every color on every blockchain. Verified Min
 
 ## Volume vs TVL
 
-A Verified Minter's delta can _**never**_ fall below its TVL (See [ColorTrace Safety](coloring.md) mint-holding guarantee). However, a Verified Minter can gain vault shares beyond its TVL by recoloring USDV that flows through its contracts (See [Remint](remint.md))
+A Verified Minter's delta can _**never**_ fall below its TVL (See [ColorTrace Safety](global-invariants.md) mint-holding guarantee). However, a Verified Minter can gain vault shares beyond its TVL by recoloring USDV that flows through its contracts (See [Remint](remint.md))
