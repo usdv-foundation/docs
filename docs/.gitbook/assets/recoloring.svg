@@ -1,0 +1,50 @@
+<svg width="1407" height="583" viewBox="0 0 1407 583" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_142_453)">
+<rect width="1406" height="583" transform="translate(0.108398)" fill="white"/>
+<rect x="0.108398" width="1406" height="284" rx="8" fill="#F8F8F8"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M283.108 191V208H285.108V191H302.108V189H285.108V172H283.108V189H266.108V191H283.108Z" fill="black"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" font-weight="500" letter-spacing="0em"><tspan x="24.1084" y="44.2031">Policy: Default Color</tspan></text>
+<text fill="#6B6B6B" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="24.1084" y="98.8359">Incoming Transfer</tspan></text>
+<circle cx="94.1084" cy="190" r="69.5" fill="#F6E8E9" stroke="black"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="71.574" y="182.836">$120</tspan></text>
+<text fill="#E2333D" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="45.4611" y="210.836">USDV_RED</tspan></text>
+<rect x="405.608" y="120.5" width="367" height="139" rx="7.5" fill="#62A0E8" fill-opacity="0.08" stroke="black"/>
+<text fill="#6B6B6B" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" font-weight="500" letter-spacing="0em"><tspan x="421.108" y="156.203">USDV Pool</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="421.108" y="208.836">DefaultColor = </tspan></text>
+<text fill="#00B0EC" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="557.78" y="208.836">USDV_BLUE</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="421.108" y="238.836">Balance = </tspan></text>
+<text fill="#00B0EC" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="515.921" y="238.836">$100 USDV_BLUE</tspan></text>
+<rect x="1014.61" y="120.5" width="367" height="139" rx="7.5" fill="#62A0E8" fill-opacity="0.08" stroke="black"/>
+<text fill="#6B6B6B" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" font-weight="500" letter-spacing="0em"><tspan x="1030.11" y="156.203">USDV Pool</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="1030.11" y="208.836">DefaultColor = </tspan></text>
+<text fill="#00B0EC" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="1166.78" y="208.836">USDV_BLUE</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="1030.11" y="238.836">Balance = </tspan></text>
+<text fill="#00B0EC" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="1124.92" y="238.836">$220 USDV_BLUE</tspan></text>
+<path d="M911.358 190L876.858 190" stroke="black" stroke-width="2"/>
+<path d="M899.858 178.5L911.358 190L899.858 201.5" stroke="black" stroke-width="2" stroke-linecap="square"/>
+<rect x="0.108398" y="299" width="1406" height="284" rx="8" fill="#F8F8F8"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M283.108 490V507H285.108V490H302.108V488H285.108V471H283.108V488H266.108V490H283.108Z" fill="black"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" font-weight="500" letter-spacing="0em"><tspan x="24.1084" y="343.203">Policy: Weight-based</tspan></text>
+<text fill="#6B6B6B" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="24.1084" y="397.836">Incoming Transfer</tspan></text>
+<circle cx="94.1084" cy="489" r="69.5" fill="#F6E8E9" stroke="black"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="71.574" y="481.836">$120</tspan></text>
+<text fill="#E2333D" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="45.4611" y="509.836">USDV_RED</tspan></text>
+<rect x="405.608" y="419.5" width="367" height="139" rx="7.5" fill="#F2F2F2" stroke="black"/>
+<text fill="#6B6B6B" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" font-weight="500" letter-spacing="0em"><tspan x="421.108" y="455.203">User Wallet</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="421.108" y="507.836">DefaultColor = NULL</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="421.108" y="537.836">Balance = </tspan></text>
+<text fill="#00B0EC" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="515.921" y="537.836">$100 USDV_BLUE</tspan></text>
+<rect x="1014.61" y="419.5" width="367" height="139" rx="7.5" fill="#F2F2F2" stroke="black"/>
+<text fill="#6B6B6B" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" font-weight="500" letter-spacing="0em"><tspan x="1030.11" y="455.203">User Wallet</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="1030.11" y="507.836">DefaultColor = NULL</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="1030.11" y="537.836">Balance = </tspan></text>
+<text fill="#E2333D" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" font-weight="500" letter-spacing="0.01em"><tspan x="1124.92" y="537.836">$220 USDV_RED</tspan></text>
+<path d="M911.358 489L876.858 489" stroke="black" stroke-width="2"/>
+<path d="M899.858 477.5L911.358 489L899.858 500.5" stroke="black" stroke-width="2" stroke-linecap="square"/>
+</g>
+<defs>
+<clipPath id="clip0_142_453">
+<rect width="1406" height="583" fill="white" transform="translate(0.108398)"/>
+</clipPath>
+</defs>
+</svg>

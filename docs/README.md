@@ -6,9 +6,9 @@ USDV is currently available on Ethereum, BSC, Avalanche, Arbitrum, and Optimism.
 
 ## How USDV Works
 
-The protocol [marks USDV tokens with a unique "colour"](what-is-usdv/how-coloring-works.md) to identify who originally minted them, and track how they are used across different blockchains.
+The protocol [marks USDV tokens with a unique "color"](what-is-usdv/how-coloring-works.md) to identify who originally minted them, and track how they are used across different blockchains.
 
-**Verified Minters** earn more yield by increasing the circulation of USDV in their colour. The more a minter changes the colour of tokens in the market (by having others use their coloured tokens), the greater the yield they receive.
+**Verified Minters** earn more yield by increasing the circulation of USDV in their color. The more a minter changes the color of tokens in the market (by having others use their colored tokens), the greater the yield they receive.
 
 This creates an economic incentive for minters to not only mint USDV, but also to ensure its active circulation, enhancing the liquidity and utility of the token in the broader DeFi landscape.
 

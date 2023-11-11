@@ -29,24 +29,24 @@ This collaboration aims to offer users the opportunity to access a broader range
 
 #### What assets can be used to mint USDV?
 
-Currently, only STBT can be used to mint USDV at this stage.
+At this time, only STBT can be used to mint USDV.
 
 #### **Who can Mint/Redeem USDV ?**
 
 STBT whitelisted addresses can mint and redeem USDV.&#x20;
 
-#### **When I redeem, which asset will I receive, STBT or USDV**
+#### **When I redeem, will I receive STBT or USDV?**
 
 * The asset redeemed by USDV is STBT, and the vault share will be also removed when the redemption occurs. You will receive STBT when the USDV redemption process completes.
-* A redemption fee of 0.1% (10 bps) will be deducted from the redeemed funds as a redemption fee, and the remaining amount will be transferred to the specified receiver account.
+* A redemption fee of 0.1% (10 bps) will be deducted from the redeemed funds, and the remaining amount will be transferred to the specified receiver account.
 
 #### How long does the minting/redemption process take?
 
-All minting and redemption processes are completed on-chain and typically take only one block of time.
+All minting and redemption processes are completed on-chain and typically commit within one block confirmation.
 
-#### **Where can minter Mint/Redeem USDV ?**
+#### **Where can minters Mint/Redeem USDV ?**
 
-Minter can operate Mint/Redeem applications in the following three places:
+Minters can operate Mint/Redeem applications in the following three places:
 
 * The smart contract interface on the USDV website.
 * USDV smart contract API.
@@ -58,7 +58,7 @@ Minter can operate Mint/Redeem applications in the following three places:
 
 <summary>USDV Supply</summary>
 
-The supply of USDV is not fixed and may change due to variations in the reserved asset, primarily influenced by the quantity of assets such as STBT held in reserve.
+The supply of USDV is not fixed and may change due to variations in the reserve asset, primarily influenced by the quantity of assets such as STBT held in reserve.
 
 Should new USDV be minted, the total supply could increase. Conversely, redemption activities may decrease the total supply.
 
