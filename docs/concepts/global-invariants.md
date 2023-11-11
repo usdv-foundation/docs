@@ -1,19 +1,19 @@
-# Global Invariants
+# ColorTrace Safety
 
-### Pegging Invariant
+Safety in ColorTrace is guaranteed by several _invariants_ shown below. For more details and a formal analysis of safety, please read the whitepaper.
 
-Global USDV circulation == sum of collateral of all backing assets, where global USDV circulation is the sum USDV local circulation on all connected chains
+### Asset-Circulation Equivalence
+
+The global supply of USDV is never increased or decreased other than by the Vault.
 
 ### Delta-Zero Invariant&#x20;
 
-Delta-Zero: sum of delta of all colors (including Theta) on any chain == 0.
+Delta-Zero: sum of delta of all colors on any chain or combination of chains is **zero**. The entire ColorTrace deployment is delta-zero, which guarantees vault share calculation is fair, precise, and accurate.
 
-Hence it is also globally Delta-Zero for all connected chains.
+### Eventual Finality
 
-### Theta-Zero Invariant
+Every operation in ColorTrace will eventually be reflected in the state of the system. However, some operations may have some latency for crosschain communication.
 
-The sum of delta of Theta on all chains is 0.&#x20;
+### Mint-holding preservation
 
-### Mint Invariant
-
-The sum of the Minted of any color on all chains == the Vault shares of that color
+A minter will _**never**_ have their vault shares reduced below their TVL. Note that if a minter's TVL increases, the vault shares may be lower than TVL until the minter calls Remint.
