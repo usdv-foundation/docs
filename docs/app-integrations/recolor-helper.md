@@ -7,7 +7,7 @@ The Recolor Helper is a generic helper contract we deploy on each USDV-supported
   * Direct transfer USDV into the helper and send out **atomically.**&#x20;
   * ERC20 approved transfer. &#x20;
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/recolor-helper (1).png" alt=""><figcaption><p>The Recolor Helper is an immutable and unowned contract that enforces USDV recoloring rules.</p></figcaption></figure>
 
 ```
 interface IRecolorHelper {
