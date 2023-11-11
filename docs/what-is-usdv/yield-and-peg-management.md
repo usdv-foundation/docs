@@ -32,7 +32,7 @@ To maintain 1:1 peg, the total supply of the tokenized RWA (here, STBT) is adjus
 
 USDV's globally unique [Vault](../concepts/vault.md) holding all tokenized RWA will also receive the rebased yield.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Illustration on USD pegging and yield distribution</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/yield-peg.png" alt=""><figcaption><p>Yield is proportionally shared between Verified Minters based on the circulation attribution calculated by ColorTrace.</p></figcaption></figure>
 
 ### Fair, transparent and equitable yield distribution
 
