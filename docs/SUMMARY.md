@@ -30,10 +30,10 @@
 
 ## Concepts
 
-* [Architecture](concepts/architecture.md)
+* [USDV Architecture](concepts/architecture.md)
+* [Mint](concepts/mint.md)
 * [ColorTrace Algorithm](concepts/coloring.md)
 * [ColorTrace Safety](concepts/global-invariants.md)
-* [Mint](concepts/mint.md)
 * [Delta](concepts/delta.md)
 * [Remint](concepts/remint.md)
 * [Redemption](concepts/redemption.md)
