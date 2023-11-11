@@ -8,7 +8,7 @@ It is also a measure of how many USDV can potentially be re-minted, indicative o
 
 Yield share is based on the number of minted USDV as part of total circulation (and **not** based on number of colored USDV). Any yield share gains or losses are unrealized until existing USDV is reminted to be Verified Minter's.
 
-Recap: There are two ways to obtain minted USDV either by 1) [Mint](../integrate-with-usdv/minter/mint.md) OR 2) by [Remint](remint.md).
+Recap: There are two ways to obtain minted USDV either by 1) [Mint](../verified-minters/mint.md) OR 2) by [Remint](remint.md).
 
 ### When Delta is Positive (# Colored > # Minted)
 

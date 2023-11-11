@@ -2,11 +2,11 @@
 description: USDV is always pegged 1:1 to US Dollar.
 ---
 
-# Yield & Peg
+# Yield & Peg Management
 
 USDV is built upon tokenized Real World Assets (Tokenized RWA), which is backed **1:1** by cash and yield bearing, highly liquid risk-free financial instruments (i.e repos, short term T-bills).
 
-Only whitelisted tokenized assets are allowed to supply to USDV. All tokenized assets are stored in a [Vault](vault.md) on Ethereum.
+Only whitelisted tokenized assets are allowed to supply to USDV. All tokenized assets are stored in a [Vault](../concepts/vault.md) on Ethereum.
 
 **STBT (Short-term Treasury Bill Token) is the first reserve asset underlying USDV.**
 
@@ -30,9 +30,9 @@ To maintain 1:1 peg, the total supply of the tokenized RWA (here, STBT) is adjus
 
 (Rebase is where supply is **algorithmically adjusted to to control price**. In our case, this is the minting of new tokens to ensure constant 1:1 peg)
 
-USDV's globally unique [Vault](vault.md) holding all tokenized RWA will also receive the rebased yield.
+USDV's globally unique [Vault](../concepts/vault.md) holding all tokenized RWA will also receive the rebased yield.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Illustration on USD pegging and yield distribution</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Illustration on USD pegging and yield distribution</p></figcaption></figure>
 
 ### Fair, transparent and equitable yield distribution
 

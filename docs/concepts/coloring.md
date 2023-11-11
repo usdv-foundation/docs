@@ -1,4 +1,4 @@
-# Coloring
+# ColorTrace Algorithm
 
 Eligible minters can go through the KYC procedures to be granted with a color, which is represented as a positive integer value in the token contracts. In the minting operation, users can specify a color and any freshly minted USDV is in the designated minting color.&#x20;
 
@@ -32,7 +32,7 @@ The Default Color can only be set by the Colorer of the account, which defaults 
 
 ## Remint
 
-Recoloring will create ∆ of colors. Over time some colors will have positive ∆ and some negative. For example, a color Blue (B) may accumulate a lot of delta surplus (positive ∆B), which is the yield potential of color B. To realize the potential, anyone can remint more of color B against other colors that have a delta deficit (negative ∆). This reminting operation is [fee](../what-is-usdv/parameters.md) applicable and permissionless.&#x20;
+Recoloring will create ∆ of colors. Over time some colors will have positive ∆ and some negative. For example, a color Blue (B) may accumulate a lot of delta surplus (positive ∆B), which is the yield potential of color B. To realize the potential, anyone can remint more of color B against other colors that have a delta deficit (negative ∆). This reminting operation is [fee](parameters.md) applicable and permissionless.&#x20;
 
 The Remint operation must be Delta-Zero, which requires that sum of delta in the reminting payload to be zero. Specifically, the reminting operation should provide&#x20;
 

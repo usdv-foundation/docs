@@ -1,41 +1,24 @@
-# Verified USD Overview
+# USDV Overview
 
-**Verified USD, as known as USDV,** is a real world asset backed stablecoin built for modern finance.
+**Verified USD (USDV)** is the first omnichain stablecoin that rewards Verified Minters based on their contribution to the token's active circulation.
 
-Bridging the best of CeFi and DeFi, USDV transcends borders, blockchains and operating hours.
+USDV is currently available on Ethereum, BSC, Avalanche, Arbitrum, and Optimism.
 
-**For every 1 USDV in circulation there is $1 USD held in reserve.**
+## How USDV Works
 
-## USDV Ecosystem
+The protocol [marks USDV tokens with a unique "colour"](what-is-usdv/how-coloring-works.md) to identify who originally minted them, and track how they are used across different blockchains.
 
-There are **four** main roles with the USDV Ecosystem
+**Verified Minters** earn more yield by increasing the circulation of USDV in their colour. The more a minter changes the colour of tokens in the market (by having others use their coloured tokens), the greater the yield they receive.
 
-* **Verified Minter:** Partners committed to actively grow USDV utility and liquidity.
-* **Operator:** Partners responsible for technological development and security of USDV, as well as real world operations.
-* **Liquidity Provider:** Partners pledging on and off-chain liquidity to facilitate USDV price stability.
-* **Users:** Businesses and Individuals trusting USDV for payments, capital markets and trade.
+This creates an economic incentive for minters to not only mint USDV, but also to ensure its active circulation, enhancing the liquidity and utility of the token in the broader DeFi landscape.
 
-USDV is supported by **The Verified USD Foundation,** a non-profit organisation committed to nurturing USDV’s ecosystem of contributors, developers and users globally.
-
-Why Verified? USDV takes a revolutionary approach to transparency.&#x20;
-
-Read more on [https://usdv.money/transparency](https://usdv.money/transparency)
-
-## Which blockchains support USDV?
-
-USDV is always native and is currently available on the following chains
-
-1. Ethereum
-2. BSC
-3. Avalanche
-4. Arbitrum
-5. Optimism
-
-## What makes USDV different vs other stablecoins?
+## Why use USDV?
 
 USDV is the first stablecoin designed to empower CeFi, DeFi and other modern businesses.
 
-* **Become a Minter:** With successful KYC, Partners become a 'Verified Minter', unlocking the right to mint USDV and access to Real World Yield.
-* **Real World Yield Share:** Novel token marking technology **'ColorTrace'** to enable transparent & fair yield sharing based on USDV circulation contributed by each 'Verified Minter'.
-* **Always native:** ERC-20 compatible, USDV is built on Omnichain Fungible Tokens (OFT) Standard, eliminating unofficial wrapped/bridged versions and liquidity fragmentation. Next level capital efficiency.
+* **Become a Minter:** Partners can [become a 'Verified Minter'](verified-minters/initial-kyc.md) with successful KYC, unlocking the right to mint USDV and access to Real World Yield.
+* **Real World Yield Share:** Novel token marking algorithm, [ColorTrace](concepts/coloring.md), to enable transparent & fair yield sharing based on USDV circulation contributed by each 'Verified Minter'.
+* **Always native:** ERC-20 compatible, USDV is built on the [Omnichain Fungible Token (OFT)](https://layerzero.network/developers) Standard, eliminating unofficial wrapped/bridged versions and liquidity fragmentation.
 * **Next Level Transparency:** Full transparency from real time on-chain transaction tracking, reserve proofing to daily real world asset monitoring.
+
+Bridging the best of CeFi and DeFi, USDV transcends borders, blockchains and operating hours.

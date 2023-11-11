@@ -36,8 +36,8 @@ USDV is built on the messaging protocol LayerZero for its immutability, permissi
 
 This contract is deployed for each (new) Verified Minter. Each Verified Minter is assigned a unique color ID. This contract facilitates blacklisting of certain callers and allows configuration to facilitate minting by using alternative stablecoins.
 
-For easy integration, please refer to [**Minter Widget**](../integrate-with-usdv/minter-widget.md).
+For easy integration, please refer to [**Minter Widget**](../app-integrations/minter-widget.md).
 
 
 
-Learn more about contract roles & functions at [**Contract Governance**](../contracts/contract-governance.md).
+Learn more about contract roles & functions at [**Contract Governance**](../technical-reference/contract-governance.md).

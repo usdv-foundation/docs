@@ -1,6 +1,6 @@
 # Liquidity Provision
 
-To facilitate low-slippage stable coins to USDV conversion, we deploy a list of Liqiudity Provision (LP) contracts on [different chains](../contracts/deployments.md):
+To facilitate low-slippage stable coins to USDV conversion, we deploy a list of Liqiudity Provision (LP) contracts on [different chains](deployments.md):
 
 ### Ethereum
 

@@ -2,55 +2,55 @@
 
 ## What is USDV?
 
-* [Verified USD Overview](README.md)
-* [Yield & Peg](what-is-usdv/yield-and-peg.md)
-* [Mint](what-is-usdv/mint.md)
-* [Color](what-is-usdv/color.md)
-* [Delta](what-is-usdv/delta.md)
-* [Remint](what-is-usdv/remint.md)
-* [Redemption](what-is-usdv/redemption.md)
-* [Vault](what-is-usdv/vault.md)
-* [Fees](what-is-usdv/parameters.md)
+* [USDV Overview](README.md)
+* [How Coloring Works](what-is-usdv/how-coloring-works.md)
+* [Yield & Peg Management](what-is-usdv/yield-and-peg-management.md)
+* [Risk Assessment](what-is-usdv/risk-assessment.md)
 * [Audits](what-is-usdv/audits.md)
+* [FAQ](what-is-usdv/faq.md)
 
-## Integrate with USDV
+## Verified Minters
 
-* [Integration Examples](integrate-with-usdv/integration-examples.md)
-* [Minter Widget](integrate-with-usdv/minter-widget.md)
-* [Liquidity Provision](integrate-with-usdv/liquidity-provision.md)
-* [Recolor Helper](integrate-with-usdv/recolor-helper.md)
-* [Gas Profile](integrate-with-usdv/gas-profile.md)
-* [USDV App Guide](integrate-with-usdv/minter/README.md)
-  * [Launch App](integrate-with-usdv/minter/launch-app.md)
-  * [Mint](integrate-with-usdv/minter/mint.md)
-  * [Colour](integrate-with-usdv/minter/colouring.md)
-  * [Claim Rewards](integrate-with-usdv/minter/claim-rewards.md)
-  * [(Cross-Chain) Transfer](integrate-with-usdv/minter/cross-chain-transfer.md)
-  * [Redeem](integrate-with-usdv/minter/redeem.md)
-  * [My Account](integrate-with-usdv/minter/my-account.md)
+* [Integrating USDV](verified-minters/integrating-usdv.md)
+* [Initial KYC](verified-minters/initial-kyc.md)
+* [Minting USDV](verified-minters/mint.md)
+* [Monitoring & Reminting](verified-minters/colouring.md)
+* [Moving USDV Crosschain](verified-minters/cross-chain-transfer.md)
+* [Claiming Daily Rewards](verified-minters/claim-rewards.md)
+* [Redeeming STBT](verified-minters/redeem.md)
+* [Account Settings](verified-minters/my-account.md)
 
-## Contracts
+## APP INTEGRATIONS
 
-* [Mainnet](contracts/mainnet.md)
-* [Testnet](contracts/testnet.md)
-* [ABI](contracts/deployments.md)
-* [Contract Governance](contracts/contract-governance.md)
+* [Wallet Integration](app-integrations/terms-and-conditions.md)
+* [DEX Integration](app-integrations/privacy-and-cookie-policy.md)
+* [Lending & Borrowing](app-integrations/lending-and-borrowing.md)
+* [Minter Widget](app-integrations/minter-widget.md)
+* [Recolor Helper](app-integrations/recolor-helper.md)
 
-## Design
+## Concepts
 
-* [Problem Statement](design/problem-statement.md)
-* [Architecture](design/architecture.md)
-* [Coloring](design/coloring.md)
-* [Principles](design/principles.md)
-* [Global Invariants](design/global-invariants.md)
-* [Rate Limiter](design/risk-control.md)
+* [Architecture](concepts/architecture.md)
+* [Principles](concepts/principles.md)
+* [ColorTrace Algorithm](concepts/coloring.md)
+* [Global Invariants](concepts/global-invariants.md)
+* [Vault](concepts/vault.md)
+* [Mint](concepts/mint.md)
+* [Delta](concepts/delta.md)
+* [Remint](concepts/remint.md)
+* [Redemption](concepts/redemption.md)
+* [Fees](concepts/parameters.md)
+
+## Technical Reference
+
+* [Contract Addresses](technical-reference/mainnet.md)
+* [Contract Governance](technical-reference/contract-governance.md)
+* [Contract ABI](technical-reference/deployments.md)
+* [Liquidity Provision](technical-reference/liquidity-provision.md)
+* [Rate Limiter](technical-reference/risk-control.md)
+* [Gas Profile](technical-reference/gas-profile.md)
 
 ## Legal
 
 * [Terms and Conditions](legal/terms-and-conditions.md)
 * [Privacy Policy](legal/privacy-and-cookie-policy.md)
-
-## Others
-
-* [FAQ](others/faq.md)
-* [Useful Links](others/useful-links.md)

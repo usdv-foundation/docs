@@ -8,7 +8,7 @@
 
 Ethereum, BSC, Avalanche, Arbitrum, Optimism; Other EVM chains in the near future.
 
-For contract addresses, please refer to [Deployment](../contracts/deployments.md).
+For contract addresses, please refer to [Deployment](../technical-reference/deployments.md).
 
 #### Where can I use USDV?
 
@@ -81,6 +81,16 @@ For STBT, please refer to [STBT transparency](faq.md#transparency).
 <details>
 
 <summary>Business Partnerships</summary>
+
+Each contributor plays a crucial role in crafting diverse use cases that collectively propel the USDV ecosystem's success.
+
+Looking to interest in contributing to USDV ecosystem? Please send us an email at business@usdv.money&#x20;
+
+</details>
+
+<details>
+
+<summary>Legal</summary>
 
 Each contributor plays a crucial role in crafting diverse use cases that collectively propel the USDV ecosystem's success.
 

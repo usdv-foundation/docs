@@ -29,4 +29,4 @@ Market making contracts have been set up as below:
 
 LP contracts are also available to facilitate stable -> USDV swaps.
 
-Read more in the [Liquidity Provision](../integrate-with-usdv/liquidity-provision.md) section.
+Read more in the [Liquidity Provision](../technical-reference/liquidity-provision.md) section.
