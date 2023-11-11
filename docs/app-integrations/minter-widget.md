@@ -6,7 +6,7 @@ The minter can configure the Minter Widget with its own registered color and all
 
 ## Architecture
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/minter-widget.png" alt=""><figcaption><p>The minter widget allows users to easily interact with minter contracts. For security, users should only ever interact with the Minter proxy contract, which routes their mint requests to the correct Minter contract.</p></figcaption></figure>
 
 ## Onboarding Guide
 
