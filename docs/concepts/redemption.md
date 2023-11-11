@@ -8,9 +8,9 @@ By destroying USDV, the underlying asset is unlocked from the Vault. USDV of any
 
 Redemption Flow:
 
-* STBT users can deposit K USDV of any color (using USDV\_X as an example) to redeem.
-* K STBT will be unlocked. Redemption Fee will go to the Operator. The rest go to the receiver.
-* K Vault Shares will be removed from the redemption.
+* STBT users can deposit $K USDV of any color (using USDV\_BLUE as an example) to redeem.
+* $K STBT will be unlocked. The Redemption Fee is paid to the protocol operator, and the remainder is sent to the receiver.
+* $K Vault Shares will be removed from USDV\_BLUE.
 
 Note: Redemption is exclusive to the Ethereum network. Currently, only STBT is available for redemption.
 
