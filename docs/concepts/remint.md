@@ -1,20 +1,19 @@
 # Remint
 
-Remint is defined as **burning-and-minting of existing USDV** marked with your color but minted by another Verified Minter. After executing this function, Verified Minter is able to recycle existing USDV and increase its # of minted USDV without having to lock any new assets.
+Remint is a one-step function for the **burning-and-minting of existing USDV** marked with your color but minted by another Verified Minter. The Verified Minter uses this function to increase their vault share without having to lock any new assets by recycling existing USDV.
 
 Impact on USDV circulation: **Nil (/)**
 
-This is one of USDV's most important functions. It allows Verified Minter's to capture greater yield share (beyond initial mint) by increasing its minted USDV holdings. Reminting is typically executed when Delta is positive (# colored > # minted).
+Remint can be called by the Verified Minter if their color's [delta](delta.md) is positive on any blockchain.
 
-Take an example,
+<figure><img src="../.gitbook/assets/remint (1).png" alt=""><figcaption><p>Reminting is a convenient one-step operation for applications to burn other colored USDV and mint it in the application's color.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Example of Verified Minter 1 benefiting from other USDV passing by its pool</p></figcaption></figure>
+The above example shows how Verified Minters can leverage high volume low TVL applications such as pools to gain additional vault shares.
 
-* Two Minters: Verified Minter 1 with Color RED, Verified Minter 2 with Color BLUE
-* Verified Minter 2 mints $100 USDV\_BLUE, and by chance it passes a pool with Default Color RED. $100 USDV\_BLUE minted by Verified Minter 2 is recolored RED and becomes $100 USDV\_RED
-* Verified Minter 1 remints all $100 USDV\_RED that was initially minted by Verified Minter 2
-* Verified Minter 1 gains $100 minted USDV\_RED and is eligible for greater yield share
-
-Reminting allows Verified Minters contributing to USDV circulation (by coloring more USDV than it has minted) to be rewarded with greater yield share.
+1. A $100 balance starts initially as USDV\_RED
+2. By chance, this balance passes through a pool with Default Color USDV\_BLUE.
+3. The pool (USDV Pool) recolors $100 USDV\_RED to $100 USDV\_BLUE.
+4. The owner (Verified Minter) of USDV\_BLUE calls Remint on the USDV\_BLUE delta of +$100
+5. USDV\_BLUE gains $100 additional vault share, and some other color that was recolored (e.g., USDV\_RED) loses $100 vault share.
 
 Reminting fee is applicable. See [Fees](parameters.md) for more details.
