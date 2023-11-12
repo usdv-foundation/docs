@@ -10,7 +10,7 @@ As a **Verified Minter** in the USDV ecosystem, you not only have the opportunit
 
 ## Maximizing Circulation and Rewards
 
-Maximize your rewards as a Verified Minter by integrating your colored tokens to popular DeFi applications to increase circulation:
+USDV is an ERC-20 token and can be integrated with any ERC-20 compatible application. Maximize your rewards as a Verified Minter by integrating your colored tokens to popular DeFi applications to increase circulation:
 
 * **Integrate with DEXs**: Deploying USDV within DEX Pairs/Pools not only increases liquidity, but also exposes USDV to a broader trading audience that will use your token color.
 * **Collateral and Borrowing Options**: Adding USDV as a collateral or borrowing option in lending protocols increases its utility while increasing your color's usage.
