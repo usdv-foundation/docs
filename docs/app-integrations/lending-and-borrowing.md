@@ -1,3 +1,0 @@
-# Lending & Borrowing
-
-TODO

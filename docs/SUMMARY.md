@@ -22,9 +22,6 @@
 
 ## APP INTEGRATIONS
 
-* [Wallet Integration](app-integrations/terms-and-conditions.md)
-* [DEX Integration](app-integrations/privacy-and-cookie-policy.md)
-* [Lending & Borrowing](app-integrations/lending-and-borrowing.md)
 * [Minter Widget](app-integrations/minter-widget.md)
 * [Recolor Helper](app-integrations/recolor-helper.md)
 
