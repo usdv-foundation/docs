@@ -1,5 +1,5 @@
 ---
-description: USDV is always pegged 1:1 to US Dollar.
+description: Fully backed by Tokenized Real World Assets
 ---
 
 # Yield & Peg Management
@@ -24,7 +24,7 @@ Proof of Reserve: [https://data.chain.link/ethereum/mainnet/reserves/stbt-](http
 
 FAQ: [https://matrixdock.gitbook.io/matrixdock-docs/v/english/](https://matrixdock.gitbook.io/matrixdock-docs/v/english/)
 
-## USDV is always pegged 1:1 to US Dollar
+## Underlying Tokenized RWA is always pegged 1:1 to US Dollar
 
 To maintain 1:1 peg, the total supply of the tokenized RWA (here, STBT) is adjusted to the Net Asset Value (NAV) of the underlying RWA portfolio on each Banking Day. Yield is then rebased, excluding any negative interest days.
 

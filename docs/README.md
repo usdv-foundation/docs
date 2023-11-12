@@ -10,7 +10,7 @@ The protocol [marks USDV tokens with a unique "color"](what-is-usdv/how-coloring
 
 **Verified Minters** earn more yield by increasing the circulation of USDV in their color. The more a minter changes the color of tokens in the market (by having others use their colored tokens), the greater the yield they receive.
 
-This creates an economic incentive for minters to not only mint USDV, but also to ensure its active circulation, enhancing the liquidity and utility of the token in the broader DeFi landscape.
+This creates an economic incentive for minters to not only mint USDV, but also to ensure its active circulation, enhancing the liquidity and utility of the token in the broader blockchain landscape.
 
 ## Why use USDV?
 
