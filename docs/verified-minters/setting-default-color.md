@@ -1,3 +1,39 @@
 # Setting Default Color
 
-TODO
+Every Verified Minter has the right to set Default Color of contract addresses (i.e pools) by configuring directly on blockchain explorers.
+
+Take an example of Verified Minter 1 setting Default Color to a contract on Arbitrum.&#x20;
+
+First, go to Arbiscan (Arbitrum Blockchain Explorer) and search for the designated contract address. Click 'Contract', then click 'Write as Proxy'.
+
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+Click 'Connect to Web3' and connect to your wallet. Make sure this is the whitelisted wallet approved by KYC.
+
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+## Set Colorer
+
+First time Verified Minter users must assign an address as the contract's Colorer. Here, we set ourselves. Click 'Write' to confirm.
+
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+
+## Set Default Color
+
+The Colorer may now configure and set Default Color for this contract address. Here, we assign the value 1, which is our Verified Minter's unique Color ID.
+
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+
+## Confirm setting
+
+You should confirm correct contract color setting by reviewing userStates.&#x20;
+
+First, click 'Read as Proxy'.
+
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+Check userStates by querying our Verified Minter address. Confirm defaultColor value (here is correct as it equals 1).
+
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+
+Verified Minters may appoint Operator to support in setting Default Color on their behalf.

@@ -49,3 +49,5 @@ After clicking 'Remint', the Verified Minter can adjust how much to remint by de
 
 If **‘Remint’** is executed on Ethereum, the transaction is directly processed and submitted. If **‘Remint’** is executed on any other chain (non Ethereum), there will be extra time required for cross chain message delivery before **‘Remint’** success.
 
+After this transaction, Verified Minter has $500 minted USDV and can earn more yield rewards without any additional STBT->USDV minting.
+
