@@ -14,6 +14,7 @@
 * [Integrating USDV](verified-minters/integrating-usdv.md)
 * [Initial KYC](verified-minters/initial-kyc.md)
 * [Minting USDV](verified-minters/mint.md)
+* [Setting Default Color](verified-minters/setting-default-color.md)
 * [Monitoring & Reminting](verified-minters/colouring.md)
 * [Moving USDV Crosschain](verified-minters/cross-chain-transfer.md)
 * [Claiming Daily Rewards](verified-minters/claim-rewards.md)

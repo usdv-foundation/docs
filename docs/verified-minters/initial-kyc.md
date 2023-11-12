@@ -10,7 +10,7 @@ As part of our commitment to maintaining a secure, transparent, and compliant en
 
 1. **Enhancing Security**: KYC helps in verifying the identity of minters, ensuring that the USDV network is free from malicious actors. This is vital for protecting the integrity and stability of USDV transactions.
 2. **Regulatory Compliance**: Adhering to KYC regulations is essential for USDV to operate within the legal frameworks of various jurisdictions. This compliance helps in building trust with users, regulators, and partners.
-3. **Maintaining Transparency**: KYC ensures that all participants in the USDV network are accountable and traceable, fostering a transparent and responsible DeFi environment.
+3. **Maintaining Transparency**: KYC ensures that all participants in the USDV network are accountable and traceable, fostering a transparent and responsible blockchain environment.
 
 ## **Starting KYC Process**
 
