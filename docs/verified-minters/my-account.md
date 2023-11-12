@@ -8,7 +8,7 @@ You can enter the **‘My Account’** page by clicking the avatar in the top ri
 
 In the lower right section of the Account Page, you can set your individual wallet colours by chain. By default, all chains are set at zero. This is wallet specific and is different from the ‘Verified Minter’ assigned colour. In the example below, we have already set wallet@Goerli to ‘14’.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click the **‘Edit’** button to set a new colour. You can set your wallet to any available colour (say from ‘14’ to ‘7’). Click **‘Set Colour’** to initiate the transaction for sign-off.
 

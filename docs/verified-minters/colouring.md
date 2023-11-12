@@ -1,49 +1,51 @@
 # Monitoring & Reminting
 
-Navigate to the **‘Coloring’** page. This page is structured into two main parts.
+Navigate to the **‘Coloring’** page. This page is structured into two main parts: 1) Monitoring and 2) Reminting.
 
-<figure><img src="https://lh7-us.googleusercontent.com/iiMzwynZGSASa6ZXcABrlBk0I1Aw-HqsOyrp6SxKKqUIU55BCy5G1MqoKtDA6gG9yAQdTIDS7uWEE6FIUdk5ulviAEpmJwLsTDMeslP-Cg5wd-SJZvSQ5XgpEgrrif-_3i9iqA1UrZsQ1jUzsMmLeMU" alt=""><figcaption></figcaption></figure>
+## 1) Monitoring
 
-## Colour Shareholding
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-By default, **Part (1)** shows # of USDV minted with ‘Verified Minter’s own colour. In the example, this is colour 14.&#x20;
+### Vault Shareholding
 
-Here you can see the ‘Verified Minter’s USDV contract address, as well as their colour shareholding. Colour shareholding is directly tied to Vault shareholding as a % of all circulating colour shares. A 'Verified Minter's claim to daily yield rewards is proportional to its Vault shareholding.
+In the example, the Verified Minter owns is **colour 16**.&#x20;
 
-‘Verified Minter’ can claim rewards attributed to their own colour any time by clicking the ‘Claim Reward’ button. See ‘Claim Rewards’ section for more information.
+Here you can see the ‘Verified Minter’s USDV contract address, as well as their Vault shareholding. Vault Share is calculated is the number of USDV under Verified Minter's color as a % of all circulating USDV. As Vault Share % increases, the Verified Minter is eligible for greater potential yield.
 
-## Reminting
+### Unclaimed Reward
 
-**Part (2)** reveals the balance of USDV under Verified Minter’s colour across different chains, ‘Potential / Delta’, as well as the option for re-minting.
+A 'Verified Minter's claim to yield rewards is proportional to its Vault shareholding. Tokenized RWA yield is accrued and re-based daily, and immediately converted into USDV rewards to maintain its 1:1 peg.
 
-At a high level,
+‘Verified Minter’ can claim rewards attributed to their own colour any time by clicking the ‘Claim Reward’ button. See [**Claiming Rewards**](claim-rewards.md) section for more information.
 
-* **(+) Positive Delta** means someone minted USDV in your colour. You are receiving a larger yield share than minted
-* **(-) Negative Delta** means someone minted your USDV in another colour. You are receiving a smaller yield share than minted.
+### Reward Per Day
 
-As a Verified Minter, you may remint other‘s positive balances to recover your own negative balance.&#x20;
+Reward Per Day is calculated based on the Verified Minter's current minted USDV amount and 7-day average APR of underlying tokenized RWA. This figure is an estimate only and may be different from the actual amount distributed.
 
-Take an example,
+### Colored and Minted USDV
 
-* We are a ‘Verified Minter’ who is assigned colour 14
-* We mint $50 USDV in colour 16 on Goerli
-* Owner of Colour 16 +$50 and we (Owner of colour 14) are -$50 on Goerli
+A bar chart comparing quantities of Colored USDV and Minted USDV owned by the Verified Minter.&#x20;
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+Note that rewards are calculated based on **minted USDV**. In the above graphic, Verified Minter 16 has the potential to capture greater yields by realising the remint opportunity on positive [delta](../concepts/delta.md).
 
-Now, there is the possibility to remint ‘Verified Minter 16’s $50 back to colour ‘14’ on Goerli.
+## 2) Reminting
 
-<figure><img src="https://lh7-us.googleusercontent.com/LXZIQM0Wnw0nQPHrizXE_4Flw41LYrVtNn6LSgKKvajQ7WJtXXmmIb24Cxq_OHwuiaF8uQSXakl6aA4_Ty9zYj4E0MW4_cIXBsS2zD1g9NeupRE3IgYiTI4lgD89mCV7vkaMJOBO5gHuVYX7PLaZ7R8" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-You can adjust the remint amount by dragging the percentage slider. Here we set ‘Remint’ percentage to 100%.
+**Part (2)** reveals the balance of colored and minted USDV under Verified Minter’s colour across different chains.
 
-<figure><img src="https://lh7-us.googleusercontent.com/A5TIKraO8ZfTwuECWgP6Q01ItyYXks9Tms_82DsMIKUKGUpiZ67whhd6j8XiPxEqqodjKTVy8dQ9lwR07abpdEainT3UcWmvMQSMC0QwFNsDmFYMoISgRtRx8nrPeaVznF6ac6KV66e3XBeAZCjt8tY" alt=""><figcaption></figcaption></figure>
+In the case when Colored > Minted, also defined as Delta Positive, the Verified Minter may remint to capture greater yield. For more details on how it works, please read [Delta](../concepts/delta.md) section.
 
-Click **‘Remint’** to initiate the transaction for wallet sign-off. If **‘Remint’** is executed on Ethereum, the transaction is directly processed and submitted. If **‘Remint’** is executed on any other chain (non Ethereum), there will be extra time required for cross chain message delivery before **‘Remint’** success.
+See the above example of Verified Minter 16,&#x20;
 
-<figure><img src="https://lh7-us.googleusercontent.com/ra2w01_PxQYrZlUEDZp4RugFLcXT0-y0mRDel_d_p_eMw72VI9ya4b2DhVZPBcHnhFXuQaoDAhZ2kNrJHrSeFcUsU6K2wiCpiFW9kR6YoZR_gEVZXNsykUgKxUKVOo8XHEuDTe81USmPfPZnR7fQKf4" alt=""><figcaption></figcaption></figure>
+* There is $600 USDV colored 16 on Goerli, but only $200 minted USDV
+* This presents a Positive Delta of +$400 and the possibility to remint, as confirmed by the activation of the 'Remint' button.
 
-After the above steps, you can see that **‘Remintable’** is fully cleared on Colour ‘16’. An equivalent amount is reduced from Colour ‘14’ negative balance on Goerli.
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://lh7-us.googleusercontent.com/N23f0rVJw4XnSWYE4Ht1bpMHHCPdivr6DHk7GUWevQdR5AzrQzrN1soPsdhXFmiv-j06dhTG0Ui6HDgnxMs4jlXB32QbgE7P68O2vW-ExSBdLs7QKA6vSu3jS0_ky0Svb9_uU0zj6ncVPZzF4A1OOM0" alt=""><figcaption></figcaption></figure>
+After clicking 'Remint', the Verified Minter can adjust how much to remint by deciding on speciifc percentage allocations. Here we set 'Remint' percentage to 75% (remint $300). Click **‘Remint’** to initiate the transaction.
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+If **‘Remint’** is executed on Ethereum, the transaction is directly processed and submitted. If **‘Remint’** is executed on any other chain (non Ethereum), there will be extra time required for cross chain message delivery before **‘Remint’** success.
 
