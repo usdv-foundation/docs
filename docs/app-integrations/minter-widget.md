@@ -2,15 +2,15 @@
 
 Minter Widget is a frontend tool to facilitate minting USDV with alternative stablecoins (e.g. USDC/USDT/DAI) should the minter choose to support it.&#x20;
 
-The minter can configure the Minter Widget with its own registered color and all newly minted USDV through this widget will be colored accordingly.
+Verified Minter can configure the Minter Widget with its own registered color and all newly minted USDV through this widget will be colored accordingly.
 
-The Widget supports [Minter.sol](on-ethereum.md#default-minter.sol) (via MinterProxy) on Ethereum and [BridgeRecolor.sol](on-sidechain/#default-bridgerecolor.sol) on Sidechains.
+The Minter Widget supports [Minter.sol](on-ethereum.md#default-minter.sol) (via MinterProxy) on Ethereum and [BridgeRecolor.sol](on-sidechain/#default-bridgerecolor.sol) on Sidechains.
 
 ## Architecture (Ethereum)
 
 <figure><img src="../.gitbook/assets/minter-widget.png" alt=""><figcaption><p>The minter widget allows users to easily interact with minter contracts. For security, users should only ever interact with the Minter proxy contract, which routes their mint requests to the correct Minter contract.</p></figcaption></figure>
 
-### Deploy Widget
+### Deploy Minter Widget
 
 Here is an example of how to deploy a minter widget on your website with the React framework.
 
