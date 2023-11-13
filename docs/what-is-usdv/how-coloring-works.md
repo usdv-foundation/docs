@@ -35,6 +35,6 @@ USDV changes colors based on one of two policies: _Default Color_ or _Weight-bas
 ## Other Coloring Properties
 
 * **Fungible**: all USDV tokens are fully fungible, regardless of color. This allows users and DApps to transact using any colored USDV tokens interchangeably.
-* **Long-lived**: Tokens withdrawn from Pools maintain their designated color until they undergo a recoloring . This characteristic allows protocols with high transaction volumes, such as decentralized exchanges (DEX), to better capture attribution. Here, users often deposit and withdraw tokens rapidly through liquidity provisions or swaps. The significance is that the colored USDV will persist in users' wallets until a recoloring action takes place, enabling minters to gain more attribution than the Total Value Locked (TVL) in their respective pools.
+* **Long-lived**: Tokens withdrawn from Liquidity Pools maintain their designated color until they undergo a recoloring. This characteristic allows protocols with high transaction volumes, such as decentralized exchanges (DEX), to better capture attribution. Here, users often deposit and withdraw tokens rapidly through liquidity provisions or swaps. The significance is that the colored USDV will persist in users' wallets until a recoloring action takes place, enabling minters to gain more attribution than the Total Value Locked (TVL) in their respective pools.
 
 For full details please review the ColorTrace whitepaper.

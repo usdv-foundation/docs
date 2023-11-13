@@ -26,7 +26,7 @@ FAQ: [https://matrixdock.gitbook.io/matrixdock-docs/v/english/](https://matrixdo
 
 ## Underlying Tokenized RWA is always pegged 1:1 to US Dollar
 
-For underlying Tokenized RWA (here, STBT) to maintain 1:1 peg with US Dollar, total supply is adjusted to the Net Asset Value (NAV) of the portfolio on a daily basis. Yield is then rebased, excluding any negative interest days.
+For underlying Tokenized RWA (here, STBT) to maintain 1:1 peg with US Dollar, its total supply is adjusted to the Net Asset Value (NAV) of the portfolio on a **daily basis.** Yield is then rebased, excluding any negative interest days.
 
 (Rebase is where supply is **algorithmically adjusted to to control price**. In our case, this is the minting of new tokens to ensure constant 1:1 peg)
 

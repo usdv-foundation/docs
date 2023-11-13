@@ -10,10 +10,10 @@ Remint can be called by the Verified Minter if their color's [delta](delta.md) i
 
 The above example shows how Verified Minters can leverage high volume low TVL applications such as pools to gain additional vault shares.
 
-1. A $100 balance starts initially as USDV\_RED
-2. By chance, this balance passes through a pool with Default Color USDV\_BLUE.
-3. The pool (USDV Pool) recolors $100 USDV\_RED to $100 USDV\_BLUE.
-4. The owner (Verified Minter) of USDV\_BLUE calls Remint on the USDV\_BLUE delta of +$100
-5. USDV\_BLUE gains $100 additional vault share, and some other color that was recolored (e.g., USDV\_RED) loses $100 vault share.
+1. A $100 balance starts initially as <mark style="color:red;">**USDV\_RED**</mark>
+2. By chance, this balance passes through a pool with Default Color <mark style="color:blue;">**USDV\_BLUE**</mark>.
+3. The pool (USDV Pool) recolors $100 <mark style="color:red;">**USDV\_RED**</mark> to $100 <mark style="color:blue;">**USDV\_BLUE**</mark>.
+4. The owner (Verified Minter) of <mark style="color:blue;">**USDV\_BLUE**</mark> calls Remint on the <mark style="color:blue;">**USDV\_BLUE**</mark> delta of +$100
+5. <mark style="color:blue;">**USDV\_BLUE**</mark> gains $100 additional vault share, and some other color that was recolored (e.g., <mark style="color:red;">**USDV\_RED**</mark>) loses $100 vault share.
 
 Reminting fee is applicable. See [Fees](parameters.md) for more details.
