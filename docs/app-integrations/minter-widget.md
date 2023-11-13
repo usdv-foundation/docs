@@ -4,22 +4,13 @@ Minter Widget is a frontend tool to facilitate minting USDV with alternative sta
 
 The minter can configure the Minter Widget with its own registered color and all newly minted USDV through this widget will be colored accordingly.
 
-## Architecture
+The Widget supports [Minter.sol](on-ethereum.md#default-minter.sol) (via MinterProxy) on Ethereum and [BridgeRecolor.sol](on-sidechain/#default-bridgerecolor.sol) on Sidechains.
+
+## Architecture (Ethereum)
 
 <figure><img src="../.gitbook/assets/minter-widget.png" alt=""><figcaption><p>The minter widget allows users to easily interact with minter contracts. For security, users should only ever interact with the Minter proxy contract, which routes their mint requests to the correct Minter contract.</p></figcaption></figure>
 
-## Onboarding Guide
-
-### Deploy Minter Contract
-
-A minter must complete KYC to be assigned a unique color. The operator will deploy a **Minter Contract** for each new minter and register into the Minter Proxy Contract. The ownership of the Minter Contract will be transferred to an address provided by the minter in the KYC process.&#x20;
-
-Owner can configure
-
-* supported tokens (e.g. USDC)
-* blacklist certain callers
-
-### Deploy Minter Widget
+### Deploy Widget
 
 Here is an example of how to deploy a minter widget on your website with the React framework.
 

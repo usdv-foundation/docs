@@ -24,7 +24,9 @@
 ## APP INTEGRATIONS
 
 * [Minter Widget](app-integrations/minter-widget.md)
-* [Recolor Helper](app-integrations/recolor-helper.md)
+* [On Ethereum](app-integrations/on-ethereum.md)
+* [On Sidechain](app-integrations/on-sidechain/README.md)
+  * [Recolor Helper](app-integrations/on-sidechain/recolor-helper.md)
 
 ## Concepts
 

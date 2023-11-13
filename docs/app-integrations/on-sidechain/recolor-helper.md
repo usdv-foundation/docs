@@ -7,7 +7,7 @@ The Recolor Helper is a generic helper contract we deploy on each USDV-supported
   * Direct transfer USDV into the helper and send out **atomically.**&#x20;
   * ERC20 approved transfer. &#x20;
 
-<figure><img src="../.gitbook/assets/recolor-helper (1).png" alt=""><figcaption><p>The Recolor Helper is an immutable and unowned contract that enforces USDV recoloring rules.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/recolor-helper (1).png" alt=""><figcaption><p>The Recolor Helper is an immutable and unowned contract that enforces USDV recoloring rules.</p></figcaption></figure>
 
 ```
 interface IRecolorHelper {
@@ -47,3 +47,7 @@ Example usages:
 
 * Swap aggregator: send the swap output to the Recolor Helper and call transferWithColor with your color
 * Bridge: have the EOA approve the Recolor Helper and send across-chain with your color
+
+### RecolorHelper.sol
+
+<table><thead><tr><th width="197">Chain</th><th>Address</th></tr></thead><tbody><tr><td>BSC</td><td>0x31691Fd2Cf50c777943b213836C342327f0DAB9b</td></tr><tr><td>Avalanche</td><td>0x9e36b95278C3af219d78B343168AdEDa7C59A7f3</td></tr><tr><td>Arbitrum</td><td>0xE7Af697C5A1cF059C98B50866f74B1d43C422258</td></tr><tr><td>Optimism</td><td>0x7F9A873cB57AF892e229b8EE445dde9372539fce</td></tr></tbody></table>
