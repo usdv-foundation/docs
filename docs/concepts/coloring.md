@@ -1,6 +1,6 @@
 # ColorTrace Algorithm
 
-The ColorTrace Algorithm tags each USDV with a color and safely tracks/synchronizes the corresponding yield shares in the Vault. This page describes several features of ColorTrace (whitepaper).
+The ColorTrace Algorithm tags each USDV with a color and safely tracks/synchronizes the corresponding yield shares in the Vault. This page describes several features of ColorTrace ([whitepaper](https://layerzero.network/publications/ColorTrace.pdf)).
 
 ColorTrace is a novel algorithm that implements efficient tagging of tokens with color attributes to enables the fair redemption of fungible tokens.
 
