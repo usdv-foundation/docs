@@ -92,9 +92,7 @@ Interested in contributing to USDV ecosystem? Please send us an email at busines
 
 <summary>Legal</summary>
 
-Each contributor plays a crucial role in crafting diverse use cases that collectively propel the USDV ecosystem's success.
-
-Looking to interest in contributing to USDV ecosystem? Please send us an email at business@usdv.money&#x20;
+The issuing company is subject to British Virgin Islands anti-money laundering laws. USDV holders are responsible for their tax obligations and compliance with any regulations in their jurisdictions.
 
 </details>
 

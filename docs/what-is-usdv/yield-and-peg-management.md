@@ -40,7 +40,7 @@ Countless CeFi, DeFi and businesses across geographies, blockchains and domains 
 
 Logically, **players contributing to a greater share of USDV circulation should be eligible to a larger share of the underlying yields.**
 
-Given the unpredictable and permission-less nature of stablecoin flow, the difficult question is **how can we attribute USDV circulation precisely to each contributor to enable fair yield distribution?**&#x20;
+Given the unpredictable and permissionless nature of stablecoin flow, the difficult question is **how can we attribute USDV circulation precisely to each contributor to enable fair yield distribution?**&#x20;
 
 This is solved by **ColorTrace**, a novel 'token coloring' technology and a core feature underlying USDV design.
 
