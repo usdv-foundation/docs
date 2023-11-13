@@ -1,8 +1,8 @@
 # USDV Overview
 
-**Verified USD (USDV)** is the first omnichain stablecoin that rewards Verified Minters based on their contribution to the token's active circulation.
+**Verified USD (USDV)** is the first stablecoin that rewards Verified Minters based on their contribution to the token's active circulation.
 
-USDV is currently available on Ethereum, BSC, Avalanche, Arbitrum, and Optimism.
+USDV is an omnichain fungible token currently available on Ethereum, BSC, Avalanche, Arbitrum, and Optimism.
 
 ## How USDV Works
 
