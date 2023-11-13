@@ -1,6 +1,6 @@
 # Account Settings
 
-You can enter the **‘My Account’** page by clicking the avatar in the top right corner of the website. Here you can browse all historical transactions (including but not limited to transfers, minting, colouring etc).
+You can enter the **‘My Account’** page by clicking the avatar in the top right corner of the website. Here you can browse all historical transactions (including but not limited to transfers, minting, coloring etc).
 
 <figure><img src="https://lh7-us.googleusercontent.com/pdiilEkkNPv1bo86wpmHwQQ-CDlTT5UtRryXvjPrGfRK-Aj9ccK05dn-r3FucpPfbXYylzW4bfYvRFDk0VG72ooT-r0l0HvFfIIzGb1mE0Fneq-iCOHhDxtDRRJyPyDjcq0VUzt5gPa3z82QuKBf6Jo" alt=""><figcaption></figcaption></figure>
 

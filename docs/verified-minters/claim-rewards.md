@@ -2,7 +2,7 @@
 
 Only ‘Verified Minters’ are eligible for yield rewards.&#x20;
 
-In this example, we are ‘Verified Minter’ with color 14 and there is $4.90 of Unclaimed Reward.
+In this example, we are ‘Verified Minter’ with color 14 and there is 4.90 USDV of Unclaimed Reward.
 
 <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 

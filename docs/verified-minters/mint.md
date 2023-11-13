@@ -1,6 +1,6 @@
 # Minting USDV
 
-The USDV Web App is designed to facilitate easy minting, coloring, cross-chain transfer and monitoring of USDV. Refer to the links below for USDV Web App access.
+The USDV Web App is designed to facilitate easy minting, coloring, crosschain transfer and monitoring of USDV. Refer to the links below for USDV Web App access.
 
 Mainnet: [usdv.money](https://usdv.money/)\
 Testnet: [test.usdv.money](https://test.usdv.money/)
@@ -9,7 +9,7 @@ Testnet: [test.usdv.money](https://test.usdv.money/)
 
 Click the _**Launch App**_ button (upper right corner) to start.
 
-You will be immediately redirected to the Web App's 'Mint' page. You must be connected to your whitelisted wallet for full access, otherwise you will only have default **‘Mint’** and **‘Redeem’** functions.
+You will be immediately redirected to the Web App's 'Mint' page. You must connect your whitelisted wallet for full access, otherwise you will only have default **‘Mint’** and **‘Redeem’** functions.
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -26,7 +26,7 @@ Back to the **'Mint'** page. You can mint USDV by supplying STBT. Enter the supp
 
 ## Set Color
 
-An important feature of USDV is ColorTrace. Minters can mint their USDV in any of the circulating colours. If you are a ‘Verified Minter’, the default color will be your assigned color. Here, our default (and assigned) color is 14.
+An important feature of USDV is ColorTrace. Minters can mint their USDV in any of the circulating colors. If you are a ‘Verified Minter’, the default color will be your assigned color. Here, our default (and assigned) color is 14.
 
 <figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
