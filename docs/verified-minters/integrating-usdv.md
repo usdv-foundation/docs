@@ -1,11 +1,11 @@
 # Integrating USDV
 
-As a **Verified Minter** in the USDV ecosystem, you not only have the opportunity to contribute to the stability and expansion of USDV, but also have the potential for significant rewards based on your minted token's circulation.
+As a **Verified Minter** in the USDV ecosystem, you not only have the opportunity to contribute to the stability and expansion of USDV, but also have the potential to earn significant rewards based on your minted token's circulation.
 
 ## Why Become a Verified Minter?
 
 * **Stability and Availability**: Your role in minting and circulating USDV directly influences its stability and utility across various blockchains.
-* **Rewards for Active Circulation**: USDV uniquely rewards minters who actively circulate USDV in the market.
+* **Rewards for Active Circulation**: USDV rewards minters for having USDV of their color circulating in the market.
 * **Strategic Advantage**: Being a Verified Minter allows you to strategically position your application or protocol within the broader blockchain ecosystem to attract a broader audience to use your USDV color.
 
 ## Maximizing Circulation and Rewards
