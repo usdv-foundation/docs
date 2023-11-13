@@ -8,19 +8,19 @@ USDV is an omnichain fungible token currently available on Ethereum, BSC, Avalan
 
 USDV utilizes the [ColorTrace algorithm](./#how-usdv-works) to mark USDV tokens with a unique 'color' to identify who originally minted them and maintain that attribution as tokens circulate within the ecosystem.
 
-**Verified Minters** earn more yield by increasing the circulation of USDV in their color. The more a minter changes the color of tokens in the market to its color (by having others use their colored tokens), the greater the yield they receive.
+**Verified Minters** earn yield by increasing the circulation of USDV in their color. As users interact with your contracts, more tokens of your color go into circulation. This increased circulation can increase the yield you receive.
 
-This creates an economic incentive for minters to not only mint USDV, but also to ensure its active circulation, enhancing the liquidity and utility of the token in the broader blockchain landscape.
+Minters are incentivized to mint _and_ circulate USDV, enhancing the liquidity and utility of the token in the broader blockchain landscape.
 
 ## Why use USDV?
 
-USDV is the first stablecoin designed to empower CeFi, DeFi and other modern businesses.
+USDV is the first stablecoin to fairly compensate ecosystem participants such as CeFi and DeFi protocols in proportion to the value they create.
 
 * **Become a Minter:** Partners can [become a 'Verified Minter'](verified-minters/initial-kyc.md) with successful KYC, unlocking the right to mint USDV and access to real world yield.
-* **Real World Yield Share:** Novel token marking algorithm, [ColorTrace](concepts/coloring.md), to enable transparent & fair yield sharing based on USDV circulation contributed by each 'Verified Minter'.
+* **Real World Yield Share:** The fungible token coloring algorithm [ColorTrace](concepts/coloring.md) enables transparent & fair yield sharing based on USDV circulation contributed by each 'Verified Minter'.
 * **Always native:** ERC-20 compatible, USDV is built on the [Omnichain Fungible Token (OFT)](https://layerzero.network/developers) Standard, eliminating unofficial wrapped/bridged versions and liquidity fragmentation.
 * **Next Level Transparency:** Full transparency from real time on-chain transaction tracking, reserve proofing to daily real world asset monitoring.
 
-<figure><img src=".gitbook/assets/usdv-architecture-2.png" alt=""><figcaption><p>Verified Minters collect yield shares based on the quantity of USDV they minted.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/usdv-architecture-2 (2).png" alt=""><figcaption><p>Verified Minters collect yield based on the quantity of USDV they minted.</p></figcaption></figure>
 
 Bridging the best of CeFi and DeFi, USDV transcends borders, blockchains and operating hours.

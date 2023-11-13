@@ -1,6 +1,6 @@
 # Minting USDV
 
-The USDV Web App is designed to facilitate easy minting, colouring, cross chain transfer and monitoring of USDV. Refer to the links below for USDV Web App access.
+The USDV Web App is designed to facilitate easy minting, coloring, cross-chain transfer and monitoring of USDV. Refer to the links below for USDV Web App access.
 
 Mainnet: [usdv.money](https://usdv.money/)\
 Testnet: [test.usdv.money](https://test.usdv.money/)

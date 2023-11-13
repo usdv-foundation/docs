@@ -6,7 +6,7 @@ description: A complete guide to coloring in USDV.
 
 ## What is Coloring?
 
-**Coloring** in USDV is a way of _tagging_ or _marking_ a token's metadata to identify which Verified Minter they originate from. Think of it like a label or a signature. USDV utilizes a novel [ColorTrace algorithm](../concepts/coloring.md) in order to accomplish this.&#x20;
+**Coloring** in USDV is a way of _tagging_ or _marking_ a token's metadata to identify which Verified Minter the token originates from. Think of it as a label or a signature. USDV utilizes the [ColorTrace algorithm](../concepts/coloring.md) in order to accomplish this.&#x20;
 
 Each Verified Minter is assigned a unique **Color ID**. This Color ID is stored in the token contract as a positive integer value.
 
@@ -34,7 +34,7 @@ USDV changes colors based on one of two policies: _Default Color_ or _Weight-bas
 
 ## Other Coloring Properties
 
-* **Fungible**: all USDV tokens are fully fungible, regardless of color. This allows users and DApps to transact using any colored USDV tokens interchangeably.
+* **Fungible**: all USDV tokens are fully fungible, regardless of color. This allows users and DApps to transact using any  USDV tokens interchangeably regardless of the color.
 * **Long-lived**: Tokens withdrawn from Liquidity Pools maintain their designated color until they undergo a recoloring. This characteristic allows protocols with high transaction volumes, such as decentralized exchanges (DEX), to better capture attribution. Here, users often deposit and withdraw tokens rapidly through liquidity provisions or swaps. The significance is that the colored USDV will persist in users' wallets until a recoloring action takes place, enabling minters to gain more attribution than the Total Value Locked (TVL) in their respective pools.
 
 For full details please review the ColorTrace whitepaper.

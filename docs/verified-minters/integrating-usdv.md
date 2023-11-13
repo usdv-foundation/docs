@@ -1,6 +1,6 @@
 # Integrating USDV
 
-As a **Verified Minter** in the USDV ecosystem, you not only have the opportunity to contribute to the stability and expansion of USDV, but also have the potential for significant rewards based on your colored token's circulation.
+As a **Verified Minter** in the USDV ecosystem, you not only have the opportunity to contribute to the stability and expansion of USDV, but also have the potential for significant rewards based on your minted token's circulation.
 
 ## Why Become a Verified Minter?
 
@@ -14,7 +14,7 @@ USDV is an ERC-20 token and can be integrated with any ERC-20 compatible applica
 
 * **Integrate with DEXs**: Deploying USDV within DEX Pairs/Pools not only increases liquidity, but also exposes USDV to a broader trading audience that will use your token color.
 * **Collateral and Borrowing Options**: Adding USDV as a collateral or borrowing option in lending protocols increases its utility while increasing your color's usage.
-* **Expand Wallet Offerings**: Any wallets that including USDV in your wallet offerings provides users with more options and increases your color's usage.
+* **Expand Wallet Offerings**: All wallets that hold USDV in your color increase your color's circulation.
 
 ## Earning More Yield Through _Recoloring_
 
