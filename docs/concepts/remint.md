@@ -1,8 +1,8 @@
 # Remint
 
-Remint is a one-step function for the **burning-and-minting of existing USDV** marked with your color but minted by another Verified Minter. The Verified Minter uses this function to increase their vault share without having to lock any new assets by recycling existing USDV.
+Remint is a one-step function for the **burning-and-minting of existing USDV** currently marked with your color but originally minted by another Verified Minter. Verified Minters use this function to increase their vault share without having to lock any new assets (i.e., recycling existing USDV).
 
-Impact on USDV circulation: **Nil (/)**
+Remint **does not** change the total circulation of USDV.
 
 Remint can be called by the Verified Minter if their color's [delta](delta.md) is positive on any blockchain.
 
@@ -16,4 +16,4 @@ The above example shows how Verified Minters can leverage high volume low TVL ap
 4. The owner (Verified Minter) of <mark style="color:blue;">**USDV\_BLUE**</mark> calls Remint on the <mark style="color:blue;">**USDV\_BLUE**</mark> delta of +$100
 5. <mark style="color:blue;">**USDV\_BLUE**</mark> gains $100 additional vault share, and some other color that was recolored (e.g., <mark style="color:red;">**USDV\_RED**</mark>) loses $100 vault share.
 
-Reminting fee is applicable. See [Fees](parameters.md) for more details.
+A reminting fee is applicable. See [Fees](parameters.md) for more details.

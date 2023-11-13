@@ -16,4 +16,4 @@ Every operation in ColorTrace will eventually be reflected in the state of the s
 
 ### Mint-holding preservation
 
-A minter will _**never**_ have their vault shares reduced below their TVL. Note that if a minter's TVL increases, the vault shares may be lower than TVL until the minter calls Remint.
+A minter that has minted their TVL at the vault will _**never**_ have their vault shares reduced below their TVL.

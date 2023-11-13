@@ -24,13 +24,13 @@ After successfully connecting to your whitelisted wallet, you will notice that *
 
 Back to the **'Mint'** page. You can mint USDV by supplying STBT. Enter the supply amount. Supply and mint are on a 1:1 basis.
 
-## Set Colour
+## Set Color
 
-An important feature of USDV is ColourTrace. Minters can mint their USDV in any of the circulating colours. If you are a ‘Verified Minter’, the default colour will be your assigned colour. Here, our default (and assigned) colour is 14.
+An important feature of USDV is ColorTrace. Minters can mint their USDV in any of the circulating colours. If you are a ‘Verified Minter’, the default color will be your assigned color. Here, our default (and assigned) color is 14.
 
 <figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Click on the pen icon to change your choice of colour. Colours are recorded as unique positive integers. The number of colours is capped by the number of ‘Verified Minters’ in the USDV ecosystem.
+Click on the pen icon to change your choice of color. Colors are recorded as unique positive integers. The number of colors is capped by the number of ‘Verified Minters’ in the USDV ecosystem.
 
 <figure><img src="../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -38,7 +38,7 @@ Click the **‘Mint’** button to initiate the transaction. You will be asked t
 
 <figure><img src="https://lh7-us.googleusercontent.com/NDzHunQo3jbrv-7oNNbA0LYZ9rbYedVedfmweiLjyVSaPHFiffQfOE4mbB2FnoT4dvLfrBbYGHP1VoMod7Vnj3YDQ9CleAa68VX6RJbGSBJAn7R0oNKhp9mhYokjwlnV_i3QxoM9aa_Xrs8j2EBRa8s" alt=""><figcaption></figcaption></figure>
 
-After successful confirmation, the transaction will be submitted. USDV will be sent to your wallet directly.
+After successful confirmation, the transaction is submitted and USDV will be directly sent to your wallet.
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 

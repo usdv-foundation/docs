@@ -8,15 +8,15 @@ Navigate to the **‘Coloring’** page. This page is structured into two main p
 
 ### Vault Shareholding
 
-In the example, the Verified Minter owns is **colour 16**.&#x20;
+In the example, the Verified Minter owns is **color 16**.&#x20;
 
-Here you can see the ‘Verified Minter’s USDV contract address, as well as their Vault shareholding. Vault Share is calculated is the number of USDV under Verified Minter's color as a % of all circulating USDV. As Vault Share % increases, the Verified Minter is eligible for greater potential yield.
+Here you can see the ‘Verified Minter’s USDV contract address, as well as their Vault shareholding. Vault Share is calculated is the number of USDV under Verified Minter's color as a percentage of all circulating USDV. As the Vault Share percentage increases, the corresponding Verified Minter is eligible to collect greater yield.
 
 ### Unclaimed Reward
 
 A 'Verified Minter's claim to yield rewards is proportional to its Vault shareholding. Tokenized RWA yield is accrued and re-based daily, and immediately converted into USDV rewards to maintain its 1:1 peg.
 
-‘Verified Minter’ can claim rewards attributed to their own colour any time by clicking the ‘Claim Reward’ button. See [**Claiming Rewards**](claim-rewards.md) section for more information.
+‘Verified Minter’ can claim rewards attributed to their own color any time by clicking the ‘Claim Reward’ button. See [**Claiming Rewards**](claim-rewards.md) section for more information.
 
 ### Reward Per Day
 
@@ -26,13 +26,13 @@ Reward Per Day is calculated based on the Verified Minter's current minted USDV 
 
 A bar chart comparing quantities of Colored USDV and Minted USDV owned by the Verified Minter.&#x20;
 
-Note that rewards are calculated based on **minted USDV**. In the above graphic, Verified Minter 16 has the potential to capture greater yields by realising the remint opportunity on positive [delta](../concepts/delta.md).
+Note that rewards are calculated based on **minted USDV**. In the above graphic, Verified Minter 16 has the potential to capture greater yields by realizing the remint opportunity on positive [delta](../concepts/delta.md).
 
 ## 2) Reminting
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-**Part (2)** reveals the balance of colored and minted USDV under Verified Minter’s colour across different chains.
+**Part (2)** reveals the balance of colored and minted USDV under Verified Minter’s color across different chains.
 
 In the case when Colored > Minted, also defined as Delta Positive, the Verified Minter may remint to capture greater yield. For more details on how it works, please read [Delta](../concepts/delta.md) section.
 

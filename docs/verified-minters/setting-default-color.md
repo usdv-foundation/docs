@@ -1,6 +1,6 @@
 # Setting Default Color
 
-Every Verified Minter has the right to set Default Color of contract addresses (i.e pools) by configuring directly on blockchain explorers.
+Every Verified Minter has the right to set the Default Color of contract addresses (i.e pools) by configuring directly on blockchain explorers.
 
 Take an example of Verified Minter 1 setting Default Color to a contract on Arbitrum.&#x20;
 
