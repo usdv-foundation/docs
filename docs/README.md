@@ -21,6 +21,6 @@ USDV is the first stablecoin designed to empower CeFi, DeFi and other modern bus
 * **Always native:** ERC-20 compatible, USDV is built on the [Omnichain Fungible Token (OFT)](https://layerzero.network/developers) Standard, eliminating unofficial wrapped/bridged versions and liquidity fragmentation.
 * **Next Level Transparency:** Full transparency from real time on-chain transaction tracking, reserve proofing to daily real world asset monitoring.
 
-<figure><img src=".gitbook/assets/usdv-architecture.png" alt=""><figcaption><p>Verified Minters collect yield shares based on the quantity of USDV they minted.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/usdv-architecture (1).png" alt=""><figcaption><p>Verified Minters collect yield shares based on the quantity of USDV they minted.</p></figcaption></figure>
 
 Bridging the best of CeFi and DeFi, USDV transcends borders, blockchains and operating hours.
