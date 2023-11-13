@@ -9,7 +9,7 @@ Testnet: [test.usdv.money](https://test.usdv.money/)
 
 Click the _**Launch App**_ button (upper right corner) to start.
 
-You will be immediately redirected to the web App's 'Mint' page. You must be connected to your whitelisted wallet for full access, otherwise you will only have default **‘Mint’** and **‘Redeem’** functions.
+You will be immediately redirected to the Web App's 'Mint' page. You must be connected to your whitelisted wallet for full access, otherwise you will only have default **‘Mint’** and **‘Redeem’** functions.
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
