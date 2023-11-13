@@ -8,9 +8,9 @@ Navigate to the **‘Coloring’** page. This page is structured into two main p
 
 ### Vault Shareholding
 
-In the example, the Verified Minter owns is **color 16**.&#x20;
+In the example, the Verified Minter owns **color 16**.&#x20;
 
-Here you can see the ‘Verified Minter’s USDV contract address, as well as their Vault shareholding. Vault Share is calculated is the number of USDV under Verified Minter's color as a percentage of all circulating USDV. As the Vault Share percentage increases, the corresponding Verified Minter is eligible to collect greater yield.
+Here you can see the ‘Verified Minter’s USDV contract address, as well as their Vault shareholding. Vault Share is calculated as the number of USDV under Verified Minter's color as a percentage of all circulating USDV. As the Vault Share percentage increases, the corresponding Verified Minter is eligible to collect greater yield.
 
 ### Unclaimed Reward
 
