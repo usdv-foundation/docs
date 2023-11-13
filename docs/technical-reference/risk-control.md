@@ -16,10 +16,12 @@ For example, if the underlying asset (e.g. X token) contract has a bug that crea
 
 ### Cross-chain Rate Limiter
 
-To limit the exposure USDV has on any single chain, especially relatively new chains, we install a rate limiter to limit their Net Outbound. The rate limiter works the same as [Mint/Redeem Rate Limiter](risk-control.md#mint-redeem-rate-limiter). Rules:
+To limit the exposure USDV has on any single chain, especially relatively new chains, we install a rate limiter to limit their Net Outbound. The rate limiter works the same as [Mint/Redeem Rate Limiter](risk-control.md#mint-redeem-rate-limiter).
 
-* Outbound from the chain will consume the rate limiter
-* Inbound will refill the rate limiter
+Rate limiter overview:
+
+* Outbound token transfers from a chain consume part of that chain's rate limit.
+* Inbound token transfers to a chain refill part of that chain's rate limit.
 
 Rate limiter parameters can be found [here](../concepts/parameters.md).
 
