@@ -6,7 +6,7 @@ As a **Verified Minter** in the USDV ecosystem, you not only have the opportunit
 
 * **Stability and Availability**: Your role in minting and circulating USDV directly influences its stability and utility across various blockchains.
 * **Rewards for Active Circulation**: USDV rewards minters for having USDV of their color circulating in the market.
-* **Strategic Advantage**: Being a Verified Minter allows you to strategically position your application or protocol within the broader blockchain ecosystem to attract a broader audience to use your USDV color.
+* **Strategic Advantage**: Being a Verified Minter allows you to strategically position your application or protocol within the broader blockchain ecosystem to attract a broader audience to use USDV of your color.
 
 ## Maximizing Circulation and Rewards
 
