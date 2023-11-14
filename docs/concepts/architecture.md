@@ -22,9 +22,9 @@ After USDV is minted in the Vault, it is atomically transferred to the Minter’
 
 USDV contracts are compatible with the widely adopted token standards (e.g. ERC20 on EVM) with administrative features for compliance requirements. It will also include signature-based permit (EIP2612) interfaces on EVM chains.&#x20;
 
-Each USDV contract manages local coloring state. The coloring information will be synchronised back to the Vault to reduce the divergence for proper attribution.
+USDV is deployed omnichain, and each USDV contract deployment manages local chain coloring state. The coloring information is used to implement reminting.
 
-USDV is deployed omnichain. Learn more about contract roles & functions at [**Contract Governance**](../technical-reference/contract-governance.md).
+Learn more about contract roles & functions at [**Contract Governance**](../technical-reference/contract-governance.md).
 
 ### Crosschain
 
