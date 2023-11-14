@@ -6,7 +6,7 @@ USDV is an omnichain fungible token currently available on Ethereum, BSC, Avalan
 
 ## How USDV Works
 
-USDV utilizes the [ColorTrace algorithm](./#how-usdv-works) to mark USDV tokens with a unique 'color' to identify who originally minted them and maintain that attribution as tokens circulate within the ecosystem.
+USDV utilizes the [ColorTrace algorithm](concepts/coloring.md) to mark USDV tokens with a unique 'color' to identify who originally minted them and maintain that attribution as tokens circulate within the ecosystem.
 
 **Verified Minters** earn yield by increasing the circulation of USDV in their color. As users interact with your contracts, more tokens of your color go into circulation. This increased circulation can increase the yield you receive.
 
