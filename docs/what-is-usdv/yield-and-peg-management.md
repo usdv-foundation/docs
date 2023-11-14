@@ -42,5 +42,5 @@ Logically, **players contributing to a greater share of USDV circulation should 
 
 Given the unpredictable and permissionless nature of stablecoin flow, the difficult question is **how can we attribute USDV circulation precisely to each contributor to enable fair yield distribution?**&#x20;
 
-This is solved by **ColorTrace**, a novel 'token coloring' technology and a core feature underlying USDV design.
+This is enabled by [**ColorTrace**](../concepts/coloring.md), a novel token coloring algorithm developed by LayerZero Labs, and a core feature supporting the USDV architecture.
 
