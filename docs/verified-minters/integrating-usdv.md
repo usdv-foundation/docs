@@ -1,6 +1,6 @@
 # Integrating USDV
 
-As a **Verified Minter** in the USDV ecosystem, you not only have the opportunity to contribute to the stability and expansion of USDV, but also have the potential to earn significant rewards based on your minted token's circulation.
+As a **Verified Minter** in the USDV ecosystem, you not only have the opportunity to contribute to the stability and expansion of USDV, but also have the potential to obtain rewards by the tokens in circulation attributed to your minting activity.
 
 ## Why Become a Verified Minter?
 

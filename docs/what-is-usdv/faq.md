@@ -8,7 +8,7 @@ description: The most common questions asked about USDV.
 
 1. **What is USDV?**
 
-Verified USD (USDV) is a stablecoin pegged 1:1 with the US Dollar, fully backed by a basket of tokenized US Treasury securities.
+Verified USD (USDV) is a stablecoin pegged 1:1 with the US Dollar, fully backed by STBT, which is backed by cash, overnight repo and short term treasuries.
 
 Compatible with the ERC-20 standard, USDV is a native omnichain stablecoin integrated with LayerZero’s Omnichain Fungible Token (OFT) Standard.
 
@@ -26,7 +26,7 @@ USDV can be minted by approved entities called Minters through agreements with t
 
 STBT (Short-term Treasury Bill Token) is the first reserve asset underlying USDV.
 
-Exclusively designed for accredited investors, STBT follows the ERC-1400 standard, allowing holders to tap into risk-free US T-bill yields. STBT is daily rebased to peg to 1 USD.&#x20;
+Exclusively designed for accredited investors, STBT follows the ERC-1400 standard, allowing holders to tap into risk-free US T-bill yields. STBT is daily rebased to peg to 1 USD.
 
 STBT pegged 1:1 USD (in NAV net-asset value), fully backed by the US dollar and US Treasury securities with maturities within six months and reverse repurchase agreements.
 
@@ -44,13 +44,13 @@ A portion of the STBT yield (converted into USDV) will be shared with Verified M
 
 7. **How does the USDV circulation peg to the underlying rebasing assets?**
 
-When the underlying assets, like STBT, rebase, the Vault’s balance increases. The protocol will then mint the same amount of new USDV, from which a portion of which will be allocated as verified minter rewards.&#x20;
+When the underlying assets, like STBT, rebase, the Vault’s balance increases. The protocol will then mint the same amount of new USDV, from which a portion of which will be allocated as verified minter rewards.
 
 The amount of USDV in circulation will naturally increase at the rebasing rate of its underlying assets while keeping the peg to 1 US dollar.
 
 8. **What is the difference between USDV and STBT?**
 
-USDV is an omnichain native stablecoin backed by STBT.&#x20;
+USDV is an omnichain native stablecoin backed by STBT.
 
 STBT is backed by real-world assets of cash and US treasury securities. STBT rebases daily based on the yield earned on these underlying real-world assets; USDV does not rebase and is always pegged 1:1 with the US Dollar.
 
@@ -72,15 +72,15 @@ Users can acquire or interact with USDV through various leading CeFi and DeFi pl
 
 For minting USDV, the flow is as follows:
 
-- Verified Minter X deposits STBT into the Vault Contract, which maintains the 1:1 peg of STBT and USDV.
-- The specified receiver account will receive USDV_X from the minting.
-- USDV_Z will be colored for reward allocation to Verified Minter X..
+* Verified Minter X deposits STBT into the Vault Contract, which maintains the 1:1 peg of STBT and USDV.
+* The specified receiver account will receive USDV\_X from the minting.
+* USDV\_Z will be colored for reward allocation to Verified Minter X..
 
 For redeeming USDV, the flow is as follows:
 
-- STBT users can deposit USDV of any color (using USDV_X as an example) to redeem.
-- STBT will be unlocked. Redemption Fee will go to the Operator. The rest goes to the receiver.
-- USDV_X will be burned.
+* STBT users can deposit USDV of any color (using USDV\_X as an example) to redeem.
+* STBT will be unlocked. Redemption Fee will go to the Operator. The rest goes to the receiver.
+* USDV\_X will be burned.
 
 13. **How long does the minting/redemption process take?**
 
@@ -90,19 +90,19 @@ All minting and redemption processes are completed on-chain and typically take o
 
 Minter can operate Mint/Redeem applications in the following three places:
 
-- The smart contract interface on the USDV website.
-- USDV smart contract API.
-- Partner platforms with interfaces for Mint/Redeem. (Our partner network will be continuously updated.)
+* The smart contract interface on the USDV website.
+* USDV smart contract API.
+* Partner platforms with interfaces for Mint/Redeem. (Our partner network will be continuously updated.)
 
 ## Legal and Regulatory
 
 1. **Is USDV considered a security or regulated investment?**
 
-USDV is **neither a security nor a regulated investment.**&#x20;
+USDV is **neither a security nor a regulated investment.**
 
-USDV does not represent ownership, equity, or rights to profits/losses in any company or legal entity. Holding USDV does not make you a shareholder or give you voting rights in any entity. USDV is not issued for investment purposes or to pool funds for collective investment. It is issued as a means of exchange and to facilitate transactions.&#x20;
+USDV does not represent ownership, equity, or rights to profits/losses in any company or legal entity. Holding USDV does not make you a shareholder or give you voting rights in any entity. USDV is not issued for investment purposes or to pool funds for collective investment. It is issued as a means of exchange and to facilitate transactions.
 
-Holders of USDV do not have any inherent contractual rights to redeem USDV from the issuing entity for assets or legal tender. Certain parties like "Minters" may have separate contractual redemption rights, but regular USDV holders have no such rights.&#x20;
+Holders of USDV do not have any inherent contractual rights to redeem USDV from the issuing entity for assets or legal tender. Certain parties like "Minters" may have separate contractual redemption rights, but regular USDV holders have no such rights.
 
 While USDV aims to maintain a stable value through asset backing, holding it does not entitle you to any underlying assets. The assets are owned solely by the issuing entity.
 
@@ -120,7 +120,7 @@ USDV is owned and managed by the[ ](https://usdv.money/foundation)Verified USD F
 
 4. **What is the Verified USD Foundation?**
 
-The Verified USD foundation is a non-profit independent entity accountable for USDV, a community-based native omnichain stablecoin. It is dedicated to nurturing a progressive stablecoin ecosystem that enables equitable value sharing amongst its community of contributors.&#x20;
+The Verified USD foundation is a non-profit independent entity accountable for USDV, a community-based native omnichain stablecoin. It is dedicated to nurturing a progressive stablecoin ecosystem that enables equitable value sharing amongst its community of contributors.
 
 The Foundation is also responsible for onboarding new contributors and establishing the roadmap and governance of USDV.
 
@@ -130,7 +130,7 @@ You do not need to be KYC'ed to mint USDV. However, to receive yield as a Verifi
 
 6. **Who serves as the custodian for the reserve assets?**
 
-USDV is an on-chain stablecoin backed by tokenized real-world assets such as STBT, which is also 100% transparent with real-time insights of transactions on Etherscan and PoR powered by Chainlink.&#x20;
+USDV is an on-chain stablecoin backed by tokenized real-world assets such as STBT, which is also 100% transparent with real-time insights of transactions on Etherscan and PoR powered by Chainlink.
 
 The STBT project offers 100% bankruptcy remoteness through its orphan SPV structure. STBT's underlying assets consist of US treasury securities under the custody of leading financial institutions.
 
@@ -164,7 +164,7 @@ It is designed to create an equitable stablecoin ecosystem through a fair reward
 
 USDV aims to be a fast, secure, and transparent medium of exchange native to the Internet, solving problems inherent in the traditional banking ecosystem.
 
-Through its native omnichain features, it avoids liquidity fragmentation across chains, increasing efficiency.&#x20;
+Through its native omnichain features, it avoids liquidity fragmentation across chains, increasing efficiency.
 
 Further, through ColorTrace, USDV aims to address the inequitable distribution of underlying yield that currently exists with stablecoins. USDV enables yield sharing with those who contribute the most to the growth of USDV.
 
@@ -197,8 +197,8 @@ Information on the current USDV total supply and reserved asset amounts can be a
 
 USDV’s Community consists of Operators, Liquidity Providers, and Verified Minters:
 
-- **Operators:** Provide technology and security backing the USDV ecosystem and support the promotion and branding of USDV.
-- **Liquidity Providers:** bring stability and enable USDV to be distributed on demand.
-- **Verified Minters:** contribute to USDV adoption and growth of liquidity in the ecosystem.
+* **Operators:** Provide technology and security backing the USDV ecosystem and support the promotion and branding of USDV.
+* **Liquidity Providers:** bring stability and enable USDV to be distributed on demand.
+* **Verified Minters:** contribute to USDV adoption and growth of liquidity in the ecosystem.
 
 If you have any other questions, please feel free to contact us at support@usdv.money
