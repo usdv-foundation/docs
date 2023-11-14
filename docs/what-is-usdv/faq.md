@@ -112,7 +112,7 @@ In summary, USDV lacks the traditional features and characteristics that qualify
 
 2. **What regulations apply to USDV?**
 
-The issuing company is subject to British Virgin Islands anti-money laundering laws. Though not formally required, the company plans to take measures to verify USDV Minters identities and sources of funds. USDV holders are responsible for their tax obligations and compliance with any regulations in their jurisdictions.
+The issuing company is subject to British Virgin Islands anti-money laundering laws. USDV holders are responsible for their tax obligations and compliance with any regulations in their jurisdictions.
 
 3. **Who manages USDV?**
 
