@@ -14,7 +14,7 @@ Here you can see the Verified Minter’s USDV contract address, as well as their
 
 ### Unclaimed Reward
 
-Tokenized RWA yield is accrued and rebased daily, then immediately converted into USDV rewards to be claimedby Verified Minters.
+Tokenized RWA yield is accrued and rebased daily, then immediately converted into USDV rewards to be claimed by Verified Minters.
 
 Verified Minters can claim rewards attributed to their color any time by clicking the ‘Claim Reward’ button. See [**Claiming Rewards**](claim-rewards.md) for more information.
 
