@@ -19,6 +19,7 @@
 * [Redeeming STBT](verified-minters/redeem.md)
 * [Account Settings](verified-minters/my-account.md)
 * [Setting Default Color](verified-minters/setting-default-color.md)
+* [Delegating Viewers](verified-minters/delegating-viewers.md)
 
 ## APP INTEGRATIONS
 

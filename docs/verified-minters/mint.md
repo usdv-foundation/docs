@@ -5,18 +5,18 @@ The USDV Web App is designed to facilitate easy minting, coloring, crosschain tr
 Mainnet: [usdv.money](https://usdv.money/)\
 Testnet: [test.usdv.money](https://test.usdv.money/)
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Click the _**Launch App**_ button (upper right corner) to start.
 
 You will be immediately redirected to the Web App's 'Mint' page. You must connect your whitelisted wallet for full access, otherwise you will only have default **‘Mint’** and **‘Redeem’** functions.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Click **‘Connect’ (upper right corner)** to connect with your wallet. Choose the suitable app for your whitelisted wallet. Please ensure the browser extension for your chosen wallet has already been installed.\
 
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 After successfully connecting to your whitelisted wallet, you will notice that **‘Coloring’** and **‘Transfer’** functions are unlocked.
 
