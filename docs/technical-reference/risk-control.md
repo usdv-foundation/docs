@@ -10,9 +10,7 @@ limiter_budget = min(capacity, remaining + refill_rate * time_lapsed)
 
 Rate limiter parameters can be found [here](../concepts/parameters.md).
 
-For example, if the underlying asset (e.g. X token) contract has a bug that create Y X tokens on chain for once, and the minting rate limiter's capacity is Z, then its maximum impact to USDV is Z plus the time-based refilling before we noticed the problem and pause the asset.&#x20;
-
-
+For example, if the underlying asset (e.g. X token) contract has a bug that create Y quantity of tokens, and the minting rate limiter's capacity is Z, then its maximum impact to USDV is limited to Z plus the time-based refilling before we noticed the problem and pause the asset.&#x20;
 
 ### Cross-chain Rate Limiter
 
