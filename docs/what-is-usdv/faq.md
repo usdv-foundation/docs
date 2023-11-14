@@ -16,7 +16,9 @@ USDV is powered by ColorTrace, a novel value attribution algorithm invented by L
 
 2. **What gives USDV its value?**
 
-USDV is backed by a reserve of tokenized Real World Assets. Specifically, the initial reserve asset is Short-term Treasury Bill Tokens (STBT). This reserve backing gives USDV its value and pegs it to the US dollar. In the future, USDV will expand support for the inclusion of other highly secure tokenized Real World Assets in underlying reserves.
+USDV is backed by a reserve of high quality tokenized Real World Assets. Specifically, the initial reserve asset is Short-term Treasury Bill Tokens (STBT). This reserve backing gives USDV its value and pegs it to the US dollar.&#x20;
+
+In the future, USDV will expand support for the inclusion of other high quality tokenized Real World Assets in underlying reserves.
 
 3. **Who can buy and use USDV?**
 
