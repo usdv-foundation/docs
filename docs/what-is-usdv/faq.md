@@ -198,7 +198,7 @@ Information on the current USDV total supply and reserved asset amounts can be a
 USDV’s Community consists of Operators, Liquidity Providers, and Verified Minters:
 
 * **Operators:** Provide technology and security backing the USDV ecosystem and support the promotion and branding of USDV.
-* **Liquidity Providers:** bring stability and enable USDV to be distributed on demand.
-* **Verified Minters:** contribute to USDV adoption and growth of liquidity in the ecosystem.
+* **Liquidity Providers:** Bring stability and enable USDV to be distributed on demand.
+* **Verified Minters:** Contribute to USDV adoption and growth of liquidity in the ecosystem.
 
 If you have any other questions, please feel free to contact us at support@usdv.money
