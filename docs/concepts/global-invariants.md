@@ -1,6 +1,6 @@
 # ColorTrace Safety
 
-Safety in ColorTrace is guaranteed by several _invariants_ shown below. For more details and a formal analysis of safety, please read the whitepaper.
+Safety in ColorTrace is guaranteed by several _invariants_ shown below. For more details and a formal analysis of safety, please read the [whitepaper](https://layerzero.network/publications/ColorTrace.pdf).
 
 ### Asset-Circulation Equivalence
 

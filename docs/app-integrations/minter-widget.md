@@ -1,6 +1,6 @@
 # Minter Widget
 
-Minter Widget is a frontend tool to facilitate minting USDV with alternative stablecoins (e.g. USDC/USDT/DAI) should the minter choose to support it.&#x20;
+The Minter Widget is a frontend tool to facilitate minting USDV with alternative stablecoins (e.g. USDC/USDT/DAI) should the minter choose to support it.&#x20;
 
 Verified Minter can configure the Minter Widget with its own registered color and all newly minted USDV through this widget will be colored accordingly.
 
@@ -22,9 +22,8 @@ yarn add @usdv/usdv-widget
 
 or
 
-```
- npm install @usdv/usdv-widget
-```
+<pre><code><strong> npm install @usdv/usdv-widget
+</strong></code></pre>
 
 2. In your page file
 
@@ -34,7 +33,7 @@ import {bootstrapWidget} from '@usdv/usdv-widget';
 bootstrapWidget({color: 5});
 ```
 
-3. declare elements in html or jsx file. `usdv-tracker`、`usdv-bridge`、`usdv-mint` and `usdv-widget` are custom HTML elements. `usdv-tracker` is used for displaying transaction status, `usdv-bridge` is used for transferring across chains, and `usdv-mint` is used for minting. `usdv-widget` is a combination of the above three elements.
+3. Declare elements in html or jsx file. `usdv-tracker`、`usdv-bridge`、`usdv-mint` and `usdv-widget` are custom HTML elements. `usdv-tracker` is used for displaying transaction status, `usdv-bridge` is used for transferring across chains, and `usdv-mint` is used for minting. `usdv-widget` is a combination of the above three elements.
 
 ```
 <!-- DO NOT USE SELF CLOSING TAGS -->
@@ -53,7 +52,7 @@ or if you only want mint feature with transaction tracker, you can use it like t
 </div>
 ```
 
-4. Also, you can customize the theme of the widget.
+4. You can customize the theme.
 
 ```
 import {bootstrapWidget, themes} from '@usdv/usdv-widget';
@@ -74,4 +73,4 @@ This is the interface to mint USDV :
     ) public {}
 ```
 
-Widget can also provide a minting memo for this minting action for extensibility, such as keeping record or external attributions.
+The Minter Widget can also provide a minting memo for this minting action for extensibility, such as keeping record or external attributions.

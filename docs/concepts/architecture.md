@@ -1,4 +1,4 @@
-# Architecture
+# USDV Architecture
 
 ## Overview
 
@@ -12,19 +12,19 @@
 
 All tokenized assets and generated yields are stored in a globally unique **Vault** on **Ethereum**, the most secure and decentralized L1 chain on the market.
 
-The Vault **issues, tracks and updates** the mint of each color, which represents the sum of circulation for a given color across all chains.&#x20;
+The Vault **issues, tracks, and updates** the _mint_ of each color. The mint of each color is the sum of circulation for a given color across all chains.&#x20;
 
-This mint can be used to calculate the contribution of a given color to the global circulation across all blockchains, which can be used in turn to fairly distribute yields.&#x20;
+This mint is used to calculate the contribution of a given color to the global circulation across all blockchains, which is used to calculate yield shares.&#x20;
 
 After USDV is minted in the Vault, it is atomically transferred to the Minter’s wallet on the primary chain, from where it can be transferred to other chains or wallets.
 
 ## USDV
 
-USDV contracts are compatible to the widely adopted token standards (e.g. ERC20 on EVM) with administrative features for compliance requirements. It will also include signature-based permit (EIP2612) interfaces on EVM chains.&#x20;
+USDV contracts are compatible with the widely adopted token standards (e.g. ERC20 on EVM) with administrative features for compliance requirements. It will also include signature-based permit (EIP2612) interfaces on EVM chains.&#x20;
 
 Each USDV contract manages local coloring state. The coloring information will be synchronised back to the Vault to reduce the divergence for proper attribution.
 
-This contract is deployed omnichain. Learn more about contract roles & functions at [**Contract Governance**](../technical-reference/contract-governance.md).
+USDV is deployed omnichain. Learn more about contract roles & functions at [**Contract Governance**](../technical-reference/contract-governance.md).
 
 ### Crosschain
 

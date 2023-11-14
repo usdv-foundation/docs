@@ -8,7 +8,7 @@ By default, the **‘Redeem’** function is only available on Ethereum. This is
 
 Currently, there is no cross-chain option. To convert any USDV on non-Ethereum chains, you must first transfer non-Ethereum USDV back to Ethereum.&#x20;
 
-Refer to the [**‘Moving USDV Crosschain’**](cross-chain-transfer.md) section for more details.
+Refer to [**Moving USDV Crosschain**](cross-chain-transfer.md) for more details.
 
 \
 \

@@ -36,4 +36,4 @@ Check userStates by querying our Verified Minter address. Confirm defaultColor v
 
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
-Verified Minters may appoint Operator to support in setting Default Color on their behalf.
+Verified Minters may appoint the USDV Operator to set Default Color on their behalf.

@@ -4,12 +4,12 @@ description: Swap stablecoins into USDV via EthereumLP
 
 # On Ethereum
 
-To integrate with [EthereumLP](https://etherscan.io/address/0x3986D5C53cE965EA16EF66845AB56A9DdE9Cd210#code), App will need to:
+To integrate with [EthereumLP](https://etherscan.io/address/0x3986D5C53cE965EA16EF66845AB56A9DdE9Cd210#code), your application must:
 
 * Complete color KYC
 * Deploy contract, either:
   * [Default](on-ethereum.md#default-minter.sol), which will be deployed by the Operator, OR&#x20;
-  * Custom Minter Contract implementation [interface](on-ethereum.md#interface-for-custom-implementation) and provide code hash and contract address to Operator
+  * Custom Minter Contract implementation [interface](on-ethereum.md#interface-for-custom-implementation) and provide code hash and contract address to the Operator
 * After above, the contract will be:
   * STBT whitelisted
   * Registered to MinterProxy
@@ -18,9 +18,9 @@ To integrate with [EthereumLP](https://etherscan.io/address/0x3986D5C53cE965EA16
 
 Minter can configure:
 
-* Supported tokens (e.g. USDV)
-* Blacklisted caller
-* Reward to user bps: if the LP contract returns a reward, the proportion to propagate to user. e.g. reward bps from LP = 5bps, if you want to keep 4 bps and propagate 1 bps, the configuration would be 2000
+* Supported tokens (e.g. USDV).
+* Blacklisted callers.
+* Reward to user bps: if the LP contract returns a reward, the proportion to propagate to user. For example, if the reward bps from LP is 5bps, and you want to keep 4 bps and propagate 1 bps, the configuration would be 2000.
 
 ### Interface for Custom Implementation
 

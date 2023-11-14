@@ -20,6 +20,6 @@ There is also our gas airdrop feature by clicking **‘Gas on Destination’** (
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-Click **‘Transfer’** to initiate the transaction and complete by signing off in your wallet.
+Click **‘Transfer’** to initiate the transaction and complete by signing the transaction in your wallet.
 
 <figure><img src="https://lh7-us.googleusercontent.com/tDurXkrVJFd6D4l9GuxKH1rhNcTrUa0JJmtWFjUrHP3KRe97XdLs0MmLDsWSBnPzIYESATT3nQXSRzLQqydLB0NHF0lw9JVw43bj_vEuqDQVjzFpvdjXkcba2VvN2mg_i9BxKB4q0wNH7YcUExCd9ik" alt=""><figcaption></figcaption></figure>

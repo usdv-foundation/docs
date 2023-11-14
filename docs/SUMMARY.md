@@ -14,7 +14,7 @@
 * [Integrating USDV](verified-minters/integrating-usdv.md)
 * [Initial KYC](verified-minters/initial-kyc.md)
 * [Minting USDV](verified-minters/mint.md)
-* [Monitoring & Reminting](verified-minters/colouring.md)
+* [Monitoring & Reminting](verified-minters/monitoring-and-reminting.md)
 * [Moving USDV Crosschain](verified-minters/cross-chain-transfer.md)
 * [Claiming Rewards](verified-minters/claim-rewards.md)
 * [Redeeming STBT](verified-minters/redeem.md)

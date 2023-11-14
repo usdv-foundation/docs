@@ -16,7 +16,7 @@ Here you can see the ‘Verified Minter’s USDV contract address, as well as th
 
 A 'Verified Minter's claim to yield rewards is proportional to its Vault shareholding. Tokenized RWA yield is accrued and re-based daily, and immediately converted into USDV rewards to maintain its 1:1 peg.
 
-‘Verified Minter’ can claim rewards attributed to their own color any time by clicking the ‘Claim Reward’ button. See [**Claiming Rewards**](claim-rewards.md) section for more information.
+‘Verified Minter’ can claim rewards attributed to their own color any time by clicking the ‘Claim Reward’ button. See [**Claiming Rewards**](claim-rewards.md) for more information.
 
 ### Reward Per Day
 
@@ -34,7 +34,7 @@ Note that rewards are calculated based on **minted USDV**. In the above graphic,
 
 **Part (2)** reveals the balance of colored and minted USDV under Verified Minter’s color across different chains.
 
-In the case when Colored > Minted, also defined as Delta Positive, the Verified Minter may remint to capture greater yield. For more details on how it works, please read [Delta](../concepts/delta.md) section.
+In the case when Colored > Minted, also defined as Delta Positive, the Verified Minter may remint to capture greater yield. For more details on how it works, see [Delta](../concepts/delta.md).
 
 See the above example of Verified Minter 16,&#x20;
 
@@ -49,5 +49,5 @@ After clicking 'Remint', the Verified Minter can adjust how much to remint by de
 
 If **‘Remint’** is executed on Ethereum, the transaction is directly processed and submitted. If **‘Remint’** is executed on any other chain (non Ethereum), there will be extra time required for cross chain message delivery before **‘Remint’** success.
 
-After this transaction, Verified Minter has $500 minted USDV and can earn more yield rewards without any additional STBT->USDV minting.
+After this transaction, Verified Minter has $500 minted USDV and will earn more rewards without any additional STBT->USDV minting.
 

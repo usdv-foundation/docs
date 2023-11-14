@@ -2,10 +2,10 @@
 
 The Recolor Helper is a generic helper contract we deploy on each USDV-supported chain to facilitate recoloring operations. This contract is **immutable and unowned** for long-term security.  &#x20;
 
-* The Recolor Helper contracts support both local ERC20 transfer and cross-chain transfer, and both transfer mode output the USDV of the desired color specified in the function argument&#x20;
-* EOA or contracts can interact with the Recolor Helper with
+* The Recolor Helper contracts support both local ERC20 and crosschain transfers. All transfers output USDV colored based on the \_toColor argument.
+* EOA or contracts can interact with the Recolor Helper in the following ways:
   * Direct transfer USDV into the helper and send out **atomically.**&#x20;
-  * ERC20 approved transfer. &#x20;
+  * ERC20 approved transfer.
 
 <figure><img src="../../.gitbook/assets/recolor-helper (1).png" alt=""><figcaption><p>The Recolor Helper is an immutable and unowned contract that enforces USDV recoloring rules.</p></figcaption></figure>
 
@@ -43,10 +43,10 @@ interface IRecolorHelper {
 }
 ```
 
-Example usages:
+Example usage:
 
 * Swap aggregator: send the swap output to the Recolor Helper and call transferWithColor with your color
-* Bridge: have the EOA approve the Recolor Helper and send across-chain with your color
+* Bridge: have the EOA approve the Recolor Helper and send your color of USDV crosschain.
 
 ### RecolorHelper.sol
 
