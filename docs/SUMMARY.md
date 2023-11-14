@@ -5,7 +5,6 @@
 * [USDV Overview](README.md)
 * [How Coloring Works](what-is-usdv/how-coloring-works.md)
 * [Yield & Peg Management](what-is-usdv/yield-and-peg-management.md)
-* [Risk Assessment](what-is-usdv/risk-assessment.md)
 * [Audits](what-is-usdv/audits.md)
 * [FAQ](what-is-usdv/faq.md)
 
