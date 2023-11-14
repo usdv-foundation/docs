@@ -14,7 +14,7 @@ Click **'Connect to Web3'** and connect to your wallet. Make sure this is the wh
 
 Verified Minters can delegate viewing to any address provided it is under their own unique color ID.&#x20;
 
-In the case that the Color ID requested is different from the one owned by the connected Verified Minter wallet, the delegation will be rejected.
+In the case that the Color ID requested is different from the one owned by the connected Verified Minter wallet, the request for delegation will be rejected.
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
