@@ -4,7 +4,7 @@ Every Verified Minter has the right to set the Default Color of contract address
 
 Take an example of Verified Minter 1 setting Default Color to a contract on Arbitrum.&#x20;
 
-First, go to Arbiscan (Arbitrum Blockchain Explorer) and search for the designated contract address. Click 'Contract', then click 'Write as Proxy'.
+First, go to Arbiscan (Arbitrum Blockchain Explorer) and search for the designated contract address. Click '**Contract**', then click '**Write as Proxy**'.
 
 <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
@@ -14,7 +14,7 @@ Click **'Connect to Web3'** and connect to your wallet. Make sure this is the wh
 
 ## Set Colorer
 
-First time Verified Minter users must assign an address as the contract's Colorer. Click **'Write'** to confirm.
+First time Verified Minters must assign an address as the contract's Colorer. Click **'Write'** to confirm.
 
 <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
@@ -26,7 +26,7 @@ The Colorer may now configure and set Default Color for this contract address. H
 
 ## Confirm setting
 
-You should confirm correct contract color setting by reviewing userStates.&#x20;
+You should confirm the correct contract color settings by reviewing userStates.&#x20;
 
 First, click **'Read as Proxy'**.
 

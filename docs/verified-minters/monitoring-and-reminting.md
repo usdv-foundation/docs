@@ -10,17 +10,17 @@ Navigate to the **‘Coloring’** page. This page is structured into two main p
 
 In the example, the Verified Minter owns **color 16**.&#x20;
 
-Here you can see the ‘Verified Minter’s USDV contract address, as well as their Vault shareholding. Vault Share is calculated as the number of USDV under Verified Minter's color as a percentage of all circulating USDV. As the Vault Share percentage increases, the corresponding Verified Minter is eligible to collect greater yield.
+Here you can see the Verified Minter’s USDV contract address, as well as their Vault shareholding. Vault Share is calculated as the number of USDV under Verified Minter's color as a percentage of all circulating USDV. As the Vault Share increases, the corresponding Verified Minter is eligible to collect greater yield.
 
 ### Unclaimed Reward
 
-A 'Verified Minter's claim to yield rewards is proportional to its Vault shareholding. Tokenized RWA yield is accrued and re-based daily, and immediately converted into USDV rewards to maintain its 1:1 peg.
+Tokenized RWA yield is accrued and rebased daily, then immediately converted into USDV rewards to be claimedby Verified Minters.
 
-‘Verified Minter’ can claim rewards attributed to their own color any time by clicking the ‘Claim Reward’ button. See [**Claiming Rewards**](claim-rewards.md) for more information.
+Verified Minters can claim rewards attributed to their color any time by clicking the ‘Claim Reward’ button. See [**Claiming Rewards**](claim-rewards.md) for more information.
 
 ### Reward Per Day
 
-Reward Per Day is calculated based on the Verified Minter's current minted USDV amount and 7-day average APR of underlying tokenized RWA. This figure is an estimate only and may be different from the actual amount distributed.
+Reward Per Day is calculated based on the Verified Minter's current minted USDV amount and 7-day average APR of underlying tokenized RWA. This figure is an estimate and may differ from the actual amount distributed.
 
 ### Colored and Minted USDV
 
@@ -43,7 +43,7 @@ See the above example of Verified Minter 16,&#x20;
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-After clicking 'Remint', the Verified Minter can adjust how much to remint by deciding on speciifc percentage allocations. Here we set 'Remint' percentage to 75% (remint $300). Click **‘Remint’** to initiate the transaction.
+After clicking 'Remint', the Verified Minter can adjust how much to remint by deciding on specific percentage allocations. Here we set 'Remint' percentage to 75% (remint $300). Click **‘Remint’** to initiate the transaction.
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 

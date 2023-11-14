@@ -10,13 +10,13 @@ Begin by selecting source and destination chains. Enter the amount of USDV for t
 
 ## Custom Destination
 
-By default, the destination address will be your current wallet address. To send USDV to a custom destination address, click **‘Destination Address’** (pen icon on right) and provide Custom Address.
+By default, the destination address will be your current wallet address. To send USDV to a custom destination address, click **Destination Address** (pen icon on right) and provide the custom destination address.
 
 <figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Airdropping Gas Tokens
 
-There is also our gas airdrop feature by clicking **‘Gas on Destination’** (pen icon on the right) and allocating gas token allowance. This button shows only after a destination chain has been selected.
+You can also leverage the gas airdrop feature by clicking **‘Gas on Destination’** (pen icon on the right) and allocating gas token allowance. This button shows only after a destination chain has been selected.
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
