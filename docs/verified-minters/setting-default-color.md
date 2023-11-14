@@ -2,7 +2,7 @@
 
 Every Verified Minter has the right to set the Default Color of contract addresses (i.e pools) by configuring directly on blockchain explorers.
 
-Take an example of Verified Minter 1 setting Default Color to a contract on Arbitrum.&#x20;
+Take an example of Verified Minter 1 setting Default Color by using the [**USDV contract on Arbitrum.**](https://arbiscan.io/address/0x323665443cef804a3b5206103304bd4872ea4253)&#x20;
 
 First, go to Arbiscan (Arbitrum Blockchain Explorer) and search for the designated contract address. Click '**Contract**', then click '**Write as Proxy**'.
 

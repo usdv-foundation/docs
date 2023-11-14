@@ -1,6 +1,8 @@
 # Delegating Viewers
 
-Verified Minters may choose to delegate viewing to other addresses, granting them access to all the app features (i.e Coloring and Transfer). Delegated addresses can monitor, color and transfer USDV on Verified Minter's behalf.
+Verified Minters may choose to delegate viewing to other addresses, granting them access to all the app features (i.e Coloring and Transfer) previously accessible to only the Verified Minter.
+
+Delegated addresses can monitor, color and transfer USDV on Verified Minter's behalf.
 
 First, visit the [**ViewDelegate contract on Etherscan**](https://etherscan.io/address/0x7da4b01D014a02d92637bD27118f7da3b3DAaA17)**.** Click **'Contract'** then **'Write Contract'**.
 
