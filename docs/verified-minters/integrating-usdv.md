@@ -20,8 +20,8 @@ USDV is an ERC-20 token and can be integrated with any ERC-20 compatible applica
 
 Part of any yields generated from USDV's underlying assets are shared with Verified Minters. Your yield earnings are directly tied to how effectively you circulate and recolor USDV:
 
-* **Recoloring for Higher Yield**: The more USDV tokens are recolored under your color (through active circulation and usage), the greater your share of the yield.
-* **TVL and Volume Impact**: Applications with higher Total Value Locked (TVL) or volume in USDV can potentially earn more yield, as they are contributing more significantly to the circulation and demand of USDV.
+* **Recoloring for Higher Yield**: The more USDV tokens are recolored under your color (through active circulation and TVL), the greater your share of the yield.
+* **TVL and Volume Impact**: Applications with higher Total Value Locked (TVL) or transaction volume in USDV can potentially earn more yield. USDV aims to proportionally reward minters for contributing value to the USDV ecosystem.
 
 See the next page to understand how you can [start the KYC process to become a Verified Minter](initial-kyc.md).
 
