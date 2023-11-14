@@ -20,7 +20,7 @@ Minter can configure:
 
 * Supported tokens (e.g. USDV).
 * Blacklisted callers.
-* Reward to user bps: if the LP contract returns a reward, the proportion to propagate to user. For example, if the reward bps from LP is 5bps, and you want to keep 4 bps and propagate 1 bps, the configuration would be 2000.
+* Reward to user bps: The proportion, if any, of the LP contract reward to distribute to users. For example, if the reward bps from LP is 5bps, and you want to share 1 bps with users, the configuration would be 2000.
 
 ### Interface for Custom Implementation
 
