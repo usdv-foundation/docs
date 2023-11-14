@@ -14,9 +14,9 @@ As part of our commitment to maintaining a secure, transparent, and compliant en
 
 ## **Starting the KYC Process**
 
-All USDV users fall under one of three roles:
+USDV includes the following two privileged (KYC) roles in addition to regular users who can send and receive USDV:
 
-<table><thead><tr><th width="165.33333333333331">Role</th><th width="297">Conditions</th><th>Functions</th></tr></thead><tbody><tr><td><strong>Verified Minter</strong></td><td><p>USDV KYC passed</p><p>Whitelisted &#x26; Color assigned<br></p></td><td><p>Transfer, Color, Mint, Redeem</p><p><br></p><p>Claim rewards</p></td></tr><tr><td><strong>Minter</strong></td><td><p>STBT KYC passed</p><p>Whitelisted, NO color assigned</p><p></p><p>(i.e STBT approved users)</p></td><td><p>Transfer, Color, Mint, Redeem</p><p><br></p><p>No Claim rewards function</p></td></tr><tr><td><strong>User</strong></td><td>General public</td><td>Transfer, Color</td></tr></tbody></table>
+<table><thead><tr><th width="165.33333333333331">Role</th><th width="297">Conditions</th><th>Functions</th></tr></thead><tbody><tr><td><strong>Verified Minter</strong></td><td><p>USDV KYC passed</p><p>Whitelisted &#x26; Color assigned<br></p></td><td><p>Transfer, Color, Mint, Redeem</p><p><br></p><p>Claim rewards</p></td></tr><tr><td><strong>Minter</strong></td><td><p>STBT KYC passed</p><p>Whitelisted, NO color assigned</p><p></p><p>(i.e STBT approved users)</p></td><td><p>Transfer, Color, Mint, Redeem</p><p><br></p><p>No Claim rewards function</p></td></tr></tbody></table>
 
 To be granted _Verified Minter_ status, the partner protocol must:
 
