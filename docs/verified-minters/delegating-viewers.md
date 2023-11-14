@@ -22,6 +22,6 @@ In the case that the Color ID requested is different from the one owned by the c
 
 Verified Minters may remove delegated addresses following a similar process, by providing Verified Minter's unique color ID and the delegated address.&#x20;
 
-**Note: Verified Minters should maintain a record of all delegated addresses to ensure traceability and that the right users are granted viewing access.**
+**Note: It is the Verified Minter's responsibility to maintain a record of all delegated addresses to ensure traceability and that the right users are granted viewing access.**
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
