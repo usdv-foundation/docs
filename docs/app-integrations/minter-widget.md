@@ -30,15 +30,15 @@ or
 ```
 import {bootstrapWidget} from '@usdv/usdv-widget';
 
-bootstrapWidget({color: 5});
+bootstrapWidget({color: YOUR_COLOR_NUMBER});
 ```
 
 3. Declare elements in html or jsx file. `usdv-tracker`、`usdv-bridge`、`usdv-mint` and `usdv-widget` are custom HTML elements. `usdv-tracker` is used for displaying transaction status, `usdv-bridge` is used for transferring across chains, and `usdv-mint` is used for minting. `usdv-widget` is a combination of the above three elements.
 
 ```
 <!-- DO NOT USE SELF CLOSING TAGS -->
-<div className="center">
-    <usdv-widget style="padding: 20px"></usdv-widget>
+<div class="center">
+    <usdv-widget style="padding:20px"></usdv-widget>
 </div>
 ```
 
@@ -46,9 +46,9 @@ or if you only want mint feature with transaction tracker, you can use it like t
 
 ```
 <!-- DO NOT USE SELF CLOSING TAGS -->
-<div className="center">
-    <usdv-tracker style="width:468px;margin-bottom: 10px"></usdv-tracker>
-    <usdv-mint style="padding: 20px"></usdv-mint>
+<div class="center">
+    <usdv-tracker style="width:468px;margin-bottom:10px"></usdv-tracker>
+    <usdv-mint style="background-color:white;border-radius:16px;padding:20px"></usdv-mint>
 </div>
 ```
 
@@ -56,7 +56,64 @@ or if you only want mint feature with transaction tracker, you can use it like t
 
 ```
 import {bootstrapWidget, themes} from '@usdv/usdv-widget';
-bootstrapWidget({color: 5, theme: themes.dark});
+bootstrapWidget({color: YOUR_COLOR_NUMBER, theme: themes.dark});
+```
+
+5. Switch to testnet
+
+```
+bootstrapWidget({color: YOUR_COLOR_NUMBER, isTestnet: true});
+```
+
+6. Enable minting in side chain
+
+```
+// for testnet
+bootstrapWidget({
+    color: YOUR_COLOR_NUMBER,
+    isTestnet: true,
+    bridgeRecolorConfig: [
+      {
+        address: YOUR_BRIDGE_RECOLOR_ADDRESS,
+        chainKey: 'fuji',
+      },
+      {
+        address: YOUR_BRIDGE_RECOLOR_ADDRESS,
+        chainKey: 'arbitrum-goerli',
+      },
+      {
+        address: YOUR_BRIDGE_RECOLOR_ADDRESS,
+        chainKey: 'bsc-testnet',
+      },
+      {
+        address: YOUR_BRIDGE_RECOLOR_ADDRESS,
+        chainKey: 'optimism-goerli',
+      },
+    ],
+});
+
+// for mainnet
+bootstrapWidget({
+    color: YOUR_COLOR_NUMBER,
+    bridgeRecolorConfig: [
+     {
+       address: YOUR_BRIDGE_RECOLOR_ADDRESS,
+       chainKey: 'avalanche',
+     },
+     {
+       address: YOUR_BRIDGE_RECOLOR_ADDRESS,
+       chainKey: 'arbitrum',
+     },
+     {
+       address: YOUR_BRIDGE_RECOLOR_ADDRESS,
+       chainKey: 'bsc',
+     },
+     {
+       address: YOUR_BRIDGE_RECOLOR_ADDRESS,
+       chainKey: 'optimism',
+     },
+   ],
+});
 ```
 
 ### Request Mint
