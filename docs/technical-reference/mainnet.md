@@ -22,7 +22,7 @@ The testnet website is [https://test.usdv.money/](https://test.usdv.money/). Cur
 
 ### Ethereum Mainnet
 
-<table><thead><tr><th width="210">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x0E573Ce2736Dd9637A0b21058352e1667925C7a8</td></tr><tr><td>VaultManager</td><td>0x2A30E3C5c9DaF417663Dd3903144B394a82C999b</td></tr><tr><td>Operator</td><td>0x840e92Ad2E4df5C05a80da4e7a9a590C84928c91</td></tr><tr><td>EthereumLP</td><td>0x3986D5C53cE965EA16EF66845AB56A9DdE9Cd210</td></tr><tr><td>MinterProxy</td><td>0x3c6CE18aFDE845635A32a69D0a7721b0Db84118e</td></tr></tbody></table>
+<table><thead><tr><th width="210">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x0E573Ce2736Dd9637A0b21058352e1667925C7a8</td></tr><tr><td>VaultManager</td><td>0x2A30E3C5c9DaF417663Dd3903144B394a82C999b</td></tr><tr><td>Operator</td><td>0x840e92Ad2E4df5C05a80da4e7a9a590C84928c91</td></tr><tr><td>EthereumLP</td><td>0x3986D5C53cE965EA16EF66845AB56A9DdE9Cd210</td></tr><tr><td>MinterProxy</td><td>0x3c6CE18aFDE845635A32a69D0a7721b0Db84118e</td></tr><tr><td>ViewDelegate</td><td>0x7da4b01D014a02d92637bD27118f7da3b3DAaA17</td></tr></tbody></table>
 
 ### Ethereum-Goerli Testnet
 
