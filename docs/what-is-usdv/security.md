@@ -1,8 +1,8 @@
 ---
-description: USDV Audit and Risk Assessment Reports
+description: Verified by reputable independent third party firms
 ---
 
-# Audits and Risk Assessments
+# Security
 
 **Audits**
 
@@ -16,4 +16,4 @@ description: USDV Audit and Risk Assessment Reports
 
 **Risk Assessment**
 
-[Chao Labs Risk and Economic Security Assessment - Nov 9th 2023](https://usdv.money/doc/chaoslabs.pdf)
+[Chaos Labs Risk and Economic Security Assessment - Nov 9th 2023](https://usdv.money/doc/chaoslabs.pdf)
