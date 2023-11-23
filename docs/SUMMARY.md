@@ -5,7 +5,7 @@
 * [USDV Overview](README.md)
 * [How Coloring Works](what-is-usdv/how-coloring-works.md)
 * [Yield & Peg Management](what-is-usdv/yield-and-peg-management.md)
-* [Audits](what-is-usdv/audits.md)
+* [Audits and Risk Assessments](what-is-usdv/audits.md)
 * [FAQ](what-is-usdv/faq.md)
 
 ## Verified Minters
