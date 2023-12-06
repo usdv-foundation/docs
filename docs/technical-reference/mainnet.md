@@ -2,7 +2,7 @@
 
 USDV Mainnet is currently available on five chains: Ethereum, BSC, Avalanche, Arbitrum and Optimism.
 
-Please refer to [How to display tokens in MetaMask](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h\_01FWH492CHY60HWPC28RW0872H) to import`STBT`and`USDV`to MetaMask.
+Please refer to [How to display tokens in MetaMask](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) to import`STBT`and`USDV`to MetaMask.
 
 To add networks to MetaMask, visit chainlist.wtf. There, you can easily connect your MetaMask and add networks with just a few clicks. (refer to: [How to add a custom network RPC](https://support.metamask.io/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC))
 
@@ -59,3 +59,25 @@ The testnet website is [https://test.usdv.money/](https://test.usdv.money/). Cur
 ### Optimism Goerli Testnet
 
 <table><thead><tr><th width="236.55555555555554">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0xf10be20E035c00e9f9448d1Edb7770E3e1187965</td></tr><tr><td>SidechainLP</td><td>0xD641e5809Be6AFea904224543Bf49f616411E3D9</td></tr><tr><td>BridgeRecolor(color 3)</td><td>0x59d5B1697B7883F4F4acC0c5F41AD4E15636d09E</td></tr><tr><td>Operator</td><td>0x7190Cb5d6DedaA3231e75762195df7e1510A468C</td></tr><tr><td>RecolorHelper</td><td>0x2c70388c2a136437384826ef222C7Bb347CEA65B</td></tr><tr><td>USDC(mock)</td><td>0x0CEDBAF2D0bFF895C861c5422544090EEdC653Bf</td></tr></tbody></table>
+
+### Polygon Mumbai Testnet
+
+| Contract Name          | Address                                    |
+| ---------------------- | ------------------------------------------ |
+| USDV                   | 0xf10be20E035c00e9f9448d1Edb7770E3e1187965 |
+| SidechainLP            | 0x2Ad2fA336c9eBdD5B03a3D2A23B0B0ce076C6E19 |
+| BridgeRecolor(color 3) | 0xA490f12DbC25A3616eC52aEB7d99Ed70e653b972 |
+| Operator               | 0xaDEd0B8EC4CdFFFf014c2b9AF78093ccCcf736fE |
+| RecolorHelper          | 0xD47aB14dD5a6cf34dD70933222fA43251856bd27 |
+| USDC(mock)             | 0xD7295b975b51aB7438EF8C8f330Cd70DB52C313C |
+
+### Viction Tomo Testnet
+
+| Contract Name          | Address                                    |
+| ---------------------- | ------------------------------------------ |
+| USDV                   | 0xbf22ba1bA63CaDc6A339d551945b02F4dD102Ae0 |
+| SidechainLP            | 0xb4FC62b4f001534C734aD1b459908A2FC4BB256c |
+| BridgeRecolor(color 3) | 0x73828B8c392EB37C56659d03A135B81661dA1164 |
+| Operator               | 0xAB81E054C28cfe51C315463812811b024026C4E4 |
+| RecolorHelper          | 0x947c3846624fCFA89eCE4660b914311aC2059CB2 |
+| USDC(mock)             | 0x4aE95AD2dBEB7aAfc598020FfBad6e1fe01eb0E7 |
