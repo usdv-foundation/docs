@@ -25,6 +25,8 @@ The Testnet website is [https://test.usdv.money/](https://test.usdv.money/). Cur
 3. Avalanche Fuji
 4. Arbitrum Goerli
 5. Optimism Goerli
+6. Polygon Mumbai
+7. Viction Testnet (ex TOMO)
 
 ## Contract Addresses
 
