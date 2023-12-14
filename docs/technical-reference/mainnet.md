@@ -15,6 +15,8 @@ The Mainnet website is [https://usdv.money/](https://usdv.money/). Currently, Ma
 3. Avalanche
 4. Arbitrum
 5. Optimism
+6. Polygon
+7. Viction (ex TOMO)
 
 ## Testnet
 
@@ -70,9 +72,17 @@ The Testnet website is [https://test.usdv.money/](https://test.usdv.money/). Cur
 
 <table><thead><tr><th width="258.31738355815725">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0xf10be20E035c00e9f9448d1Edb7770E3e1187965</td></tr><tr><td>SidechainLP</td><td>0xD641e5809Be6AFea904224543Bf49f616411E3D9</td></tr><tr><td>BridgeRecolor(color 3)</td><td>0x59d5B1697B7883F4F4acC0c5F41AD4E15636d09E</td></tr><tr><td>Operator</td><td>0x7190Cb5d6DedaA3231e75762195df7e1510A468C</td></tr><tr><td>RecolorHelper</td><td>0x2c70388c2a136437384826ef222C7Bb347CEA65B</td></tr><tr><td>USDC(mock)</td><td>0x0CEDBAF2D0bFF895C861c5422544090EEdC653Bf</td></tr></tbody></table>
 
+### Polygon
+
+<table><thead><tr><th width="256.6473429951691">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0x9239Bc1DBE02f7044A46CF0bAbC0F6bf7Ad4BB05</td></tr><tr><td>SidechainLP</td><td></td></tr></tbody></table>
+
 ### Polygon Mumbai Testnet
 
 <table><thead><tr><th width="261">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0xf10be20E035c00e9f9448d1Edb7770E3e1187965</td></tr><tr><td>SidechainLP</td><td>0x2Ad2fA336c9eBdD5B03a3D2A23B0B0ce076C6E19</td></tr><tr><td>BridgeRecolor(color 3)</td><td>0xA490f12DbC25A3616eC52aEB7d99Ed70e653b972</td></tr><tr><td>Operator</td><td>0xaDEd0B8EC4CdFFFf014c2b9AF78093ccCcf736fE</td></tr><tr><td>RecolorHelper</td><td>0xD47aB14dD5a6cf34dD70933222fA43251856bd27</td></tr><tr><td>USDC(mock)</td><td>0xD7295b975b51aB7438EF8C8f330Cd70DB52C313C</td></tr></tbody></table>
+
+### Viction (ex TOMO)
+
+<table><thead><tr><th width="263.6473429951691">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0x903d58A8fa472eb671689d79d708841999703C0B</td></tr><tr><td>SidechainLP</td><td></td></tr></tbody></table>
 
 ### Viction Testnet (ex TOMO)
 
