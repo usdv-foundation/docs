@@ -74,7 +74,7 @@ The Testnet website is [https://test.usdv.money/](https://test.usdv.money/). Cur
 
 ### Polygon
 
-<table><thead><tr><th width="256.6473429951691">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0x9239Bc1DBE02f7044A46CF0bAbC0F6bf7Ad4BB05</td></tr><tr><td>SidechainLP</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="256.6473429951691">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0x9239Bc1DBE02f7044A46CF0bAbC0F6bf7Ad4BB05</td></tr><tr><td>SidechainLP</td><td>0x0Db498732D4cDBE0324105653d3a16E0181f6B3F</td></tr></tbody></table>
 
 ### Polygon Mumbai Testnet
 
