@@ -82,7 +82,7 @@ The Testnet website is [https://test.usdv.money/](https://test.usdv.money/). Cur
 
 ### Viction (ex TOMO)
 
-<table><thead><tr><th width="263.6473429951691">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0x903d58A8fa472eb671689d79d708841999703C0B</td></tr><tr><td>SidechainLP</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="263.6473429951691">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0x903d58A8fa472eb671689d79d708841999703C0B</td></tr><tr><td>SidechainLP</td><td>0x0Db498732D4cDBE0324105653d3a16E0181f6B3F</td></tr></tbody></table>
 
 ### Viction Testnet (ex TOMO)
 
