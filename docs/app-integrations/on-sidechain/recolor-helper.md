@@ -48,6 +48,4 @@ Example usage:
 * Swap aggregator: send the swap output to the Recolor Helper and call transferWithColor with your color
 * Bridge: have the EOA approve the Recolor Helper and send your color of USDV crosschain.
 
-### RecolorHelper.sol
-
-<table><thead><tr><th width="197">Chain</th><th>Address</th></tr></thead><tbody><tr><td>BSC</td><td>0x31691Fd2Cf50c777943b213836C342327f0DAB9b</td></tr><tr><td>Avalanche</td><td>0x9e36b95278C3af219d78B343168AdEDa7C59A7f3</td></tr><tr><td>Arbitrum</td><td>0xE7Af697C5A1cF059C98B50866f74B1d43C422258</td></tr><tr><td>Optimism</td><td>0x7F9A873cB57AF892e229b8EE445dde9372539fce</td></tr></tbody></table>
+Please visit [Contract Addresses](../../technical-reference/mainnet.md#contract-addresses) for RecolorHelper.sol addresses on each chain.
