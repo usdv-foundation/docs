@@ -22,6 +22,4 @@ Minter can configure:
 * User reward bps: if the user reward bps is set higher than the reward received from SidechainLP, USDV stored on the contract will be used to subsidize the difference.
 * Tolerance bps: a safeguard to prevent rewarding users more than reward than received from the LP.
 
-### SidechainLP.sol
-
-<table><thead><tr><th width="197">Chain</th><th>Address</th></tr></thead><tbody><tr><td>BSC</td><td>0x7F9A873cB57AF892e229b8EE445dde9372539fce</td></tr><tr><td>Avalanche</td><td>0x728A036fBBF66FD7b09807a8d605c929B44bDF9E</td></tr><tr><td>Arbitrum</td><td>0x4607432711D0A26Bdb9DfF61A6Ab1d32780690d2</td></tr><tr><td>Optimism</td><td>0x5cCFd72da5bd694CB6CD2919987Ced474F8E3Fb3</td></tr></tbody></table>
+Please visit [Contract Addresses](../../technical-reference/mainnet.md#contract-addresses) for SidechainLP.sol addresses on each chain.
