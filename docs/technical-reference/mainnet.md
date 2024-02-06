@@ -1,6 +1,6 @@
 # Contract Addresses
 
-Please refer to [How to display tokens in MetaMask](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h\_01FWH492CHY60HWPC28RW0872H) to import`STBT`and`USDV`to MetaMask.
+Please refer to [How to display tokens in MetaMask](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) to import`STBT`and`USDV`to MetaMask.
 
 To add networks to MetaMask, visit chainlist.wtf. There, you can easily connect your MetaMask and add networks with just a few clicks. (refer to: [How to add a custom network RPC](https://support.metamask.io/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC))
 
@@ -42,7 +42,7 @@ The Testnet website is [https://test.usdv.money/](https://test.usdv.money/). Cur
 
 ### BSC
 
-<table><thead><tr><th width="232.33333333333331">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0xBed0fCb924Af5A7cf79016B8b66B87c64bD4dedB</td></tr><tr><td>SidechainLP</td><td>0x7F9A873cB57AF892e229b8EE445dde9372539fce</td></tr></tbody></table>
+<table><thead><tr><th width="232.33333333333331">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0xBed0fCb924Af5A7cf79016B8b66B87c64bD4dedB</td></tr><tr><td>SidechainLP</td><td>0x7F9A873cB57AF892e229b8EE445dde9372539fce</td></tr><tr><td>RecolorHelper</td><td>0x31691Fd2Cf50c777943b213836C342327f0DAB9b</td></tr></tbody></table>
 
 ### BSC Testnet
 
@@ -50,7 +50,7 @@ The Testnet website is [https://test.usdv.money/](https://test.usdv.money/). Cur
 
 ### Avalanche
 
-<table><thead><tr><th width="241.5270935960591">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0xE7Af697C5A1cF059C98B50866f74B1d43C422258</td></tr><tr><td>SidechainLP</td><td>0x728A036fBBF66FD7b09807a8d605c929B44bDF9E</td></tr></tbody></table>
+<table><thead><tr><th width="241.5270935960591">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0xE7Af697C5A1cF059C98B50866f74B1d43C422258</td></tr><tr><td>SidechainLP</td><td>0x728A036fBBF66FD7b09807a8d605c929B44bDF9E</td></tr><tr><td>RecolorHelper</td><td>0x9e36b95278C3af219d78B343168AdEDa7C59A7f3</td></tr></tbody></table>
 
 ### Avalanche Fuji Testnet
 
@@ -58,7 +58,7 @@ The Testnet website is [https://test.usdv.money/](https://test.usdv.money/). Cur
 
 ### Arbitrum
 
-<table><thead><tr><th width="248.64734299516908">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0x292dD933180412923ee47fA73bBF407B6d776B4C</td></tr><tr><td>SidechainLP</td><td>0x4607432711D0A26Bdb9DfF61A6Ab1d32780690d2</td></tr></tbody></table>
+<table><thead><tr><th width="248.64734299516908">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0x292dD933180412923ee47fA73bBF407B6d776B4C</td></tr><tr><td>SidechainLP</td><td>0x4607432711D0A26Bdb9DfF61A6Ab1d32780690d2</td></tr><tr><td>RecolorHelper</td><td>0xE7Af697C5A1cF059C98B50866f74B1d43C422258</td></tr></tbody></table>
 
 ### Arbitrum Goerli Testnet
 
@@ -66,7 +66,7 @@ The Testnet website is [https://test.usdv.money/](https://test.usdv.money/). Cur
 
 ### Optimism
 
-<table><thead><tr><th width="254.77239709443097">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0xbbE4Dc52Fc43e7EEED6ED439BF6219E3407Cf605</td></tr><tr><td>SidechainLP</td><td>0x5cCFd72da5bd694CB6CD2919987Ced474F8E3Fb3</td></tr></tbody></table>
+<table><thead><tr><th width="254.77239709443097">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0xbbE4Dc52Fc43e7EEED6ED439BF6219E3407Cf605</td></tr><tr><td>SidechainLP</td><td>0x5cCFd72da5bd694CB6CD2919987Ced474F8E3Fb3</td></tr><tr><td>RecolorHelper</td><td>0x7F9A873cB57AF892e229b8EE445dde9372539fce</td></tr></tbody></table>
 
 ### Optimism Goerli Testnet
 
@@ -74,7 +74,7 @@ The Testnet website is [https://test.usdv.money/](https://test.usdv.money/). Cur
 
 ### Polygon
 
-<table><thead><tr><th width="256.6473429951691">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0x9239Bc1DBE02f7044A46CF0bAbC0F6bf7Ad4BB05</td></tr><tr><td>SidechainLP</td><td>0x0Db498732D4cDBE0324105653d3a16E0181f6B3F</td></tr></tbody></table>
+<table><thead><tr><th width="256.6473429951691">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0x9239Bc1DBE02f7044A46CF0bAbC0F6bf7Ad4BB05</td></tr><tr><td>SidechainLP</td><td>0x0Db498732D4cDBE0324105653d3a16E0181f6B3F</td></tr><tr><td>RecolorHelper</td><td>0xc4F5922435fC4748C47D8c9Efa55099616aa665D</td></tr></tbody></table>
 
 ### Polygon Mumbai Testnet
 
@@ -82,7 +82,7 @@ The Testnet website is [https://test.usdv.money/](https://test.usdv.money/). Cur
 
 ### Viction (ex TOMO)
 
-<table><thead><tr><th width="263.6473429951691">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0x903d58A8fa472eb671689d79d708841999703C0B</td></tr><tr><td>SidechainLP</td><td>0x0Db498732D4cDBE0324105653d3a16E0181f6B3F</td></tr></tbody></table>
+<table><thead><tr><th width="263.6473429951691">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>USDV</td><td>0x323665443CEf804A3b5206103304BD4872EA4253</td></tr><tr><td>Operator</td><td>0x903d58A8fa472eb671689d79d708841999703C0B</td></tr><tr><td>SidechainLP</td><td>0x0Db498732D4cDBE0324105653d3a16E0181f6B3F</td></tr><tr><td>RecolorHelper</td><td>0x2b15121775b54aA7a20592d1CF631E62d05B2B86</td></tr></tbody></table>
 
 ### Viction Testnet (ex TOMO)
 
